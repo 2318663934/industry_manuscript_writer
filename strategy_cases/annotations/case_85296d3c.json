@@ -1,0 +1,118 @@
+{
+  "case_id": "case_85296d3c",
+  "title": "玩家做的暗黑游戏爆赚4亿，前暴雪策划点评：为何暗黑自己做不出来？",
+  "article_url": "http://www.gamelook.com.cn/2024/05/543897/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者（策划、开发者、投资人）、暗黑like游戏玩家、游戏行业分析师及媒体从业者",
+  "annotation": {
+    "opening_approach": "数据震撼+故事反差",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇以惊人的商业数据（4亿收入、26万在线、200万销量）制造震撼感，随后揭示这一成功竟来自Reddit论坛上的玩家团队，形成强烈的反差效应——普通水友做出比专业大厂更赚钱的游戏，激发读者强烈好奇心和阅读欲望。",
+    "structural_pattern": "对比式",
+    "section_strategies": [
+      {
+        "section_title": "背景铺垫：玩家团队的崛起之路",
+        "position": 1,
+        "structural_approach": "背景介绍+故事讲述",
+        "content_focus": "介绍Last Epoch的诞生背景：8人团队、6年发展、Reddit招募、Kickstarter众筹获得腾讯投资",
+        "style_guidance": "采用叙事性语言，强调从草根到成功的励志弧线，为后文对比张本",
+        "transition_to_next": "自然引出专业视角：前暴雪策划Andrew Chambers发布对比分析视频",
+        "notable_techniques": [
+          "草根叙事",
+          "创业故事化",
+          "资源匮乏对比投入丰富"
+        ]
+      },
+      {
+        "section_title": "技能系统对比",
+        "position": 2,
+        "structural_approach": "先呈现Last Epoch的优势，再反思D3的决策原因",
+        "content_focus": "Last Epoch技能系统极复杂、多选择；D3为覆盖更广泛用户主动简化，自曝曾尝试过12次迭代但最终选择牺牲复杂度",
+        "style_guidance": "以第一人称反思视角，保持自省而非推卸责任的姿态",
+        "transition_to_next": "从技能系统延伸至数值系统的关联讨论",
+        "notable_techniques": [
+          "内部视角披露",
+          "决策过程还原",
+          "主动认错策略"
+        ]
+      },
+      {
+        "section_title": "交易与拍卖行系统",
+        "position": 3,
+        "structural_approach": "正面肯定Last Epoch的设计智慧，深度复盘D3拍卖行的失败教训",
+        "content_focus": "Last Epoch交易功能丰富、适合不同风格玩家；D3拍卖行导致玩家跳过成长过程、制造装备租赁感，游戏被迫围绕拍卖行调整难度",
+        "style_guidance": "详细复盘具体后果（黄蜂秒人、玩家不断死亡），增强说服力",
+        "transition_to_next": "从交易系统过渡到游戏难度的整体设计理念讨论",
+        "notable_techniques": [
+          "案例细节化",
+          "后果具象化",
+          "设计初衷与结果反差的戏剧性"
+        ]
+      },
+      {
+        "section_title": "打造系统与游戏结局",
+        "position": 4,
+        "structural_approach": "对比两者的设计哲学差异，承认D3的历史局限性",
+        "content_focus": "Last Epoch打造系统让玩家评估物品潜力；D3打造系统因资源过载沦为物品回收站；D3忽视游戏结局，假设玩家按暗黑2方式游戏但市场已变",
+        "style_guidance": "坦诚承认当时的决策错误和时间压力，展现反思深度",
+        "transition_to_next": "以'我们最终解决了问题但代价很大'过渡到D3做得好的方面",
+        "notable_techniques": [
+          "内部分析披露",
+          "时间压力还原",
+          "市场变化洞察"
+        ]
+      },
+      {
+        "section_title": "暗黑3做得比Last Epoch好的方面",
+        "position": 5,
+        "structural_approach": "平衡视角：正面肯定D3优势，避免单方面贬低",
+        "content_focus": "四大优势：技能瞬时手感、故事角色塑造、游戏节奏控制（功能分散解锁）、敌人设计及环境叙事",
+        "style_guidance": "以具体例子支撑（堕落者家庭设计、珠宝匠老沈角色），保持专业自信",
+        "transition_to_next": "汇总为结论段落",
+        "notable_techniques": [
+          "平衡性对冲",
+          "具体案例举证",
+          "优势量化表达"
+        ]
+      },
+      {
+        "section_title": "结论：为何暗黑团队永远做不出来",
+        "position": 6,
+        "structural_approach": "升华收尾，给出核心答案",
+        "content_focus": "核心矛盾：暴雪有能力做，但目标用户不同——需要服务更广泛泛用户，必须简化复杂系统以降低门槛",
+        "style_guidance": "首尾呼应，以一个看似矛盾实则合理的结论收束全文",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "升维收尾",
+          "核心矛盾点睛",
+          "首尾呼应结构"
+        ]
+      }
+    ],
+    "closing_approach": "总结要点+升华展望",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "结尾回归核心问题，给出令人信服的答案——不是能力问题而是定位问题：暴雪服务更广泛用户必须简化。首尾形成完美闭环，揭示深层行业逻辑。既不否认暴雪实力，又为Last Epoch的成功找到合理定位，余味深长。",
+    "style_features": [
+      "前内部人员视角带来天然可信度",
+      "对比式结构贯穿始终形成张力",
+      "主动承认错误的自省姿态增强说服力",
+      "数据与故事双轨并行吸引不同读者",
+      "专业分析配具体案例兼顾深度与可读性"
+    ],
+    "notable_techniques": [
+      "数据震撼开篇",
+      "反差式悬念构建（草根成功vs专业失败）",
+      "内部视角披露增加独家感",
+      "主动认错策略化解防御心理",
+      "后果具象化增强说服力",
+      "平衡性对冲避免单边叙事",
+      "首尾呼应结构",
+      "核心矛盾点睛收尾"
+    ],
+    "core_tension": "一群水友做出的游戏比暴雪更成功——这看似对暴雪的否定，实则是不同市场定位导致的必然差异。",
+    "target_audience": "游戏行业从业者（策划、开发者、投资人）、暗黑like游戏玩家、游戏行业分析师及媒体从业者"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T16:23:43.970865"
+}

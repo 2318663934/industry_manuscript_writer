@@ -1,0 +1,105 @@
+{
+  "case_id": "case_0dbc7c68",
+  "title": "上线一周的《终末地》赢得“多反常”？",
+  "article_url": "http://www.gamelook.com.cn/2026/01/586760/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者（策划、运营、市场）、二次元游戏玩家、游戏媒体从业者",
+  "annotation": {
+    "opening_approach": "对比反差+悬念设置+数据震撼",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇以'反常'为核心悬念词，通过预设的'腥风血雨'与实际'平静'形成强烈对比反差，同时嵌入3500万预约量数据，既建立行业高度又抛出核心问题。这种手法快速吸引读者兴趣，为后文'寻找反常原因'的论述逻辑埋下伏笔。",
+    "structural_pattern": "递进式（舆论环境→内容分析→产品设计→未来挑战→升华展望）+对比嵌套",
+    "section_strategies": [
+      {
+        "section_title": "二游舆论场的'情绪更迭'",
+        "position": 1,
+        "structural_approach": "时间线回顾+对比分析",
+        "content_focus": "通过2020-2026年时间跨度，对比'砸盘事件'、'ML路线之争'等历史节点与当下的'平静'，分析舆论环境变化的三大根源",
+        "style_guidance": "行业回顾型，用历史事件建立参照系，语气冷静客观",
+        "transition_to_next": "以'这种变化的根源'自然过渡，引出后续内容分析",
+        "notable_techniques": [
+          "时间线压缩对比",
+          "历史事件锚定",
+          "归因分析法"
+        ]
+      },
+      {
+        "section_title": "硬核工业下的'软性'内核",
+        "position": 2,
+        "structural_approach": "角色专题分析+玩家评论引用",
+        "content_focus": "聚焦角色与剧情，从'舟学家'考古热情、佩丽卡形象分析、到安洁莉娜的'物是人非'设定，建立产品的'软性'吸引力",
+        "style_guidance": "内容品鉴型，平衡正面评价与争议点，避免软文感",
+        "transition_to_next": "以'产品设计层面'过渡到玩法争议分析",
+        "notable_techniques": [
+          "玩家UGC内容引用",
+          "角色意象解读",
+          "情感价值分层"
+        ]
+      },
+      {
+        "section_title": "在'劝退'与'上头'之间",
+        "position": 3,
+        "structural_approach": "二元对立分析+官方采访引用",
+        "content_focus": "分析基建系统引发的'二元对立'口碑，解析鹰角通过'蓝图系统'调和矛盾的机制，并引用官方采访阐述设计逻辑",
+        "style_guidance": "产品分析型，呈现争议同时给出解决思路，体现专业判断",
+        "transition_to_next": "以'当基建新鲜感褪去'转入长线运营挑战",
+        "notable_techniques": [
+          "二元对立框架",
+          "官方采访背书",
+          "'甲之蜜糖'类比"
+        ]
+      },
+      {
+        "section_title": "当'基建'的新鲜感褪去",
+        "position": 4,
+        "structural_approach": "市场格局分析+趋势预判",
+        "content_focus": "跳出产品本身，分析东亚二游红海竞争格局，指出'情绪价值'才是长线关键，预判游戏未来发展方向",
+        "style_guidance": "市场洞察型，视野从微观产品拉至宏观市场，语气略带警示",
+        "transition_to_next": "以结语承接全文升华",
+        "notable_techniques": [
+          "市场竞品矩阵",
+          "时间节点预判",
+          "核心价值锚定"
+        ]
+      },
+      {
+        "section_title": "结语",
+        "position": 5,
+        "structural_approach": "升华展望+愿景陈述",
+        "content_focus": "从产品成功上升到鹰角IP战略愿景，提出'让不同类型玩家都在鹰角IP宇宙中'的宏大叙事",
+        "style_guidance": "愿景型，情感上扬但不过度煽情，保持行业媒体的理性底色",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "升维收尾",
+          "愿景叙事",
+          "首尾回扣（'终末'双关）"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+首尾呼应",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "结尾从单一产品成绩升华至鹰角的IP宇宙战略愿景，赋予文章更大的格局。同时以'这场始于终末的冒险，才刚刚开始'双关收尾，既呼应标题的'反常'悬念，又形成正向展望，余韵深长。",
+    "style_features": [
+      "行业媒体专业性与可读性平衡",
+      "数据支撑与定性分析结合",
+      "玩家视角代入增强共鸣感",
+      "平衡报道（呈现争议不回避）",
+      "主动预判与建议性写作"
+    ],
+    "notable_techniques": [
+      "反常悬念法（以反常现象切入探寻原因）",
+      "时间线压缩对比（2020-2026年跨段对比）",
+      "二元对立框架（劝退vs上头、硬核vs轻度）",
+      "玩家UGC引用增强真实感",
+      "官方采访背书增加权威性",
+      "升维收尾（产品→IP宇宙）",
+      "标题'反常'双关贯穿全文",
+      "主动预判写作（新鲜感褪去后的挑战）"
+    ],
+    "core_tension": "二次元游戏舆论环境从'情绪对立'向'理性回归'的转变过程中，《终末地》如何在保持玩法'攻击性'的同时实现长线运营",
+    "target_audience": "游戏行业从业者（策划、运营、市场）、二次元游戏玩家、游戏媒体从业者"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T15:32:29.496693"
+}

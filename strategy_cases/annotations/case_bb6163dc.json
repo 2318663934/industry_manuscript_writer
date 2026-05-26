@@ -1,0 +1,101 @@
+{
+  "case_id": "case_bb6163dc",
+  "title": "业界最猛制作人，今天回归三七！",
+  "article_url": "http://www.gamelook.com.cn/2026/01/586188/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者（制作人、发行商、投资者）、游戏媒体从业者、对游戏行业感兴趣的泛行业读者",
+  "annotation": {
+    "opening_approach": "新闻切入+数据冲击",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇以GameLook专稿形式直接切入2026年开年的新闻事件，通过三连捷报（微信小游戏冠军、RO仙境传说三地登顶、金牌制作人回归）形成密集信息冲击，以重磅炸弹式的悬念（创始人朋友圈投下的炸弹）制造阅读钩子，自然引出核心人物陈夏璘的回归事件。",
+    "structural_pattern": "递进式+对比式",
+    "section_strategies": [
+      {
+        "section_title": "开篇：开门红与重磅炸弹",
+        "position": 1,
+        "structural_approach": "倒金字塔新闻写法+悬念设置",
+        "content_focus": "三七互娱2026年三大捷报及陈夏璘回归事件",
+        "style_guidance": "官方媒体口吻，数据驱动，信息密集",
+        "transition_to_next": "以'这正是三七互娱和陈夏璘面临的MMO战场'过渡到市场困境分析",
+        "notable_techniques": [
+          "三连捷报矩阵",
+          "朋友圈引用制造悬念",
+          "配图文字增强可信度"
+        ]
+      },
+      {
+        "section_title": "MMO的至暗时刻",
+        "position": 2,
+        "structural_approach": "背景铺陈+行业困境深度解析",
+        "content_focus": "MMO市场的历史红利消退与开发者困境",
+        "style_guidance": "行业观察者视角，宏观叙事与个体困境交织",
+        "transition_to_next": "通过'怎么选？'设问自然过渡到人物分析",
+        "notable_techniques": [
+          "天时地利人和历史分析法",
+          "'人嫌鬼厌'群体画像",
+          "网易《射雕》失败案例解剖"
+        ]
+      },
+      {
+        "section_title": "金牌制作人的方法论",
+        "position": 3,
+        "structural_approach": "人物特写+方法论提炼",
+        "content_focus": "陈夏璘的'A+B'立项逻辑与务实开发理念",
+        "style_guidance": "揭秘式叙事，引用人物原话增强说服力",
+        "transition_to_next": "通过'三七的务实'过渡到企业文化层面",
+        "notable_techniques": [
+          "直接引语增强真实感",
+          "A+B公式化提炼",
+          "案例对比（《逆水寒》vs《凡人修仙传》撤退策略）"
+        ]
+      },
+      {
+        "section_title": "广东帮的生存哲学",
+        "position": 4,
+        "structural_approach": "企业文化对比+江湖叙事",
+        "content_focus": "三七互娱与北上杭厂商的文化差异及人才观",
+        "style_guidance": "江湖气叙事，与精英路线形成鲜明对比",
+        "transition_to_next": "无明显过渡，以结语形式直接收束",
+        "notable_techniques": [
+          "腾网米vs三七对比框架",
+          "六年放养再召回叙事",
+          "海外差异化打法案例"
+        ]
+      },
+      {
+        "section_title": "火凤凰归巢",
+        "position": 5,
+        "structural_approach": "升华展望+悬念收尾",
+        "content_focus": "对未来的展望与期待",
+        "style_guidance": "抒情与理性并存，留白式悬念",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "首尾引用呼应",
+          "战斗隐喻收束",
+          "'品类融合'趋势预测"
+        ]
+      }
+    ],
+    "closing_approach": "总结要点+升华展望+留白思考",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "收尾回扣李逸飞朋友圈的引用形成首尾呼应，同时以'火凤凰已经归巢，但属于他们的战斗才刚刚开始'升维展望，以悬念式提问（能否再造爆款神话？）留白思考市场期待。结尾处引入'品类融合'的行业趋势预测，将个案提升至行业高度，但整体收束略显仓促。",
+    "style_features": [
+      "行业媒体专业叙事与江湖俚语并用（'大哥''low'等词汇拉近距离）",
+      "历史纵向与行业横向交织的对比框架",
+      "案例解剖式的商业逻辑拆解",
+      "人物特写与企业文化互文的双线叙事"
+    ],
+    "notable_techniques": [
+      "朋友圈截图引用制造真实感与私域感",
+      "'至暗时刻''人嫌鬼厌''香饽饽'等强情绪词汇制造话题性",
+      "网易《射雕》失败案例作为反面教材增强说服力",
+      "好聚好散再聚的叙事强化企业格局",
+      "'打得过就打，打不过就换个地方打'的接地气表达"
+    ],
+    "core_tension": "在MMO赛道被视为红海、后继乏人的背景下，回归的传奇制作人能否带领三七互娱在腾网米夹缝中再造爆款神话",
+    "target_audience": "游戏行业从业者（制作人、发行商、投资者）、游戏媒体从业者、对游戏行业感兴趣的泛行业读者"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T15:34:19.435000"
+}

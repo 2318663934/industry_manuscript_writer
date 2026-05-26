@@ -1,0 +1,100 @@
+{
+  "case_id": "case_38cff211",
+  "title": "索尼圣莫尼卡高级技术策划：3A游戏《战神》的UI设计方法论",
+  "article_url": "http://www.gamelook.com.cn/2023/06/520765/",
+  "content_type": "行业分析",
+  "target_audience": "游戏开发者（尤其是UI/UX策划和技术策划）、GDC参与者、游戏行业从业者、对3A游戏开发感兴趣的读者",
+  "annotation": {
+    "opening_approach": "问题引发+对比反差",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "开篇以UI设计的重要性开篇，通过'优秀UI沉浸体验 vs 糟糕UI打破体验'的对比反差建立悬念，引发读者对'大作游戏室怎么设计UI'的求知欲。手法简洁有力，直击行业痛点。",
+    "structural_pattern": "递进式+并列式混合",
+    "section_strategies": [
+      {
+        "section_title": "开场与自我介绍",
+        "position": 1,
+        "structural_approach": "个人叙事+背景铺垫",
+        "content_focus": "演讲者身份介绍、职业经历概述、GDC演讲的情感共鸣",
+        "style_guidance": "口语化、亲切感强，建立演讲者权威性",
+        "transition_to_next": "通过'三个话题'预告式过渡",
+        "notable_techniques": [
+          "个人成长叙事",
+          "从学生到讲者的身份反转",
+          "演讲预告结构"
+        ]
+      },
+      {
+        "section_title": "圣莫尼卡工作室怎么做UI",
+        "position": 2,
+        "structural_approach": "团队规模→技术架构→内存管理",
+        "content_focus": "11人UI团队配置、技术管线（Maya 3D工作流、Lua脚本、wad预分配系统）",
+        "style_guidance": "专业技术向、数据密集",
+        "transition_to_next": "从'怎么做'过渡到'做什么'，引出UI三大领域",
+        "notable_techniques": [
+          "数字锚定（11人、300人、58MB）",
+          "技术概念可视化",
+          "小团队vs大项目的张力构建"
+        ]
+      },
+      {
+        "section_title": "实用功能设计",
+        "position": 3,
+        "structural_approach": "OOBE体验→新手教程→字体管理",
+        "content_focus": "开箱即用体验、可达性选项、新手教学架构、字体选择与优化",
+        "style_guidance": "问题-解决方案结构，频繁使用'挑战→应对'模式",
+        "transition_to_next": "过渡到HUD部分",
+        "notable_techniques": [
+          "预设定创新解决选择疲劳",
+          "蓝色文字提示默认值变化",
+          "图标字体技术（Font Forge+Unicode）",
+          "对比独立游戏寻求平衡"
+        ]
+      },
+      {
+        "section_title": "HUD设计",
+        "position": 4,
+        "structural_approach": "设计理念→系统迭代→实战案例",
+        "content_focus": "通知系统区域化、定制化UI支持、领域之门UI设计",
+        "style_guidance": "案例驱动，强调'玩法测试验证'",
+        "transition_to_next": "未完整展示",
+        "notable_techniques": [
+          "全局序列→区域化序列的迭代展示",
+          "玩家测试视频证据",
+          "'发现问题→引入信息→验证效果'的闭环叙述"
+        ]
+      },
+      {
+        "section_title": "菜单设计（内容截断）",
+        "position": 5,
+        "structural_approach": "推测为前作对比+经验总结",
+        "content_focus": "未完整",
+        "style_guidance": "推测为收尾总结向",
+        "transition_to_next": "无",
+        "notable_techniques": []
+      }
+    ],
+    "closing_approach": "案例验证+实践呼吁（未完整）",
+    "closing_effectiveness": 2.0,
+    "closing_analysis": "文章被截断，收尾提到'玩法测试和录制玩家视频是非常有价值的，因为他们可能不会告诉你他们需要'——这是一个强调行动价值的未完成句式，戛然而止但意犹未尽。若完整则可能是'观察比询问更有效'的行动呼吁型收尾。",
+    "style_features": [
+      "技术干货密度极高，数字密集（58MB、7000+行代码、65-70个选项、1024×1024纹理等）",
+      "前作vs续作的对比分析贯穿全文",
+      "演讲口吻（'这是我第一次GDC演讲'、'我们需要做出取舍'）",
+      "强调团队协作与跨工作室经验（从顽皮狗借鉴可达性设计）",
+      "谦逊但自信的专家姿态"
+    ],
+    "notable_techniques": [
+      "数字锚定法：大量具体数据建立专业可信度",
+      "对比迭代法：通过前作2018战神vs诸神黄昏展示演进",
+      "挑战-成就翻转：内存预算不变但功能翻倍的张力",
+      "玩家测试视频作为证据链：发现问题→设计解决→验证效果的叙事闭环",
+      "独立游戏类比寻求平衡：蔚蓝、Overland案例",
+      "教训幽默化：'篝火美术师量较低'的自我调侃"
+    ],
+    "core_tension": "在58MB固定内存预算内实现超越前作两倍的功能复杂度",
+    "target_audience": "游戏开发者（尤其是UI/UX策划和技术策划）、GDC参与者、游戏行业从业者、对3A游戏开发感兴趣的读者"
+  },
+  "quality_score": 3.0,
+  "tags": [],
+  "created_at": "2026-04-07T16:07:22.359807"
+}

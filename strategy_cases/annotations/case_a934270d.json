@@ -1,0 +1,117 @@
+{
+  "case_id": "case_a934270d",
+  "title": "从巨亏到盈利15.8亿，黄一孟赌赢了！",
+  "article_url": "http://www.gamelook.com.cn/2026/03/589049/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者（开发者、发行商）、游戏投资机构从业者、GameLook平台忠实读者",
+  "annotation": {
+    "opening_approach": "数据震撼+新闻切入",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇直接用重磅数据（57.1亿营收、15.8亿净利润、77.4%增幅）形成视觉冲击，配合《心动小镇》的具体表现数据，既确立文章权威性，又为后文分析奠定事实基础。预下载登顶50+国家iOS免费榜、闯入多国畅销榜Top10等细节数据，使读者快速建立'心动逆袭'的认知框架。",
+    "structural_pattern": "递进式+时间线混合",
+    "section_strategies": [
+      {
+        "section_title": "业绩数据亮眼",
+        "position": 1,
+        "structural_approach": "用多维度数据矩阵开门见山",
+        "content_focus": "2025年业绩预告核心数据+《心动小镇》海外表现",
+        "style_guidance": "简洁、数据驱动、节奏明快",
+        "transition_to_next": "通过'位列出海手游收入榜11名'自然过渡到对意外性的分析",
+        "notable_techniques": [
+          "数据矩阵排布",
+          "成就对比（历史记录vs行业同类）",
+          "预埋伏笔（暗示意外性）"
+        ]
+      },
+      {
+        "section_title": "意外性分析",
+        "position": 2,
+        "structural_approach": "制造反差、设置悬念",
+        "content_focus": "《心动小镇》作为中体量休闲产品的成功令人意外，对比榜单上的大DAU竞技游戏/头部二游/重买量产品",
+        "style_guidance": "设问引导、对比强化",
+        "transition_to_next": "引出心动与行业哑铃化趋势的不同",
+        "notable_techniques": [
+          "设问引发思考",
+          "矩阵对比法",
+          "悬念制造"
+        ]
+      },
+      {
+        "section_title": "从巨亏到盈利的历史脉络",
+        "position": 3,
+        "structural_approach": "时间线式回顾、战略定力论证",
+        "content_focus": "2020-2025年业绩发展：上市即利润归零→连续亏损→盈亏平衡→业绩大爆发",
+        "style_guidance": "冷静叙述、强调'熬'字",
+        "transition_to_next": "用黄一孟2021年财报电话会表态佐证前瞻性",
+        "notable_techniques": [
+          "时间线梳理",
+          "数据佐证",
+          "第三方背书引用"
+        ]
+      },
+      {
+        "section_title": "战略定位：从闸北任天堂到小小腾讯",
+        "position": 4,
+        "structural_approach": "比喻定位+战略对比",
+        "content_focus": "心动的差异化路线：未追随小游戏热潮、坚持原生App、卡位垂类赛道（生活模拟、竖屏放置RPG）",
+        "style_guidance": "行业评论腔调、适度调侃",
+        "transition_to_next": "通过'次主干道'比喻自然过渡到未来展望",
+        "notable_techniques": [
+          "行业比喻（闸北任天堂/小小腾讯/主干道/次主干道）",
+          "哑铃化趋势对比",
+          "反常识论证"
+        ]
+      },
+      {
+        "section_title": "未来展望：三大方向",
+        "position": 5,
+        "structural_approach": "并列式列举",
+        "content_focus": "TapTap海外拓展（安卓生态开放利好）、PC商城（黑神话契机）、买断制手游规模化、AI引擎探索",
+        "style_guidance": "信息密度高、点睛式评价",
+        "transition_to_next": "通过'特立独行/理想化'的特质评价承接",
+        "notable_techniques": [
+          "并列结构",
+          "具体案例（潜水员戴夫等）",
+          "行业数据佐证"
+        ]
+      },
+      {
+        "section_title": "理想主义的未来",
+        "position": 6,
+        "structural_approach": "升华思考+留白",
+        "content_focus": "AI原生态游戏引擎'TapTap制造'的未来可能性讨论",
+        "style_guidance": "开放式、思辨性",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "辩证思考（降低下限vs提高上限）",
+          "小游戏经验类比",
+          "留白收尾"
+        ]
+      }
+    ],
+    "closing_approach": "留白思考+升华定性",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "结尾通过'时间去验证'的留白式表达处理AI引擎的不确定性，既保持了客观性，又以'带着几分理想主义的公司'的定性为全文收束增添温度。对心动特立独行精神的肯定，与开篇的数据震撼形成情感闭环——从硬数据到软叙事。",
+    "style_features": [
+      "GameLook专业媒体视角：行业观察者而非单纯记述者",
+      "数据驱动叙事：全文嵌入大量具体数据支撑论点",
+      "反常识论证策略：强调心动'没有追随行业主流却成功'的独特性",
+      "行业术语与比喻并用：兼顾专业性与可读性",
+      "冷静克制中带温度：既肯定成绩也保留思辨空间"
+    ],
+    "notable_techniques": [
+      "数据矩阵排布法：开篇用多重数据形成信息密度冲击",
+      "设问悬念法：'差点杀入Top10其实挺令人意外的'制造认知张力",
+      "时间线递进法：从2020到2025年脉络清晰",
+      "矩阵对比法：榜单产品类型对比、腾讯主干道vs心动次主干道",
+      "第三方背书法：黄一孟2021年表态作为战略前瞻佐证",
+      "哑铃化趋势对比：行业背景衬托心动独特性",
+      "辩证收尾法：AI引擎'降低下限vs提高上限'的思辨式留白"
+    ],
+    "core_tension": "心动在行业哑铃化趋势下，既不押注小游戏也不做旗舰级跨端产品，却通过平台优势和垂类赛道卡位实现逆势增长，这种'特立独行的成功'能否持续？",
+    "target_audience": "游戏行业从业者（开发者、发行商）、游戏投资机构从业者、GameLook平台忠实读者"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T15:27:38.704700"
+}

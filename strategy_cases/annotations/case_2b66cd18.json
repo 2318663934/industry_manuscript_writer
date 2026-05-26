@@ -1,0 +1,112 @@
+{
+  "case_id": "case_2b66cd18",
+  "title": "AI大模型看花眼？盛天何玲：如何持续试错、完成“AI时代下的美术团队转型”",
+  "article_url": "http://www.gamelook.com.cn/2025/12/584645/",
+  "content_type": "行业分析",
+  "target_audience": "正在或计划探索AI美术转型的中小型游戏团队管理者、美术负责人，以及关注游戏行业AI应用的从业者",
+  "annotation": {
+    "opening_approach": "背景铺垫+设问吸引",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "开篇采用标准的会议演讲结构：先进行自我介绍和公司背景介绍，建立专业权威感。标题中的设问'AI大模型看花眼？'作为吸引点，先抛出问题再给出答案，符合行业分享的常见套路。但开篇较为常规，缺乏特别强烈的冲击力，属于稳健型开场。",
+    "structural_pattern": "时间线式+问题-方案式混合",
+    "section_strategies": [
+      {
+        "section_title": "自我介绍与背景铺垫",
+        "position": 1,
+        "structural_approach": "建立专业权威感，提供背景上下文",
+        "content_focus": "公司历史沿革、业务布局、AI探索历程",
+        "style_guidance": "简洁务实，数据支撑",
+        "transition_to_next": "引出三个核心问题作为分享主线",
+        "notable_techniques": [
+          "用时间线展示公司发展",
+          "强调'中型游戏公司'定位建立共鸣"
+        ]
+      },
+      {
+        "section_title": "AI工具选型标准与方法",
+        "position": 2,
+        "structural_approach": "分类对比+标准提炼",
+        "content_focus": "效率/版权/开发量级的三维度选型标准",
+        "style_guidance": "逻辑清晰，要点精炼",
+        "transition_to_next": "按项目类型展开具体工具选择",
+        "notable_techniques": [
+          "三维度框架建立选型逻辑",
+          "小项目vs重投入项目对比"
+        ]
+      },
+      {
+        "section_title": "分项目类型的落地实践",
+        "position": 3,
+        "structural_approach": "案例列举+数据支撑的矩阵式呈现",
+        "content_focus": "2D小游戏、3D小游戏、手游的AI工具应用",
+        "style_guidance": "具体详实，包含工具名称、工作流、效率提升数据",
+        "transition_to_next": "从工具使用上升到团队转型层面",
+        "notable_techniques": [
+          "工具演进时间线（文心一言→DeepSeek）",
+          "效率提升具体数据（2倍以上、30%）",
+          "实战局限坦诚（如ComfyUI流程的局限性）"
+        ]
+      },
+      {
+        "section_title": "团队转型策略与组织重构",
+        "position": 4,
+        "structural_approach": "问题诊断→解决方案的结构",
+        "content_focus": "三个阶段、四大新角色、虚拟小组机制",
+        "style_guidance": "实操性强，强调可执行性",
+        "transition_to_next": "过渡到风险与挑战",
+        "notable_techniques": [
+          "角色矩阵（AI工作流架构师、AI主美、AI美术工程师）",
+          "坦诚人才内培优于外招的成本考量"
+        ]
+      },
+      {
+        "section_title": "风险应对与版权管理",
+        "position": 5,
+        "structural_approach": "分类列举+应对策略",
+        "content_focus": "风格同质化、AI幻觉、版权风险三大问题",
+        "style_guidance": "问题导向，务实建议",
+        "transition_to_next": "过渡到未来展望",
+        "notable_techniques": [
+          "每个风险给出具体解决方案",
+          "版权管理三步骤"
+        ]
+      },
+      {
+        "section_title": "行业趋势与未来展望",
+        "position": 6,
+        "structural_approach": "升维收尾，从团队上升到行业",
+        "content_focus": "美术团队转型方向、超级个体崛起、人机协同进化",
+        "style_guidance": "视野开阔，适度升华",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "大小团队差异化展望",
+          "诗意收尾'指挥无数AI工具'",
+          "'定义权'的概念升华"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+诗意表达",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "收尾采用升维手法，从具体实践上升到行业趋势和人类定位。'人类艺术家将越来越像一名创意指挥官'的比喻既诗意又准确，呼应了整篇文章'转型'的主题。最后'定义权'的提出将演讲拔高到行业竞争格局层面，引人深思。收尾有力而不煽情，务实中带有前瞻视野。",
+    "style_features": [
+      "务实坦诚：主动提及局限性和失败经验",
+      "数据密集：用具体数字和工具名称支撑观点",
+      "层级分明：按项目类型、角色、风险分类呈现",
+      "专业权威：建立在中型团队实践基础上的可落地经验",
+      "温度感：在专业分享中穿插个人见解和判断"
+    ],
+    "notable_techniques": [
+      "工具演进时间线：展示AI工具迭代过程而非静态列举",
+      "主动坦诚局限性：如'这个流程有一定的局限性'",
+      "数据锚点：'效率提升两倍以上''约30%'等具体数字",
+      "角色矩阵法：系统化定义新岗位和职能",
+      "大小团队差异化结论：兼顾不同规模听众",
+      "诗意升维收尾：从工具使用到创意指挥官的定位升华"
+    ],
+    "core_tension": "中型游戏公司如何在AI技术快速迭代与团队稳定转型之间找到平衡，既不盲目追新又不被时代淘汰。",
+    "target_audience": "正在或计划探索AI美术转型的中小型游戏团队管理者、美术负责人，以及关注游戏行业AI应用的从业者"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T15:54:51.096561"
+}

@@ -1,0 +1,103 @@
+{
+  "case_id": "case_049b2e74",
+  "title": "精华演讲：如何在Steam发行新游戏？每个Demo已变成“流量核弹”！",
+  "article_url": "http://www.gamelook.com.cn/2025/09/577336/",
+  "content_type": "行业分析",
+  "target_audience": "独立游戏开发者、游戏发行商、游戏营销从业者、GDC关注者",
+  "annotation": {
+    "opening_approach": "数据震撼+权威引用",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇即用154%收入增长与前一年7%下滑的对比数据制造强烈反差，紧接着引入GDC 2025权威演讲背书，形成'震撼数据+专业权威'的双重信任构建。这种手法既能吸引从业者注意，又确立了内容的行业权威性。",
+    "structural_pattern": "递进式+并列式结合",
+    "section_strategies": [
+      {
+        "section_title": "背景铺垫与核心洞察",
+        "position": 1,
+        "structural_approach": "先用数据对比建立行业背景，再引入个人故事（《Choose Your Own Adventure》书籍案例）进行类比过渡",
+        "content_focus": "Steam平台2024年收入转折、互动媒体的普世真相——粉丝必须先玩过才会爱上",
+        "style_guidance": "数据简洁有力，故事类比生动有趣，拉近与读者的情感距离",
+        "transition_to_next": "以'Demo对于解决较低的曝光率有着最大的影响'一句直接引出三大变化",
+        "notable_techniques": [
+          "数据对比冲击",
+          "跨领域类比（出版业→游戏业）",
+          "权威会议引用"
+        ]
+      },
+      {
+        "section_title": "Demo的主导地位",
+        "position": 2,
+        "structural_approach": "案例展示→机制解读→实操路线图的递进结构",
+        "content_focus": "Demo如何成为撬动Steam算法的核心支点，配合《Eden Crafters》《Parcel Simulator》《Minami Lane》等具体案例",
+        "style_guidance": "案例叙述简洁带具体数据，开发者的直接引语增强真实感",
+        "transition_to_next": "以'发布后增长'作为下一个主题承接",
+        "notable_techniques": [
+          "开发者原声引用",
+          "前后数据对比（7000→17000愿望单）",
+          "Valve平台机制解读"
+        ]
+      },
+      {
+        "section_title": "发布后增长",
+        "position": 3,
+        "structural_approach": "问题引入→平台规则解读→应对策略的逻辑线",
+        "content_focus": "Steam为新游戏增加的工具、15万美元销售门槛、日常促销机制、发现序列的曝光逻辑",
+        "style_guidance": "平台规则解读深入但不过于技术化，强调'魔法的存在'这一悬念",
+        "transition_to_next": "过渡到Next Fest主题",
+        "notable_techniques": [
+          "平台机制揭秘",
+          "序列曝光数据对比",
+          "阈值门槛明确化"
+        ]
+      },
+      {
+        "section_title": "Next Fest专节",
+        "position": 4,
+        "structural_approach": "层级数据展示→曝光量层级图→实操建议的收尾",
+        "content_focus": "Next Fest的游戏曝光层级分布，参与最佳时机与宣传片制作要点",
+        "style_guidance": "数据可视化（愿望单中位数曝光量层级），建议具体可操作",
+        "transition_to_next": "无，直接进入总结",
+        "notable_techniques": [
+          "层级化数据呈现",
+          "反常识建议（不要等到Next Fest才发Demo）"
+        ]
+      },
+      {
+        "section_title": "总结收尾",
+        "position": 5,
+        "structural_approach": "单句升华式收尾",
+        "content_focus": "'每次营销活动与做出一个demo相比，都是微不足道的'",
+        "style_guidance": "简洁有力，一句话凝聚全文核心观点",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "金句收尾",
+          "观点凝练"
+        ]
+      }
+    ],
+    "closing_approach": "金句升华",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "以'每次营销活动与做出一个demo相比，都是微不足道的'一句收束全篇，将复杂的三部分内容浓缩为单一核心论点。这种手法极其有力——既呼应开头关于Demo重要性的铺垫，又给读者留下深刻记忆点，符合演讲类内容的最佳收尾范式。",
+    "style_features": [
+      "GDC演讲转译风格，保持现场感与口语化节奏",
+      "数据驱动+案例支撑的双轨论证",
+      "开发者原声引语增强可信度",
+      "实操路线图框架增强可读性",
+      "个人故事穿插调节节奏"
+    ],
+    "notable_techniques": [
+      "数据对比冲击（-7% vs +154%）",
+      "开发者直接引语（DAN、DOOT的具体数据）",
+      "书籍出版业跨领域类比",
+      "阈值明确化（15万美元门槛、400条评论门槛）",
+      "序列曝光数据图示化",
+      "反常识观点抛出（'愿望单不是成功保障'、'游戏发布后一个月还没250条评价就准备B计划'）",
+      "悬念设置（'或许是魔法'的转化率之谜）",
+      "金句收尾法"
+    ],
+    "core_tension": "Steam平台规则巨变下，Demo从试玩工具跃升为流量分配核心支点，但'魔法'（游戏质量）仍是不可量化的决定因素",
+    "target_audience": "独立游戏开发者、游戏发行商、游戏营销从业者、GDC关注者"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T16:28:45.903421"
+}

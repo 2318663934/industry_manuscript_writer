@@ -1,0 +1,104 @@
+{
+  "case_id": "case_b6fe96cf",
+  "title": "现在你能在《消逝的光芒》里把丧尸灭干净了",
+  "article_url": "https://mp.weixin.qq.com/s/QRrEdXu2jD0kwUGtxTCr9Q",
+  "content_type": "行业分析",
+  "target_audience": "《消逝的光芒》系列玩家、对丧尸/开放世界游戏感兴趣的泛玩家群体",
+  "annotation": {
+    "opening_approach": "场景描写/玩梗切入",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "以玩家视角的玩梗表情包开头，瞬间拉近与目标读者（游戏玩家）的距离，自然引出游戏新版本的核心玩法，既具趣味性又有代入感。避免了游戏媒体常见的官方介绍式开头，让读者产生'这人是自己人'的认同感。",
+    "structural_pattern": "问题-方案式+递进式",
+    "section_strategies": [
+      {
+        "section_title": "新玩法引入",
+        "position": 1,
+        "structural_approach": "现象描述→核心概念提炼",
+        "content_focus": "引出'失地复苏'玩法，对比传统丧尸游戏'永远杀不完'的设定",
+        "style_guidance": "轻松、口语化，带有玩家群体特有的幽默感",
+        "transition_to_next": "用'我看未必'制造悬念，引出具体介绍",
+        "notable_techniques": [
+          "对比反差开篇",
+          "玩梗表情包使用",
+          "行业痛点指出"
+        ]
+      },
+      {
+        "section_title": "机制详解",
+        "position": 2,
+        "structural_approach": "官方说法→作者验证→细化说明",
+        "content_focus": "解释'永久性后果'机制的具体运作方式：丧尸不刷新、资源不刷新、威胁条机制",
+        "style_guidance": "逻辑清晰，用'按制作组说法'建立权威感，同时以亲身体验增加可信度",
+        "transition_to_next": "补充夜间'夜魔'的例外设定，保持悬念",
+        "notable_techniques": [
+          "权威引用",
+          "亲历者证言",
+          "细节补充增加真实感"
+        ]
+      },
+      {
+        "section_title": "硬核体验",
+        "position": 3,
+        "structural_approach": "转折递进：从期待→现实打击",
+        "content_focus": "描述新模式的开荒难度：物资稀缺、价格上涨、饥饿机制、体力生命上限降低",
+        "style_guidance": "生动具体，用大量实例说明困境，保持幽默但不失真实",
+        "transition_to_next": "用'好在前期流程的苦痛和折磨都是值得的'转折",
+        "notable_techniques": [
+          "个人化叙事",
+          "具体困境列举",
+          "情绪反转"
+        ]
+      },
+      {
+        "section_title": "成就时刻",
+        "position": 4,
+        "structural_approach": "情感释放：苦难→回报",
+        "content_focus": "描述清理完成后NPC的反应，呼应主角克兰的悲剧设定，建立情感升华",
+        "style_guidance": "情感充沛，用'油然而生的成就感'点明核心价值",
+        "transition_to_next": "自然过渡到游戏整体评价",
+        "notable_techniques": [
+          "角色设定呼应",
+          "NPC场景描写",
+          "情感闭环"
+        ]
+      },
+      {
+        "section_title": "游戏定位与展望",
+        "position": 5,
+        "structural_approach": "总结回顾→行业视角→未来展望",
+        "content_focus": "评价游戏版本的更新策略，引用制作人访谈，展望IP发展可能性",
+        "style_guidance": "宏观视角，从单个功能扩展到整个游戏乃至IP",
+        "transition_to_next": "无直接过渡，结尾收束",
+        "notable_techniques": [
+          "开发者引言",
+          "版本更新盘点",
+          "读者共鸣点出（种田情结）"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望/留白思考",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "结尾将游戏定位为'丧尸题材头部IP'，肯定现有成绩，同时以'种田'建议和期待'Techland带来更多惊喜'收尾，既表达了对游戏的认可，又为读者留下想象空间和建议参与空间。结尾'干净如新的河狸谷战争纪念碑'配图描述形成首尾呼应，强化阅读记忆。",
+    "style_features": [
+      "玩家视角叙事：全程使用'我'的亲历者口吻",
+      "游戏社区语言：大量使用梗、表情包描述、网络用语",
+      "专业性与可读性平衡：既有游戏机制解析，也有个人情感表达",
+      "段落节奏明快：善于用短句和转折制造阅读快感",
+      "细节具体化：用具体资源名称（烈酒、线材、羽毛）而非抽象描述"
+    ],
+    "notable_techniques": [
+      "表情包式开篇：降低阅读门槛，建立读者认同",
+      "对比破局：传统丧尸游戏vs新玩法，清晰建立差异化价值",
+      "苦难-成就曲线：刻意放大前期困难，强化后续成就感",
+      "角色设定回扣：将机制设计与主角故事线结合，增加深度",
+      "中国玩家洞察：精准提及'种田情结'，引发特定群体共鸣",
+      "引用开发者原话：增强内容权威性和独家性",
+      "结尾配图描述：弥补纯文字结尾的单薄感"
+    ],
+    "core_tension": "丧尸可以被彻底消灭的设定与'西西弗斯式苦行'传统之间的创新张力",
+    "target_audience": "《消逝的光芒》系列玩家、对丧尸/开放世界游戏感兴趣的泛玩家群体"
+  },
+  "quality_score": 4.0,
+  "tags": [],
+  "created_at": "2026-04-07T14:58:11.921869"
+}

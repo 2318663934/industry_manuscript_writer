@@ -1,0 +1,91 @@
+{
+  "case_id": "case_bd5027f2",
+  "title": "宝可梦+动森+我的世界，NS2终于等来了自己的“杀手级”游戏",
+  "article_url": "https://mp.weixin.qq.com/s/FFLeL159VqrAYYk3WJ8Xcw",
+  "content_type": "行业分析",
+  "target_audience": "Nintendo Switch游戏玩家、宝可梦IP粉丝、游戏行业从业者与媒体编辑",
+  "annotation": {
+    "opening_approach": "数据震撼+成就展示",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇以'无处不在的情绪价值'作为钩子句，直接抛出核心论点，随后用'宝可梦IP历史上最高分——三十年来最高分'这一极具冲击力的数据制造认知反差。先抑后扬：先用'流水线式缝合'、'平庸游戏'等负面预期制造悬念，再揭示游戏的非凡成就，瞬间抓住读者注意力，激发阅读欲望。",
+    "structural_pattern": "递进式",
+    "section_strategies": [
+      {
+        "section_title": "沉浸式宝可梦乌托邦的构建",
+        "position": 1,
+        "structural_approach": "总分总结构+背景溯源",
+        "content_focus": "游戏的核心优点：把IP氛围作为所有玩法的底层基底",
+        "style_guidance": "分析性、评论性语言，融入游戏制作背景增加可信度",
+        "transition_to_next": "用'这些宝可梦的存在，反而让世界充满了丰富的日常感'自然过渡",
+        "notable_techniques": [
+          "对比反差（预期vs现实）",
+          "权威引用（Famitsu采访）",
+          "创作背景揭秘增强深度"
+        ]
+      },
+      {
+        "section_title": "后人类时代的日常生态",
+        "position": 2,
+        "structural_approach": "设定解说+具体案例列举",
+        "content_focus": "宝可梦脱离人类社会后的日常生活展现",
+        "style_guidance": "生活化、趣味化的场景描述，模拟游戏体验氛围",
+        "transition_to_next": "用'玩家作为一只百变怪...'过渡到技能学习机制",
+        "notable_techniques": [
+          "角色化叙事视角",
+          "生活化场景白描",
+          "技能与日常融合的趣味呈现"
+        ]
+      },
+      {
+        "section_title": "生活模拟与'过日子'的感觉",
+        "position": 3,
+        "structural_approach": "类比迁移+机制拆解",
+        "content_focus": "游戏如何避免'清单驱动'的机械循环",
+        "style_guidance": "比较分析语言，借用知名游戏IP做横向比较",
+        "transition_to_next": "用'这种设计很像《我的世界》...'做延展，然后'由此衍生...'过渡到图鉴系统",
+        "notable_techniques": [
+          "矩阵对比（游戏类型类比）",
+          "公式化呈现（海边+钓竿+凳子=鲤鱼王）",
+          "5分钟正反馈周期的精准提炼"
+        ]
+      },
+      {
+        "section_title": "末世美学与情绪价值",
+        "position": 4,
+        "structural_approach": "升华递进+情感收束",
+        "content_focus": "游戏的主题深度与情感内核",
+        "style_guidance": "抒情性、思辨性语言，上升到系列IP价值层面",
+        "transition_to_next": "用'这种无处不在的情绪价值...'做情感收束",
+        "notable_techniques": [
+          "物哀美学引入",
+          "IP纵向价值升华",
+          "时代背景呼应（30周年节点）"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+核心价值回扣",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "收尾将游戏评价上升到整个宝可梦IP的核心魅力层面，'这个世界最纯粹的样子'与开头'情绪价值'形成首尾呼应。结尾跳脱出游戏评测的局限，将主题升维至'纯粹与美好'的普世价值，既有情感冲击力又有思想深度。同时回扣'30周年'和'现实中纷纷扰扰'的时代语境，使评价具有超越游戏本身的人文关怀。",
+    "style_features": [
+      "评论与分析深度兼备，既有游戏机制拆解也有主题价值升华",
+      "大量使用具体场景和角色描写增强代入感",
+      "善用对比手法制造认知张力",
+      "将游戏评测升维为文化评论"
+    ],
+    "notable_techniques": [
+      "数据震撼开篇（30年最高分）",
+      "先抑后扬的反差式铺垫",
+      "生活场景具象化描写",
+      "矩阵式游戏类型类比",
+      "公式化趣味呈现（道具组合逻辑）",
+      "物哀美学引入提升格调",
+      "时代语境呼应增强时效性",
+      "核心价值升华收尾"
+    ],
+    "core_tension": "一款被低估的'缝合'游戏如何通过将IP氛围置于玩法底层，实现口碑逆袭并诠释宝可梦系列的纯粹初心",
+    "target_audience": "Nintendo Switch游戏玩家、宝可梦IP粉丝、游戏行业从业者与媒体编辑"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T15:18:15.092208"
+}

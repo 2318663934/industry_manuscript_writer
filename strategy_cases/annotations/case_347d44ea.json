@@ -1,0 +1,128 @@
+{
+  "case_id": "case_347d44ea",
+  "title": "Scopely收入破百亿美元、曾获科比投资，CEO采访：创业者要会讲故事",
+  "article_url": "http://www.gamelook.com.cn/2025/01/561785/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者、创业者、投资人，以及对商业故事和人物特写感兴趣的大众读者",
+  "annotation": {
+    "opening_approach": "数据震撼+八卦话题双轨并行",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇即用多组震撼性数据（10亿下载、150亿小时、100亿美元收入、49亿美元并购）建立权威感，同时穿插科比投资Scopely的八卦轶事，形成专业报道与娱乐性兼备的双重吸引力。数据量化成就制造冲击力，八卦满足好奇心，两者叠加极大提升读者继续阅读的动力。",
+    "structural_pattern": "递进式结构",
+    "section_strategies": [
+      {
+        "section_title": "成就数据+八卦引入",
+        "position": 1,
+        "structural_approach": "用极致数据建立权威感，穿插名人八卦增加可读性",
+        "content_focus": "Scopely的百亿美元成就与科比投资背景",
+        "style_guidance": "商业新闻体+人物轶事风格，数据精准、叙述轻快",
+        "transition_to_next": "转折句'很少有人知道'引出早期历史",
+        "notable_techniques": [
+          "数据矩阵轰炸",
+          "名人背书借势",
+          "悬念设置'很少有人知道'"
+        ]
+      },
+      {
+        "section_title": "创始人背景反差铺垫",
+        "position": 2,
+        "structural_approach": "用意外信息制造反差，为后文理念做铺垫",
+        "content_focus": "CEO Walter Driver非科班出身（英语文学专业）",
+        "style_guidance": "欲扬先抑手法，营造'普通人也能成功'的共鸣感",
+        "transition_to_next": "设问句'Scopely是如何成为美国第一大手游公司的呢'",
+        "notable_techniques": [
+          "创始人背景揭秘",
+          "反差对比铺垫",
+          "设问过渡"
+        ]
+      },
+      {
+        "section_title": "从8美元到100亿美元：创立公司不是专门做游戏",
+        "position": 3,
+        "structural_approach": "时间线回顾+创始人原话引用，揭示核心理念",
+        "content_focus": "公司创立初心、域名故事、系统化思维",
+        "style_guidance": "引用式叙述，让CEO直接发声增强说服力",
+        "transition_to_next": "结果导向'从结果来看，自2011年创立之后...显然是成功的'",
+        "notable_techniques": [
+          "创始人原话直引",
+          "域名故事细节",
+          "'学习机器'核心概念提炼"
+        ]
+      },
+      {
+        "section_title": "七年磨一剑：长线思维对游戏研发很重要",
+        "position": 4,
+        "structural_approach": "案例深挖+方法论提炼，强调耐心与坚持",
+        "content_focus": "《Monopoly Go》7年研发历程与长线思维",
+        "style_guidance": "案例分析风格，结合CEO观点与分析师评述",
+        "transition_to_next": "承接'IP改编策略'自然过渡",
+        "notable_techniques": [
+          "长周期视角",
+          "'迭代直至伟大'金句",
+          "引用外部分析师佐证"
+        ]
+      },
+      {
+        "section_title": "IP改编策略：对的品牌与品类匹配",
+        "position": 5,
+        "structural_approach": "经验总结+具体案例，展现方法论可复制性",
+        "content_focus": "IP改编的成功要素、与孩之宝的合作模式",
+        "style_guidance": "方法论提炼风格，抽象原则与具体案例结合",
+        "transition_to_next": "自然过渡到领导力话题",
+        "notable_techniques": [
+          "经验清单化呈现",
+          "合作伙伴视角印证",
+          "差异化玩法理念"
+        ]
+      },
+      {
+        "section_title": "领袖要会讲故事，最重要的是学会保持热情",
+        "position": 6,
+        "structural_approach": "领导力金句集合，用问答形式呈现核心观点",
+        "content_focus": "讲故事能力、招聘方法、决策方式",
+        "style_guidance": "语录体风格，短句有力，便于传播",
+        "transition_to_next": "引出给创业者的建议",
+        "notable_techniques": [
+          "金句提炼'成功就是不断失败但仍能保持热情'",
+          "领导力要素分解"
+        ]
+      },
+      {
+        "section_title": "给创业者的建议：管理内心世界",
+        "position": 7,
+        "structural_approach": "升华提炼，从业务层面跃升至人生哲学",
+        "content_focus": "保持热情、管理焦虑、长期主义",
+        "style_guidance": "升华收尾，从商业成功回归人的内核",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "升维收尾",
+          "核心观点回扣开头",
+          "从'如何做事'到'如何为人'的升华"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+人生哲学收尾",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "收尾从商业策略升华到人生哲学，'管理内心世界'、'保持热情'的建议超越一般商业采访的功利层面，触及创业者心理健康与长期可持续发展的深层话题。这种升维收尾方式让文章不仅是一篇行业报道，更成为一份有温度的创业启示录，与开篇的数据轰炸形成'理性数据→感性哲思'的完整闭环。",
+    "style_features": [
+      "商业新闻体与人物特稿风格融合",
+      "CEO原话直引增强权威性和可读性",
+      "数据驱动叙事，数字贯穿始终",
+      "从宏大成就到个人成长的叙事弧线",
+      "金句提炼意识强，便于传播分享"
+    ],
+    "notable_techniques": [
+      "数据矩阵轰炸：多组数据叠加形成冲击波",
+      "八卦钩子：科比投资轶事增加娱乐性",
+      "反差铺垫：创始人'非科班出身'制造认知张力",
+      "升维收尾：从商业策略到人生哲学的递进",
+      "金句提炼：每个章节核心观点具象化",
+      "外部视角佐证：引用分析师观点增强可信度"
+    ],
+    "core_tension": "'不懂游戏的人如何打造百亿美元游戏公司'与'创业成功的关键不是技能而是讲故事和管理内心世界'之间的认知反差",
+    "target_audience": "游戏行业从业者、创业者、投资人，以及对商业故事和人物特写感兴趣的大众读者"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T15:52:45.135420"
+}

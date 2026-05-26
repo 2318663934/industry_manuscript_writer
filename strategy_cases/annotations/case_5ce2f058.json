@@ -1,0 +1,130 @@
+{
+  "case_id": "case_5ce2f058",
+  "title": "两年爆赚360亿元！CEO详解“全球第一休闲手游”成功背后，“曾推倒重做”",
+  "article_url": "http://www.gamelook.com.cn/2025/05/570014/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者（开发者、发行商、管理层）、有意进入游戏行业的投资者、对手游研发方法论感兴趣的读者",
+  "annotation": {
+    "opening_approach": "数据震撼+对比反差",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇通过双重策略吸引读者：首先用行业背景（市场难突围）制造认知反差，再以震撼数据（50亿美元、360亿元、24个月破纪录）建立阅读钩子。数字具体到人民币换算，降低理解门槛，增强冲击力。开头即点明'最值得注意的产品'，奠定全文重要性基调。",
+    "structural_pattern": "递进式（现象→过程→方法论→管理哲学→行业洞察→并购背景→未来展望→鼓励收尾）",
+    "section_strategies": [
+      {
+        "section_title": "成功现象呈现",
+        "position": 1,
+        "structural_approach": "结论先行+数据锚定",
+        "content_focus": "《大富翁Go》24个月收入破50亿美元的行业记录，以及Scopely公司7年研发历程概述",
+        "style_guidance": "简洁有力的数据陈述，营造悬念感",
+        "transition_to_next": "设问过渡：'那么，Scopely是如何一夜爆红的？'",
+        "notable_techniques": [
+          "数据锚定",
+          "悬念铺设",
+          "设问引导"
+        ]
+      },
+      {
+        "section_title": "研发过程揭秘：暗黑隧道与集体信念",
+        "position": 2,
+        "structural_approach": "对比反转型（与Supercell模式对立）",
+        "content_focus": "Scopely独特的'不放弃'研发哲学，拒绝发布1亿美元年收入版本的故事",
+        "style_guidance": "通过CEO原话传递理念，保持叙事张力",
+        "transition_to_next": "引入三大支柱框架预告",
+        "notable_techniques": [
+          "反常识对比（vs Supercell）",
+          "CEO金句嵌入",
+          "延迟满足叙事"
+        ]
+      },
+      {
+        "section_title": "IP改编成功三大支柱",
+        "position": 3,
+        "structural_approach": "框架式并列（对IP+对策略+伟大的游戏）",
+        "content_focus": "详述IP选择逻辑（聚焦粉丝而非知名度）、产品策略定位、伟大游戏的必要性",
+        "style_guidance": "逻辑清晰的分点论述，配合失败案例佐证",
+        "transition_to_next": "引入团队成长路径（Yahtzee→Scrabble→大富翁）",
+        "notable_techniques": [
+          "框架构建法",
+          "反面案例举证",
+          "授权信任建立叙事"
+        ]
+      },
+      {
+        "section_title": "高管职责：建立信念的四个维度",
+        "position": 4,
+        "structural_approach": "分层递进式",
+        "content_focus": "相信产品策略→相信团队→确保团队相信游戏→保护团队；持续干预机制",
+        "style_guidance": "管理哲学提炼，语言精炼有力量",
+        "transition_to_next": "引入创意自由与控制的平衡话题",
+        "notable_techniques": [
+          "职责分层",
+          "CEO视角第一人称",
+          "平衡哲学"
+        ]
+      },
+      {
+        "section_title": "免费模式与GaaS优势",
+        "position": 5,
+        "structural_approach": "理念升华+行业价值定位",
+        "content_focus": "免费模式作为'曝光工具'和'玩家互动模式'的战略价值",
+        "style_guidance": "CEO洞察性表达，带有行业布道色彩",
+        "transition_to_next": "过渡到并购背景（49亿美元并购）",
+        "notable_techniques": [
+          "模式定性",
+          "玩家共创理念",
+          "业务本质揭示"
+        ]
+      },
+      {
+        "section_title": "49亿美元并购与冒险价值",
+        "position": 6,
+        "structural_approach": "背景补充+价值观念输出",
+        "content_focus": "为何选择Savvy、长线投资思维、风险与价值创造的关系",
+        "style_guidance": "坦诚务实的投资哲学表达",
+        "transition_to_next": "引入行业裁员背景",
+        "notable_techniques": [
+          "并购叙事",
+          "长线思维",
+          "风险辩证观"
+        ]
+      },
+      {
+        "section_title": "行业鼓励与个人建议",
+        "position": 7,
+        "structural_approach": "升维收尾+行动呼吁",
+        "content_focus": "游戏业前景、人的价值、给受影响者的建议（投资自己）",
+        "style_guidance": "温暖有力，带有行业责任感",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "行业信心重建",
+          "个体价值肯定",
+          "积极行动建议"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+行动呼吁",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "收尾将个人建议升维至行业高度（游戏业欣欣向荣、比电影电视音乐总和更大），同时回归个体关怀（投资自己）。从宏观行业信心到微观个人成长，形成完整闭环。金句'五人或十人团队可以改变公司命运'具有强共鸣性和传播力。",
+    "style_features": [
+      "CEO金句驱动：大量引用Javier Ferreira原话，增强权威性和可读性",
+      "数据密集型：50亿美元、360亿元、24个月、49亿美元、300倍增长、800人团队等数据贯穿全文",
+      "对比叙事结构：市场难vs成功易、Supercell砍项目vs Scopely不放弃、早期小团队vs现在的行业地位",
+      "方法论提炼：三大支柱、四个职责等框架便于记忆和传播",
+      "反常识洞察：'失败是预期中的'、'时间最终是朋友'等颠覆性观点"
+    ],
+    "notable_techniques": [
+      "数据震撼开篇（360亿元换算增强代入感）",
+      "反常识对比（vs Supercell模式）",
+      "拒绝成功案例叙事（1亿美元版本被否）",
+      "金句植入法（每节提炼一句可传播金句）",
+      "框架构建法（三大支柱、四个职责便于结构化传播）",
+      "递进式方法论（从IP到团队到游戏到信念层层深入）",
+      "长尾鼓励收尾（升维至行业信心+个人成长建议）"
+    ],
+    "core_tension": "传统手游行业追求快速验证和果断止损的逻辑，与Scopely坚持7年、不放弃平庸版本、追求'对的游戏'的反直觉成功模式之间的张力",
+    "target_audience": "游戏行业从业者（开发者、发行商、管理层）、有意进入游戏行业的投资者、对手游研发方法论感兴趣的读者"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T15:49:37.152117"
+}

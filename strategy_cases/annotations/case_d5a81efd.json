@@ -1,0 +1,148 @@
+{
+  "case_id": "case_d5a81efd",
+  "title": "攻破Google Play堡垒，Epic CEO最新采访：这场胜利非常重要！",
+  "article_url": "http://www.gamelook.com.cn/2026/03/588933/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者、开发者、移动平台关注者、科技法律爱好者，以及对Epic Games商业模式感兴趣的读者",
+  "annotation": {
+    "opening_approach": "数据震撼+故事切入",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇以「2,030天」这个精确数据制造强烈的视觉冲击和时间张力，同时将时间节点（2020年8月13日反垄断诉讼当天）与当下结果（谷歌计划让《堡垒之夜》回归）形成呼应。这种「倒计时」式叙事既建立悬念，又暗示漫长的抗争历程，瞬间抓住读者对「胜利到来」的情感期待。",
+    "structural_pattern": "递进式+对比式混合",
+    "section_strategies": [
+      {
+        "section_title": "和解决定的意义",
+        "position": 1,
+        "structural_approach": "引用权威+数据论证",
+        "content_focus": "Tim Sweeney对和解结果的自豪感，强调为全球开发者降低佣金费率至10%-20%",
+        "style_guidance": "采用直接引语增强权威性，用具体数字对比（旧15%-30% vs 新10%-20%）强化说服力",
+        "transition_to_next": "「我认为这对所有开发者来说都是一个非常好的结果」→引出为何选择和解而非全球诉讼",
+        "notable_techniques": [
+          "CEO直接引语背书",
+          "前后抽成对比数据化"
+        ]
+      },
+      {
+        "section_title": "为何选择和解而非全球诉讼",
+        "position": 2,
+        "structural_approach": "逻辑论证+困境拆解",
+        "content_focus": "解释美国法院判决只在美国有效（30%收入/5%用户），无法成为全球解决方案",
+        "style_guidance": "用「5%用户vs30%收入」的反差数据凸显地域局限性，建立「和解是最优解」的逻辑链",
+        "transition_to_next": "引出法院态度→过渡到谷歌具体改变",
+        "notable_techniques": [
+          "核心数据反差对比",
+          "法律边界清晰化"
+        ]
+      },
+      {
+        "section_title": "谷歌的具体改变",
+        "position": 3,
+        "structural_approach": "清单式呈现+细节深挖",
+        "content_focus": "三大核心让步：降低抽成、允许替代支付、允许替代开发者商店",
+        "style_guidance": "以政策变更为主线，交叉引用Epic声明和谷歌声明形成对话感",
+        "transition_to_next": "从「政策改变」升维到「宏观意义」",
+        "notable_techniques": [
+          "双方声音对照",
+          "政策要点清单化"
+        ]
+      },
+      {
+        "section_title": "宏观意义：开放平台vs封闭平台",
+        "position": 4,
+        "structural_approach": "升华提炼+概念对立",
+        "content_focus": "安卓从「虚假开放平台」到「真正开放平台」的转变，与Windows持平甚至更优越",
+        "style_guidance": "以Sweeney对「恐吓界面终结」的评价为切入点，将局部胜利升维为行业范式转变",
+        "transition_to_next": "引出「无特殊交易」的澄清",
+        "notable_techniques": [
+          "概念对立框架",
+          "升维拔高"
+        ]
+      },
+      {
+        "section_title": "无特殊交易的声明",
+        "position": 5,
+        "structural_approach": "争议澄清+主动防御",
+        "content_focus": "回应外界对「Epic是否获得特殊待遇」的质疑，强调和解惠及所有开发者",
+        "style_guidance": "通过对比「之前版本被法官质疑的条款」与「当前版本」，凸显公正性",
+        "transition_to_next": "过渡到支付分离的具体机制",
+        "notable_techniques": [
+          "争议前置回应",
+          "版本对比自证清白"
+        ]
+      },
+      {
+        "section_title": "支付分离与竞争生态",
+        "position": 6,
+        "structural_approach": "机制解析+未来展望",
+        "content_focus": "支付作为独立服务分离，开发者可选替代支付方案；商店间竞争开启",
+        "style_guidance": "以「捆绑服务」批判反衬「解耦」的价值，用具体竞争者（Stripe/PayPal）描绘生态图景",
+        "transition_to_next": "回应「被禁言」的传言",
+        "notable_techniques": [
+          "反垄断逻辑外化",
+          "竞争生态具象化"
+        ]
+      },
+      {
+        "section_title": "关于「禁言条款」的澄清",
+        "position": 7,
+        "structural_approach": "谣言澄清+立场重构",
+        "content_focus": "禁言仅限于「已同意的谷歌权利范围」，非全面封口",
+        "style_guidance": "用轻松口吻（「配色方案很糟糕」）化解严肃质疑，重构「开放平台支持者」身份",
+        "transition_to_next": "引出与苹果案的对比",
+        "notable_techniques": [
+          "幽默化解敏感点",
+          "身份一致性维护"
+        ]
+      },
+      {
+        "section_title": "与苹果案的根本差异",
+        "position": 8,
+        "structural_approach": "对比分析+法理阐释",
+        "content_focus": "谷歌案法官坚持让市场定价，苹果案法院被迫直接设定价格（零费用）",
+        "style_guidance": "用「法院设定价格是最后手段」的表述，凸显两案处理路径的本质差异",
+        "transition_to_next": "展望苹果案未来走向",
+        "notable_techniques": [
+          "双案对比框架",
+          "法律逻辑深入浅出"
+        ]
+      },
+      {
+        "section_title": "苹果案的未来展望",
+        "position": 9,
+        "structural_approach": "开放性收尾+宏观视野",
+        "content_focus": "iOS是「通用计算平台中剩下的封闭平台」，欧洲、日本等多地监管机构介入",
+        "style_guidance": "将苹果案定性为「狭窄裁决」，暗示长期抗争仍在继续，但保持乐观基调",
+        "transition_to_next": "回归当下胜利的满足感",
+        "notable_techniques": [
+          "留白式展望",
+          "全球监管视野"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+叙事回环",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "收尾以「出狱」比喻呼应开篇的「2,030天小黑屋」，完成叙事闭环。同时将局部胜利升维至「用户权利和开发者权利的长期斗争」和「数字商务像实体商务一样自由」的宏观愿景，既有情感满足感，又有理想主义色彩。最后落回《堡垒之夜》即将重新上架的具体事实，兼顾宏大叙事与时效性。",
+    "style_features": [
+      "新闻特稿体：融合即时新闻的时效性与深度访谈的洞察力",
+      "数据驱动叙事：大量具体数字（2,030天、30%/5%、12%、2032年等）锚定事实感",
+      "多声部对话：Epic CEO、Epic Store负责人、谷歌声明交替出现，构建立体叙事",
+      "法律与商业交织：将反垄断法理转化为普通读者可理解的「抽成」「恐吓界面」等概念",
+      "专业术语通俗化：「捆绑服务解耦」「抽成比」「已注册商店计划」等概念通过具体场景解释"
+    ],
+    "notable_techniques": [
+      "倒计时式开篇（2,030天）",
+      "「小黑屋」比喻具象化抽象困境",
+      "双引号强调关键概念（虚假开放平台→真正开放平台）",
+      "「你的利润就是我的机会」第三方引语插入增强节奏感",
+      "对比矩阵（抽成变化、时间跨度、地域差异）",
+      "争议预判式写作（特殊交易、禁言条款均主动回应）",
+      "「最后手段」法理概念故事化",
+      "升维收尾：从小胜利升到「数字商务自由」的普世价值"
+    ],
+    "core_tension": "Epic Games作为挑战巨头的弱者，经过六年抗争以和解达成「不完美但可接受」的胜利，并在与苹果的持续诉讼中保持希望",
+    "target_audience": "游戏行业从业者、开发者、移动平台关注者、科技法律爱好者，以及对Epic Games商业模式感兴趣的读者"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T15:39:37.951526"
+}

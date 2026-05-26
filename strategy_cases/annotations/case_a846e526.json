@@ -1,0 +1,103 @@
+{
+  "case_id": "case_a846e526",
+  "title": "专访盛趣彭程：老IP是最重要的资产，“端改手”的稳健进攻更有攻击力",
+  "article_url": "http://www.gamelook.com.cn/2025/08/575760/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者（CP、发行、投资人）、媒体编辑、关注A股游戏板块的投资者",
+  "annotation": {
+    "opening_approach": "数据震撼",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇以世纪华通业绩暴涨131%、市值破千亿的数据切入，配合ST帽子反转，制造强烈的数据冲击和悬念感。同时通过关联子公司点点互动的热度，自然引出盛趣游戏的主角地位，形成'热话题冷处理'的张力，为后续彭程主导的老IP焕新埋下伏笔。",
+    "structural_pattern": "递进式",
+    "section_strategies": [
+      {
+        "section_title": "市场背景与人物登场",
+        "position": 1,
+        "structural_approach": "背景铺陈+人物定位",
+        "content_focus": "世纪华通业绩表现、盛趣游戏地位、彭程回归背景与职责",
+        "style_guidance": "行业观察视角，数据佐证，简洁有力",
+        "transition_to_next": "用'这一切都由刚刚回归执掌盛趣的彭程主导'承上启下",
+        "notable_techniques": [
+          "数据前置冲击",
+          "子公司对比烘托",
+          "人物快速定位"
+        ]
+      },
+      {
+        "section_title": "龙之谷世界：情怀牌突围与破圈计划",
+        "position": 2,
+        "structural_approach": "问题-方案式（立项初心→执行策略→成果验证）",
+        "content_focus": "如何用情怀吸引老用户回归、如何让新用户也愿意尝试",
+        "style_guidance": "深度解析策略，CEO第一人称阐述为主",
+        "transition_to_next": "用'除了《龙之谷世界》外，近期盛趣让行业感到惊喜的还有另一个IP游戏《盟重神兵》'自然过渡",
+        "notable_techniques": [
+          "双重问题设置",
+          "原汁原味vs不只情怀的辩证",
+          "组合拳发行策略详解"
+        ]
+      },
+      {
+        "section_title": "盟重神兵：归拢传奇用户的战略转折",
+        "position": 3,
+        "structural_approach": "策略转折+对比论证",
+        "content_focus": "从'授权模式'到'归拢用户'的战略转向，精品化开发理念",
+        "style_guidance": "策略对比视角，强调IP资产价值",
+        "transition_to_next": "用'IP才是盛趣最重要的资产'理念升华，引出IP产品线规划",
+        "notable_techniques": [
+          "策略转折叙事",
+          "对立模式对比",
+          "CEO亲民化表达"
+        ]
+      },
+      {
+        "section_title": "MMO市场洞察与战略选择",
+        "position": 4,
+        "structural_approach": "行业洞察+观点输出",
+        "content_focus": "MMO市场现状分析、盛趣的'两条腿走路'战略",
+        "style_guidance": "行业专家视角，前瞻性与务实性兼具",
+        "transition_to_next": "用'先端好手里的碗，再看锅里的饭'升华到战略哲学",
+        "notable_techniques": [
+          "品类重新定义（SLG即MMO）",
+          "战略双轨并行",
+          "小游戏生态布局"
+        ]
+      },
+      {
+        "section_title": "长青游戏哲学与产品力信仰",
+        "position": 5,
+        "structural_approach": "理念升华+收尾定调",
+        "content_focus": "长青游戏本质是结果而非战略，产品力是唯一护城河",
+        "style_guidance": "哲学思辨风格，点睛收尾",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "反常识观点输出",
+          "良性循环逻辑链",
+          "碗与饭的本土化比喻"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+核心观点回扣",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "结尾以'还是要靠产品说话'点题，既呼应全文关于产品力的核心论述，又以反共识的清醒态度收尾。'碗与饭'的比喻将宏大战略具象化，'端好手里的碗再看看锅里的饭'既是对盛趣稳健策略的精准概括，也传递了可复制的商业哲学。金句'我们的进攻是稳健的，背靠大后方的基本盘，才更有攻击力'形成记忆锚点，兼具文学性与实操指导意义。",
+    "style_features": [
+      "CEO专访体：权威引用+策略解读双轨并行",
+      "数据驱动叙事：每项策略配以市场数据佐证",
+      "本土化表达：用'碗和饭''归拢用户''组合拳'等通俗概念诠释复杂战略",
+      "专业深度：游戏行业术语（MMO、长青游戏、端改手）自然融入",
+      "辩证思维：避免非此即彼，强调平衡与节奏"
+    ],
+    "notable_techniques": [
+      "开篇数据冲击：三组关键数据（131%、千亿市值、TOP8）形成信息密度",
+      "悬念递进：从市场成功→产品策略→战略哲学逐层深入",
+      "CEO金句提炼：每节核心观点形成可传播语录",
+      "本土化商业比喻：'碗与饭''组合拳''两条腿走路'降低理解门槛",
+      "对比论证：竞品买量vs盛趣产品力、授权模式vs归拢模式",
+      "反共识输出：'长青游戏是结果不是战略''SLG就是MMO'等挑战常识的观点"
+    ],
+    "core_tension": "老IP情怀与创新之间的平衡——既要原汁原味吸引老用户，又要破圈吸引新用户；既要稳健防守维护基本盘，又要进攻开拓新市场。",
+    "target_audience": "游戏行业从业者（CP、发行、投资人）、媒体编辑、关注A股游戏板块的投资者"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T15:46:28.723657"
+}

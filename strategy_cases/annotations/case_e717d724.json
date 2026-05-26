@@ -1,0 +1,113 @@
+{
+  "case_id": "case_e717d724",
+  "title": "Supercell“全邀请码发行”有喜有忧：首周流水收入500万、下载量250万次",
+  "article_url": "http://www.gamelook.com.cn/2025/03/567243/",
+  "content_type": "行业分析",
+  "target_audience": "手游行业从业者（发行商、开发者、营销人员）、游戏投资分析师、游戏媒体从业者",
+  "annotation": {
+    "opening_approach": "事件切入+悬念铺设",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "开篇直接抛出Supercell的创新发行模式——全邀请码发行，并用'狠活'一词制造悬念感，吸引读者好奇心。同时通过'零买量'信息建立核心矛盾点，让读者带着'这能行吗'的疑问继续阅读。节奏紧凑，信息密度高。",
+    "structural_pattern": "递进式+对比式复合结构",
+    "section_strategies": [
+      {
+        "section_title": "发行模式介绍",
+        "position": 1,
+        "structural_approach": "背景铺垫+机制说明",
+        "content_focus": "介绍《MO.CO》的全邀请码发行机制，包括邀请码获取途径和零买量策略",
+        "style_guidance": "行业报道风格，客观陈述为主",
+        "transition_to_next": "通过'现在距离游戏上线已经过去了一周多时间'自然过渡",
+        "notable_techniques": [
+          "概念前置",
+          "悬念铺设"
+        ]
+      },
+      {
+        "section_title": "首周数据呈现",
+        "position": 2,
+        "structural_approach": "数据罗列+对比分析",
+        "content_focus": "500万流水、250万下载量的首周数据，以及与《爆裂小队》的对比",
+        "style_guidance": "数据驱动叙事，强调对比反差",
+        "transition_to_next": "用'但也需要意识到'引出对比分析",
+        "notable_techniques": [
+          "数据震撼",
+          "矩阵对比（与《爆裂小队》10倍差距）"
+        ]
+      },
+      {
+        "section_title": "盈利模式拆解",
+        "position": 3,
+        "structural_approach": "成本收益分析",
+        "content_focus": "分析零买量模式的高利润率，推算65%分成比例",
+        "style_guidance": "行业分析师视角，专业性强",
+        "transition_to_next": "用'另一个值得注意的点'转向榜单表现分析",
+        "notable_techniques": [
+          "利润推算",
+          "数据建模思维"
+        ]
+      },
+      {
+        "section_title": "榜单曲线分析",
+        "position": 4,
+        "structural_approach": "时间线追踪+地域差异",
+        "content_focus": "分析免费榜下滑趋势，但德国等市场表现稳定",
+        "style_guidance": "数据追踪式写作，强调变化趋势",
+        "transition_to_next": "用'但也有一些好的兆头'转向积极信号",
+        "notable_techniques": [
+          "曲线分析",
+          "地域维度拆解",
+          "矛盾揭示（整体下滑vs德国稳定）"
+        ]
+      },
+      {
+        "section_title": "社区生态分析",
+        "position": 5,
+        "structural_approach": "多平台数据对比",
+        "content_focus": "Discord、Reddit、YouTube的用户增长情况",
+        "style_guidance": "社区运营视角，强调用户质量",
+        "transition_to_next": "用'最后'引出结论性分析",
+        "notable_techniques": [
+          "平台矩阵对比",
+          "用户质量vs数量区分"
+        ]
+      },
+      {
+        "section_title": "前景展望",
+        "position": 6,
+        "structural_approach": "条件假设+战略推演",
+        "content_focus": "讨论Supercell是否会追加资源，分析商业模式的可持续性",
+        "style_guidance": "战略咨询视角，留有开放性",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "条件推演",
+          "行业洞察",
+          "留白思考"
+        ]
+      }
+    ],
+    "closing_approach": "留白思考+战略展望",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "结尾没有给出确定性结论，而是提出'等待首月MAU、留存率等数据后再决定是否追加资源'的可能性。这种开放式收尾既保持了客观性，也给读者留下了思考空间，同时暗示了Supercell可能的后续动作，为后续报道埋下伏笔。",
+    "style_features": [
+      "数据驱动型写作，以具体数字支撑观点",
+      "对比式分析贯穿全文，通过横向对比（vs《爆裂小队》）和纵向对比（首日vs现在）增强说服力",
+      "行业分析师口吻，专业术语使用得当（如p2w、DAU等）",
+      "辩证思维，优点与问题并重",
+      "中立客观，不预设立场"
+    ],
+    "notable_techniques": [
+      "悬念前置：开篇用'狠活'制造悬念",
+      "矩阵对比：多维度数据对比（《爆裂小队》10倍差距）",
+      "矛盾揭示：整体下滑vs德国稳定的对冲",
+      "数据建模：利润率的推算逻辑",
+      "平台矩阵：Discord、Reddit、YouTube多维度社区分析",
+      "地域拆解：T1市场vs新兴市场的差异化表现",
+      "条件推演：以'如果...会'的假设结构展开讨论"
+    ],
+    "core_tension": "零买量社交裂变模式在利润率上表现优异，但在获客规模和用户规模上难以支撑大DAU游戏的商业变现需求",
+    "target_audience": "手游行业从业者（发行商、开发者、营销人员）、游戏投资分析师、游戏媒体从业者"
+  },
+  "quality_score": 4.0,
+  "tags": [],
+  "created_at": "2026-04-07T16:29:52.061583"
+}

@@ -1,0 +1,171 @@
+{
+  "case_id": "case_851f78bd",
+  "title": "霸榜Steam12年、玩家超千万！专访《Rust》制作人：全球SOC顶流如何诞生的？",
+  "article_url": "http://www.gamelook.com.cn/2025/06/568281/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者（开发者、发行商、投资人）、游戏媒体从业者、硬核游戏玩家、SOC品类爱好者、独立游戏关注者",
+  "annotation": {
+    "opening_approach": "新闻热点切入+悬念设置+数据震撼",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇以腾讯发布会代理手游《失控进化》为切入点，立即抓住时效性；通过'全球顶流''12年''超千万玩家'等数据建立权威感；用'神秘'形容研发团队制造悬念，激发读者探究欲。三重手法叠加，既有新闻价值又有话题张力。",
+    "structural_pattern": "问题驱动递进式",
+    "section_strategies": [
+      {
+        "section_title": "团队起源与文化",
+        "position": 1,
+        "structural_approach": "Q&A问答引入，背景铺陈式",
+        "content_focus": "FACEPUNCH从MOD团队到独立工作室的演变，扁平化管理文化",
+        "style_guidance": "口语化、自然亲切，用第一人称叙述制作人视角",
+        "transition_to_next": "通过'团队近百人规模'自然引出文化保持话题",
+        "notable_techniques": [
+          "亲历者视角",
+          "对比反衬（没有办公室→舞蹈工作室）",
+          "数字锚定（15人核心团队8年）"
+        ]
+      },
+      {
+        "section_title": "决策冲突与团队管理",
+        "position": 2,
+        "structural_approach": "追问深挖式，冲突呈现式",
+        "content_focus": "如何平衡多人意见与决策效率",
+        "style_guidance": "坦诚直面问题，展示真实困境",
+        "transition_to_next": "用'社区驱动'自然过渡到产品研发话题",
+        "notable_techniques": [
+          "矛盾暴露法",
+          "赋权理念表达",
+          "放权文化展示"
+        ]
+      },
+      {
+        "section_title": "产品起源：从玩笑到意外",
+        "position": 3,
+        "structural_approach": "故事化叙述，反差对比",
+        "content_focus": "《Rust》诞生于玩笑般的'我们能做得更好'",
+        "style_guidance": "戏剧化叙事，强调起源的偶然性与社区驱动",
+        "transition_to_next": "通过'技术挑战'引出下节内容",
+        "notable_techniques": [
+          "起源故事化",
+          "自嘲式幽默",
+          "社区共创强调"
+        ]
+      },
+      {
+        "section_title": "技术挑战与解决方案",
+        "position": 4,
+        "structural_approach": "问题-方案式，能力展示",
+        "content_focus": "Unity做SOC的技术难题及千人同服的技术突破",
+        "style_guidance": "技术自信但谦虚，展现团队实力",
+        "transition_to_next": "引出自研引擎s&box的话题",
+        "notable_techniques": [
+          "技术护城河展示",
+          "迭代思维强调",
+          "合作共赢姿态"
+        ]
+      },
+      {
+        "section_title": "生存游戏品类定义",
+        "position": 5,
+        "structural_approach": "概念辨析式，对比定义",
+        "content_focus": "《Rust》区别于MMO的独特定位",
+        "style_guidance": "哲理性表达，定义产品独特性",
+        "transition_to_next": "通过'高难度'引入新玩家问题",
+        "notable_techniques": [
+          "品类边界模糊化处理",
+          "玩家目标自主性",
+          "自由度哲学"
+        ]
+      },
+      {
+        "section_title": "高难度与新手体验的矛盾",
+        "position": 6,
+        "structural_approach": "直面痛点，平衡策略",
+        "content_focus": "承认难度问题但坚守核心特色",
+        "style_guidance": "承认问题的同时展示解决方案的诚意",
+        "transition_to_next": "过渡到口碑演变",
+        "notable_techniques": [
+          "问题承认法",
+          "设计理念坚持",
+          "模组生态补充"
+        ]
+      },
+      {
+        "section_title": "口碑逆转与社区驱动",
+        "position": 7,
+        "structural_approach": "时间线对比，因果分析",
+        "content_focus": "从早期差评到品类王者的转变过程",
+        "style_guidance": "复盘式叙事，展示成长逻辑",
+        "transition_to_next": "自然进入营销话题",
+        "notable_techniques": [
+          "时间对比",
+          "2%vs98%受众洞察",
+          "Discord工具价值"
+        ]
+      },
+      {
+        "section_title": "市场营销策略",
+        "position": 8,
+        "structural_approach": "策略澄清式，效果归因",
+        "content_focus": "几乎零营销，依赖内容创作者生态",
+        "style_guidance": "反传统营销逻辑，展示产品自信",
+        "transition_to_next": "引出成功因素的深层讨论",
+        "notable_techniques": [
+          "营销克制理念",
+          "YouTube优先策略",
+          "主播共创关系"
+        ]
+      },
+      {
+        "section_title": "成功因素：快速迭代",
+        "position": 9,
+        "structural_approach": "核心论点展开，方法论提炼",
+        "content_focus": "月更节奏、玩家驱动、想法最小化",
+        "style_guidance": "总结性输出，展示可复制的成功方法",
+        "transition_to_next": "通过'丰富度'引入元宇宙话题",
+        "notable_techniques": [
+          "方法论提炼",
+          "反宏大叙事",
+          "玩家倦怠预防"
+        ]
+      },
+      {
+        "section_title": "元宇宙态度与未来",
+        "position": 10,
+        "structural_approach": "观点亮明式，降维回应",
+        "content_focus": "明确拒绝元宇宙方向，坚守游戏本质",
+        "style_guidance": "立场鲜明但不失谦逊，批评大公司冒进",
+        "transition_to_next": "文章截断，推测收尾为手游合作展望",
+        "notable_techniques": [
+          "明确立场表达",
+          "不可能任务论断",
+          "Steam类比"
+        ]
+      }
+    ],
+    "closing_approach": "文章截断，推测为行动呼吁或展望式收尾",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "虽然内容被截断，但从现有结构看，文章以'中国玩家抱团'这一有趣现象作为最后话题，既呼应了游戏生命力，又暗示了全球社区的独特性，推测完整版本会以手游合作展望或《Rust》未来方向作收。",
+    "style_features": [
+      "Q&A对话体营造真实感和信任感",
+      "第一人称叙事展现亲历者视角",
+      "数据与故事穿插增强说服力",
+      "金句频出便于社交传播（如'想法最小化'、'不可能的任务'）",
+      "适度自嘲展现团队个性",
+      "直面问题不回避，展现专业态度"
+    ],
+    "notable_techniques": [
+      "新闻热点搭便车（腾讯发布会）",
+      "悬念链式铺设（神秘团队→团队起源→产品起源）",
+      "数字锚定冲击（12年、超千万、98人、15人核心8年）",
+      "反共识观点输出（拒绝元宇宙、拒绝营销、拒绝过度扩张）",
+      "2%vs98%受众洞察展示深度思考",
+      "不可能任务论断强化立场",
+      "起源故事化降低距离感",
+      "对比反衬（小工作室vs常青树）"
+    ],
+    "core_tension": "一个偶然玩笑诞生的游戏，如何通过克制、迭代与社区驱动，成为12年的品类王者，同时保持小团队的独立灵魂。",
+    "target_audience": "游戏行业从业者（开发者、发行商、投资人）、游戏媒体从业者、硬核游戏玩家、SOC品类爱好者、独立游戏关注者"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T15:47:36.760412"
+}

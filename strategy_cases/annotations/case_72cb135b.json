@@ -1,0 +1,115 @@
+{
+  "case_id": "case_72cb135b",
+  "title": "Epic大裁员自救！全球第一的“游戏堡垒”为何不攻自破？",
+  "article_url": "http://www.gamelook.com.cn/2026/03/590228/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者、游戏投资人、游戏媒体从业者、对游戏行业感兴趣的一般读者",
+  "annotation": {
+    "opening_approach": "新闻切入+数据震撼",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇以'全球游戏圈再次被裁员消息刷屏'直击新闻核心，通过'裁员1000人、员工4000-5000人、占比20%'三组具体数字形成强效数据冲击，同时引用CEO公开信原话增强信源权威性，迅速建立文章的严肃性和重要性。开头直接抛出行业痛点问题'如果连《堡垒之夜》都失败了，其他游戏还有什么机会？'，激发读者好奇心和行业共鸣。",
+    "structural_pattern": "时间线式+递进式",
+    "section_strategies": [
+      {
+        "section_title": "裁员1000人与员工安置",
+        "position": 1,
+        "structural_approach": "并列式+引用增强",
+        "content_focus": "裁员规模、安置措施、CEO个人推特求援",
+        "style_guidance": "客观叙述+人文关怀",
+        "transition_to_next": "用'然而'转折，从积极安置过渡到行业困境",
+        "notable_techniques": [
+          "CEO直接引语增强信服力",
+          "对比数字（20%裁员vs尽力补偿）",
+          "温情叙事（Tim亲自为员工找下家）"
+        ]
+      },
+      {
+        "section_title": "行业背景与美国游戏业困境",
+        "position": 2,
+        "structural_approach": "数据支撑+第三方背书",
+        "content_focus": "加州裁员占全球47%、市场去产能现状",
+        "style_guidance": "宏观视野+数据说话",
+        "transition_to_next": "用'而这次Epic...'自然衔接回文章主体",
+        "notable_techniques": [
+          "第三方机构数据引用",
+          "行业宏观背景铺垫"
+        ]
+      },
+      {
+        "section_title": "半步天堂，半步地狱",
+        "position": 3,
+        "structural_approach": "时间线式回顾+转折叙事",
+        "content_focus": "Epic从PC到主机到GaaS的三次转型历史",
+        "style_guidance": "历史回顾+因果分析",
+        "transition_to_next": "用'令人感慨'过渡到理想主义者主题",
+        "notable_techniques": [
+          "大起大落对比叙事",
+          "关键节点标记（2006年/2012年/2017年）",
+          "竞争对手对比（V社反成最终赢家）"
+        ]
+      },
+      {
+        "section_title": "理想主义者的代价",
+        "position": 4,
+        "structural_approach": "递进式分析+反讽张力",
+        "content_focus": "EGS商店挑战Steam、起诉苹果谷歌、UGC生态建设、虚幻引擎维护",
+        "style_guidance": "冷静分析+情感温度并存",
+        "transition_to_next": "用反问句'对于Epic这家公司本身及其普通员工来说，又是否公平？'过渡",
+        "notable_techniques": [
+          "代价清单式列举",
+          "行业贡献vs公司代价反讽对比",
+          "Tim原话引用形成张力"
+        ]
+      },
+      {
+        "section_title": "自救",
+        "position": 5,
+        "structural_approach": "问题-方案式",
+        "content_focus": "三方支付合作、Unity合作、游戏内购涨价",
+        "style_guidance": "务实分析+紧迫感",
+        "transition_to_next": "回顾Epic融资历史与估值变化",
+        "notable_techniques": [
+          "自救措施清单",
+          "涨价引发玩家不满的具体例证"
+        ]
+      },
+      {
+        "section_title": "总结与展望",
+        "position": 6,
+        "structural_approach": "升华展望+行业视角",
+        "content_focus": "技术实力评估、AI时代判断、迪士尼合作希望",
+        "style_guidance": "专业判断+积极期望",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "核心能力定位（技术强于游戏）",
+          "未来趋势预判（AI技术平权）",
+          "希望案例（迪士尼15亿合作）"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+行业关怀",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "结尾回到行业视角，既指出Epic的技术局限（工具能力强于游戏能力），又通过迪士尼合作案例留下希望曙光，最后以'GameLook也希望像Epic这样的公司能够熬过难关'收束，将个体公司命运升华为行业生态关怀，情感温度与专业判断兼顾。略微遗憾的是收尾略显仓促，迪士尼案例点到即止。",
+    "style_features": [
+      "行业深度分析文风：融合新闻时效性与行业洞察性",
+      "数据密集型写作：大量引用具体数字、时间节点、金额数据",
+      "客观与温度并存：冷静分析公司决策的同时不忘人文关怀",
+      "纪录片式叙事节奏：事件回顾与原因分析穿插，有起有落",
+      "专业术语与通俗表达平衡：面向游戏从业者但不晦涩"
+    ],
+    "notable_techniques": [
+      "开篇数据矩阵：数字三连击形成冲击力",
+      "章节标题对仗：'半步天堂，半步地狱'强化戏剧张力",
+      "因果链条叙事：层层剥笋式分析Epic困境成因",
+      "反讽对比手法：行业获益vs公司买单形成核心矛盾",
+      "第三方权威引用：ASGC数据、NewZoo报告增强可信度",
+      "设问句收束章节：每节结尾用疑问句引发思考",
+      "时间线标记：明确标注转型关键年份助理解"
+    ],
+    "core_tension": "Epic作为行业变革推动者的理想主义与其商业生存的现实压力之间的深层矛盾",
+    "target_audience": "游戏行业从业者、游戏投资人、游戏媒体从业者、对游戏行业感兴趣的一般读者"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T15:22:46.904763"
+}

@@ -1,0 +1,122 @@
+{
+  "case_id": "case_e09b662b",
+  "title": "策划大佬推荐：可视化模拟游戏数值/经济系统，这个神奇工具用过么？",
+  "article_url": "http://www.gamelook.com.cn/2024/04/541595/",
+  "content_type": "行业分析",
+  "target_audience": "国内游戏策划从业者、游戏设计专业学生、游戏公司管理层及对游戏数值系统感兴趣的从业者",
+  "annotation": {
+    "opening_approach": "引用权威+推荐切入",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇通过引入从业20多年的资深策划Andrew Chambers的权威推荐，直接抓住行业从业者注意力。通过详细罗列其光鲜的职业履历（暴雪10年、《暗黑破坏神3》系统策划等），建立强烈的权威背书效应。指出'清晰的沟通'是游戏策划的核心挑战，自然引出工具推荐主题，形成'痛点+解决方案'的叙事钩子。",
+    "structural_pattern": "递进式+问题-方案式",
+    "section_strategies": [
+      {
+        "section_title": "权威推荐引入",
+        "position": 1,
+        "structural_approach": "权威人士+推荐清单+行业痛点铺垫",
+        "content_focus": "Andrew Chambers推荐7个工具，强调沟通挑战",
+        "style_guidance": "权威感强、行业专业度高",
+        "transition_to_next": "通过'其中名为Machinations.io的可视化游戏数值模拟工具非常神奇'过渡",
+        "notable_techniques": [
+          "权威人物职业履历清单式呈现",
+          "痛点直击"
+        ]
+      },
+      {
+        "section_title": "工具稀缺性强调",
+        "position": 2,
+        "structural_approach": "对比反差：工具2018年已推出 vs 国内鲜有人知",
+        "content_focus": "国内外信息不对称的矛盾",
+        "style_guidance": "制造信息差和好奇心",
+        "transition_to_next": "'今天，Gamelook就来介绍一下'明确告知写作目的",
+        "notable_techniques": [
+          "稀缺性营造",
+          "信息差制造"
+        ]
+      },
+      {
+        "section_title": "创始人背景与工具起源",
+        "position": 3,
+        "structural_approach": "创始人权威+学术背景+工具理念",
+        "content_focus": "Joris Dormans博士课题起源，解决'试错'痛点",
+        "style_guidance": "学术权威+使命愿景叙事",
+        "transition_to_next": "荣誉与客户背书过渡",
+        "notable_techniques": [
+          "学术背景赋能工具可信度",
+          "痛点-解决方案叙事"
+        ]
+      },
+      {
+        "section_title": "荣誉与客户背书",
+        "position": 4,
+        "structural_approach": "荣誉+知名客户清单",
+        "content_focus": "荷兰游戏奖最佳技术奖、300+大学、名企客户",
+        "style_guidance": "品牌背书、清单式权威展示",
+        "transition_to_next": "'简而言之'收束进入功能介绍",
+        "notable_techniques": [
+          "矩阵式背书（学术+企业）",
+          "数据冲击（300+大学）"
+        ]
+      },
+      {
+        "section_title": "核心功能模块介绍",
+        "position": 5,
+        "structural_approach": "功能模块分类说明",
+        "content_focus": "可视化编辑器、游戏机制编辑器、系统编辑器三大模块",
+        "style_guidance": "专业简洁、模块化呈现",
+        "transition_to_next": "用户案例过渡",
+        "notable_techniques": [
+          "模块化功能呈现"
+        ]
+      },
+      {
+        "section_title": "实际应用案例",
+        "position": 6,
+        "structural_approach": "用户证言+具体应用场景",
+        "content_focus": "Wooga策划评价、《June's Journey》案例",
+        "style_guidance": "真实案例增强说服力",
+        "transition_to_next": "引出更多使用场景",
+        "notable_techniques": [
+          "用户证言引用",
+          "爆款游戏案例"
+        ]
+      },
+      {
+        "section_title": "使用场景展示",
+        "position": 7,
+        "structural_approach": "具体案例列举",
+        "content_focus": "《Pen Run》测试、《黑帝斯》流程分拆",
+        "style_guidance": "案例多样化（休闲+硬核）",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "案例类型覆盖（超休闲+ Rogue-like）"
+        ]
+      }
+    ],
+    "closing_approach": "信息收束式结尾",
+    "closing_effectiveness": 3.0,
+    "closing_analysis": "收尾以转载说明结束，属于媒体平台常规操作，缺少主动的行动呼吁或价值升华。但结合文章性质（软性工具推荐+转载需注明），此收尾符合平台规范和内容调性，未强行升华反而保持专业务实感。",
+    "style_features": [
+      "权威背书贯穿全文（专家履历、学术背景、名企客户、大学背书）",
+      "信息密度高，专业术语丰富",
+      "引用真实用户评价增强可信度",
+      "稀缺性营造增强读者关注动机",
+      "清单式呈现（7个工具、9个符号、三大模块）",
+      "国际视角与国内视角的对比张力"
+    ],
+    "notable_techniques": [
+      "权威人物职业履历清单式铺陈（建立信任）",
+      "信息差制造（2018年工具 vs 国内鲜有人知）",
+      "矩阵式背书（学术机构+知名企业+顶级大学）",
+      "痛点-解决方案叙事框架",
+      "用户证言直接引用",
+      "案例类型覆盖法（休闲+硬核/学术+商业）",
+      "数字冲击（20年经验、10年暴雪、300+大学）"
+    ],
+    "core_tension": "一款在国际顶级游戏公司和300+大学广泛使用、获得技术大奖的专业工具，为何在国内游戏圈几乎无人知晓？",
+    "target_audience": "国内游戏策划从业者、游戏设计专业学生、游戏公司管理层及对游戏数值系统感兴趣的从业者"
+  },
+  "quality_score": 4.0,
+  "tags": [],
+  "created_at": "2026-04-07T16:25:29.592421"
+}

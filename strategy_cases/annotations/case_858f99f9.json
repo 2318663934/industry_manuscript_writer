@@ -1,0 +1,103 @@
+{
+  "case_id": "case_858f99f9",
+  "title": "如何对抗买量大佬，Supercell分享：我们要成为流行文化的一部分！",
+  "article_url": "http://www.gamelook.com.cn/2023/12/532873/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者（CP、发行商、营销人员）、游戏媒体读者、对品牌营销感兴趣的商业人士",
+  "annotation": {
+    "opening_approach": "数据震撼+新闻切入",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇即以Supercell的权威背景和具体数据（5款数十亿美元级爆款、《部落冲突》超100亿美元收入、数亿月活用户）建立行业地位，同时通过'手游已经发生了变化'埋下转折悬念，吸引读者探究变革方向。数据具体有力，身份标签（汉堡王前营销主管）增加可信度。",
+    "structural_pattern": "问题-方案式递进结构",
+    "section_strategies": [
+      {
+        "section_title": "背景引入+问题提出",
+        "position": 1,
+        "structural_approach": "先建立权威背景，再通过反问制造认知落差",
+        "content_focus": "Supercell的行业地位与面临的营销挑战",
+        "style_guidance": "客观陈述+数据支撑，语气自信专业",
+        "transition_to_next": "通过'为什么MAU超过2亿，但文化可见度却没有更高'的反问自然过渡",
+        "notable_techniques": [
+          "权威数据背书",
+          "认知落差制造",
+          "行业身份标签强化"
+        ]
+      },
+      {
+        "section_title": "核心目标阐述",
+        "position": 2,
+        "structural_approach": "将官方使命声明与直白解读并列，突出核心主张",
+        "content_focus": "让游戏出名，成为流行文化的一部分",
+        "style_guidance": "官方→通俗的层层递进，语言简洁有力",
+        "transition_to_next": "承接'如何做到'引出具体策略",
+        "notable_techniques": [
+          "使命宣言降维",
+          "简洁有力的核心主张"
+        ]
+      },
+      {
+        "section_title": "策略方法论",
+        "position": 3,
+        "structural_approach": "以数据图表佐证观点，强调口碑价值",
+        "content_focus": "口碑营销的重要性与'无人讨论则一切徒劳'的核心洞察",
+        "style_guidance": "理性数据+感性洞察结合",
+        "transition_to_next": "用'如何做到'的设问过渡到具体案例",
+        "notable_techniques": [
+          "数据可视化说服",
+          "反转洞察抛出"
+        ]
+      },
+      {
+        "section_title": "具体案例分析",
+        "position": 4,
+        "structural_approach": "先失败案例警示，再成功案例详解",
+        "content_focus": "《皇室战争》×Chess.com合作的成功要素拆解",
+        "style_guidance": "案例驱动，结果导向，数据呈现增长曲线",
+        "transition_to_next": "以'并非每次都奏效'引出关键心得总结",
+        "notable_techniques": [
+          "成功案例详拆解",
+          "失败案例对比警示",
+          "DAU增长曲线数据"
+        ]
+      },
+      {
+        "section_title": "关键心得总结",
+        "position": 5,
+        "structural_approach": "清单式归纳五大要素",
+        "content_focus": "找到对的主题、好的合作伙伴、把活动做大、提供酷炫玩法、强势行为召唤",
+        "style_guidance": "精炼总结，可操作性强",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "清单式归纳",
+          "可操作性强"
+        ]
+      }
+    ],
+    "closing_approach": "总结要点+金句升华",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "以五大关键心得清单收束，逻辑清晰、可操作性强。结尾金句'行为召唤让玩家做可能不想做的事以获得看中的东西'点明用户心理洞察，既是对核心策略的升华，也给读者留下深刻印象。收尾干脆利落，但缺少更宏观的趋势展望。",
+    "style_features": [
+      "行业干货型叙事，兼具案例分析与策略提炼",
+      "专业术语与直白表达并行，兼顾深度与可读性",
+      "数据驱动，每一观点都有具体数据或案例支撑",
+      "引用行业领袖观点增强权威性",
+      "采用'问题-方案'的实用导向结构"
+    ],
+    "notable_techniques": [
+      "数据权威开场：开篇即以具体数字建立行业地位",
+      "认知落差提问：'为什么MAU超2亿但文化可见度不高'制造张力",
+      "使命宣言降维：将官方表述转化为直白核心主张",
+      "口碑数据图示：《部落冲突》68%口碑获量 vs 15%商店发现量形成对比",
+      "反转洞察抛出：'如果没人讨论你的游戏，一切徒劳'强化核心焦虑",
+      "DAU曲线展示：用活跃用户增长数据证明策略有效性",
+      "负面转正面叙事：从'毒性社区'到'所有人享受游戏'展示营销价值",
+      "失败案例警示：《部落冲突》轻度合作失败作为反面教材",
+      "金句收尾升华：行为召唤点明用户心理本质"
+    ],
+    "core_tension": "Supercell拥有巨大的用户规模和收入体量，却面临游戏角色文化影响力不足的困境，亟需从产品营销转向文化渗透。",
+    "target_audience": "游戏行业从业者（CP、发行商、营销人员）、游戏媒体读者、对品牌营销感兴趣的商业人士"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T16:43:15.435122"
+}

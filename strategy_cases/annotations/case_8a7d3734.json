@@ -1,0 +1,75 @@
+{
+  "case_id": "case_8a7d3734",
+  "title": "海外大佬King、AppLovin分享：手游如何在充满挑战的市场活下去？",
+  "article_url": "http://www.gamelook.com.cn/2024/03/539269/",
+  "content_type": "行业分析",
+  "target_audience": "手游营销从业者（买量优化师、产品营销经理）、移动游戏公司决策层、广告代理商及对手游行业感兴趣的投资者",
+  "annotation": {
+    "opening_approach": "问题引发",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "开篇直接点明行业痛点——IDFA消失带来的精准定位和买量成本挑战，建立'挑战-解决'的叙事框架。这种方式能让手游营销从业者快速产生共鸣，自然引出后续三位专家的应对策略。开头既有宏观行业背景，又有具体问题锚点，为整篇文章奠定了务实基调。",
+    "structural_pattern": "问题-方案式（专家观点并列式）",
+    "section_strategies": [
+      {
+        "section_title": "最大挑战：用脱颖而出的内容抢夺用户注意力",
+        "position": 1,
+        "structural_approach": "观点+案例+细节的递进结构",
+        "content_focus": "King公司《糖果传奇》如何通过内容创新应对用户注意力稀缺挑战",
+        "style_guidance": "权威背书式：引用专家职衔和具体项目经验增强可信度；强调时间跨度（四年开发周期、12年产品历史）制造重量感",
+        "transition_to_next": "用'营销嵌入产品团队'引出下一个本地化主题",
+        "notable_techniques": [
+          "具体项目命名法（Candy Crush Allstars）",
+          "时间跨度对比（4年开发、12年产品、50亿下载）",
+          "团队协作策略披露（营销嵌入产品团队）"
+        ]
+      },
+      {
+        "section_title": "本地化营销可事半功倍",
+        "position": 2,
+        "structural_approach": "观点+双案例对比",
+        "content_focus": "Nativex通过两个市场案例证明本地化的ROI价值",
+        "style_guidance": "数据对比式：用具体数字翻倍增长制造冲击力；先否定常见做法再给出正确答案",
+        "transition_to_next": "无明显过渡，直接引入AI技术主题",
+        "notable_techniques": [
+          "否定式开头（'很多人这么做，但没人知道差别'）",
+          "数据矩阵（6倍提升 vs 2倍提升的分层呈现）",
+          "KOL本地化案例的时间线叙事（1年稳定→测试→0.2美元）"
+        ]
+      },
+      {
+        "section_title": "AI技术加持精准广告",
+        "position": 3,
+        "structural_approach": "观点+技术工具介绍+实操建议",
+        "content_focus": "AppLovin如何利用AI实现微观层面的精准竞价和广告创意优化",
+        "style_guidance": "技术解读式：从系统架构（ALX平台）到具体功能（D0/D7优化）分层展开；结尾给出可直接执行的广告创意建议",
+        "transition_to_next": "无过渡，直接以建议收尾",
+        "notable_techniques": [
+          "术语体系构建（ALX、D0、AD ROAS等形成专业壁垒）",
+          "三秒法则的量化标准（具体可执行）",
+          "预算档位建议（5000美元预算对应的创意更新频率）"
+        ]
+      }
+    ],
+    "closing_approach": "无收尾（纯转载信息）",
+    "closing_effectiveness": 2.0,
+    "closing_analysis": "文章以转载来源标注结束，没有总结升华或观点回扣，在一定程度上削弱了文章的完整性。但对于行业媒体转载类文章而言，这种处理方式较为常见，可视为'开放式结尾'让读者自行提炼核心策略。",
+    "style_features": [
+      "专家引用式权威背书",
+      "多来源视角（厂商King、代理商Nativex、平台AppLovin覆盖全链条）",
+      "数据密集型说服（具体数字而非模糊描述）",
+      "实用导向的建议输出"
+    ],
+    "notable_techniques": [
+      "痛点开场法（IDFA消失的行业共识）",
+      "金字塔结构（挑战→内容策略→本地化→AI工具）",
+      "双案例分层（东南亚6倍 vs 巴西CPI减半）",
+      "否定常见认知再给正确答案",
+      "具体预算档位的执行标准"
+    ],
+    "core_tension": "手游营销面临用户注意力稀缺和精准定位失效的双重挑战下，如何通过内容创新、本地化深耕和AI技术实现逆势增长。",
+    "target_audience": "手游营销从业者（买量优化师、产品营销经理）、移动游戏公司决策层、广告代理商及对手游行业感兴趣的投资者"
+  },
+  "quality_score": 3.0,
+  "tags": [],
+  "created_at": "2026-04-07T16:40:44.150393"
+}

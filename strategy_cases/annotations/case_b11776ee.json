@@ -1,0 +1,117 @@
+{
+  "case_id": "case_b11776ee",
+  "title": "黑曜石高级策划分享：桌游RPG最优秀和最值得“借鉴”的玩法",
+  "article_url": "http://www.gamelook.com.cn/2024/01/531445/",
+  "content_type": "行业分析",
+  "target_audience": "游戏策划、开发者、对桌游和电子游戏交叉领域感兴趣的游戏行业从业者",
+  "annotation": {
+    "opening_approach": "主题引入式",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "开篇通过行业背景切入（桌游机制值得借鉴），自然引出GDC演讲和演讲者身份，建立专业权威感。引出话题后直接进入演讲者自我介绍，为后续大量专业知识输出做好铺垫。开头简洁有力，直奔主题，避免冗余。",
+    "structural_pattern": "并列式+递进式",
+    "section_strategies": [
+      {
+        "section_title": "角色与时间",
+        "position": 1,
+        "structural_approach": "核心案例+机制拆解+设计启发",
+        "content_focus": "以《Blades in the Dark》为案例讲解倒叙机制和压力系统，以及时钟系统的设计",
+        "style_guidance": "案例驱动，用具体游戏机制引导读者理解设计原理",
+        "transition_to_next": "从Blades in the Dark过渡到Burning Wheel系列",
+        "notable_techniques": [
+          "案例降维",
+          "机制对比"
+        ]
+      },
+      {
+        "section_title": "信念与本能系统",
+        "position": 2,
+        "structural_approach": "深入解析机制原理+关联延伸",
+        "content_focus": "分析《Burning Wheel》和《Mouse Guard》中的信念、本能、副数值和自然数值系统",
+        "style_guidance": "深入机制底层逻辑，展示如何用数值塑造角色和故事",
+        "transition_to_next": "引入《极乐迪斯科》的'思维阁'作为类比",
+        "notable_techniques": [
+          "类比借鉴",
+          "机制抽象化"
+        ]
+      },
+      {
+        "section_title": "容易偷学的解决方案",
+        "position": 3,
+        "structural_approach": "多样化案例列举+创意工具展示",
+        "content_focus": "介绍roll vs bloody、Jenga机制、Dread的积木塔、Roll and Write等简单却创新的设计",
+        "style_guidance": "强调实用性和可操作性，降低借鉴门槛",
+        "transition_to_next": "过渡到一页纸RPG的'简明扼要'板块",
+        "notable_techniques": [
+          "工具类比",
+          "跨界迁移"
+        ]
+      },
+      {
+        "section_title": "简明扼要",
+        "position": 4,
+        "structural_approach": "极简案例展示",
+        "content_focus": "展示《Honey Heist》《Sexy Battle Wizards》等极简RPG设计",
+        "style_guidance": "轻描淡写，不过多展开，保持节奏紧凑",
+        "transition_to_next": "过渡到OSR'古老的知识'",
+        "notable_techniques": [
+          "极简示范"
+        ]
+      },
+      {
+        "section_title": "古老的知识",
+        "position": 5,
+        "structural_approach": "趋势分析+警告提示",
+        "content_focus": "介绍OSR复古风潮及其对现代游戏设计的启示，同时提醒过度模仿的风险",
+        "style_guidance": "辩证视角，既肯定价值也指出陷阱",
+        "transition_to_next": "过渡到Disco Mist Apocalypse",
+        "notable_techniques": [
+          "辩证分析"
+        ]
+      },
+      {
+        "section_title": "Disco Mist Apocalypse",
+        "position": 6,
+        "structural_approach": "系统推荐+案例背书",
+        "content_focus": "介绍Apocalypse World系统及《City of Mist》《极乐迪斯科》的应用",
+        "style_guidance": "强推荐风格，展示系统优势",
+        "transition_to_next": "过渡到总结",
+        "notable_techniques": [
+          "系统化推荐"
+        ]
+      },
+      {
+        "section_title": "总结",
+        "position": 7,
+        "structural_approach": "要点浓缩+行动建议",
+        "content_focus": "三件具体建议：《Pathologic 2》《Gnosia》以及'从优秀设计学习偷师'的核心观点",
+        "style_guidance": "简洁有力，回归核心主旨",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "三要点收束",
+          "主旨升华"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+行动呼吁",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "收尾以三个具体建议（《Pathologic 2》《Gnosia》加一个核心理念）收束全文，最后落脚到'从最优秀的设计里学习和偷师，不要觉得这样做很丢人'，将'借鉴'升华为行业发展的正道，既回应了开篇的'借鉴'主题，又给予读者行动指引，格局打开，余味悠长。",
+    "style_features": [
+      "专业但不枯燥：大量游戏案例让专业内容生动有趣",
+      "实用导向：始终强调如何'偷学'到数字游戏设计",
+      "跨界思维：持续在桌游与电子游戏之间建立连接",
+      "案例密集：大量具体游戏案例支撑每个观点"
+    ],
+    "notable_techniques": [
+      "跨界迁移法：始终围绕'桌游机制→电子游戏借鉴'的主线",
+      "核心概念具象化：将'压力''时钟''信念'等抽象概念用具体机制解释",
+      "案例矩阵法：用多个游戏案例形成对比和补充",
+      "警示性肯定：肯定借鉴价值同时提醒风险（如OSR板块）",
+      "观点升华：从具体机制上升到'站在巨人肩膀上'的行业智慧"
+    ],
+    "core_tension": "桌游设计的创新智慧如何有效转化为数字游戏的设计资产",
+    "target_audience": "游戏策划、开发者、对桌游和电子游戏交叉领域感兴趣的游戏行业从业者"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T16:26:16.584136"
+}

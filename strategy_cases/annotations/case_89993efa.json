@@ -1,0 +1,87 @@
+{
+  "case_id": "case_89993efa",
+  "title": "完美世界TA谈Stable Diffusion插件，ControlNet、Segment Anything",
+  "article_url": "http://www.gamelook.com.cn/2023/05/518215/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业技术美术从业者、TA主管、对AIGC应用于游戏开发感兴趣的开发者和决策者",
+  "annotation": {
+    "opening_approach": "背景铺陈+行业趋势引入",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "文章以AI绘图行业快速发展为切入点，通过'以月为单位迅速进步'的时间冲击感建立紧迫性，再自然过渡到Stable Diffusion的开源特点和商业应用价值。铺垫较长但为技术内容提供了必要的行业语境，适合专业受众。",
+    "structural_pattern": "总-分-总式/问题-方案式",
+    "section_strategies": [
+      {
+        "section_title": "行业背景与Stable Diffusion引入",
+        "position": 1,
+        "structural_approach": "先铺垫行业趋势，再引入工具特性",
+        "content_focus": "AI绘图发展现状、Stable Diffusion开源优势、社区繁荣原因",
+        "style_guidance": "客观陈述，数据化表达",
+        "transition_to_next": "通过'尝试了很多插件'自然过渡到插件分享环节",
+        "notable_techniques": [
+          "时间冲击（'以月为单位'）",
+          "官方-社区对比引出ControlNet价值"
+        ]
+      },
+      {
+        "section_title": "ControlNet插件详解",
+        "position": 2,
+        "structural_approach": "技术原理+社区贡献故事+实际案例+使用建议",
+        "content_focus": "ControlNet的功能特点、版本更新、多人场景应用效果",
+        "style_guidance": "实战导向，案例驱动",
+        "transition_to_next": "通过'其实还有很多'引出版本更新和补充说明",
+        "notable_techniques": [
+          "社区弯道超车叙事",
+          "前后效果对比（旧版vs OpenPose优化后）",
+          "反面案例警示"
+        ]
+      },
+      {
+        "section_title": "Segment Anything插件详解",
+        "position": 3,
+        "structural_approach": "问题定义+解决方案+案例演示+功能扩展",
+        "content_focus": "解决inpaint抠图痛点、快速分割功能、关键词提取",
+        "style_guidance": "痛点-方案结构，实用性导向",
+        "transition_to_next": "插件组合使用建议，过渡到总结",
+        "notable_techniques": [
+          "痛点场景还原（'你在抠图时有多难受，用inpaint控制就有多难受'）",
+          "实操步骤拆解"
+        ]
+      },
+      {
+        "section_title": "工具组合与未来展望",
+        "position": 4,
+        "structural_approach": "组合方案总结+应用前景展望",
+        "content_focus": "ControlNet+Segment Anything组合、可控性提升",
+        "style_guidance": "总结性语言，轻度展望",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "组合拳概念提炼",
+          "'可控性把握'核心观点收束"
+        ]
+      }
+    ],
+    "closing_approach": "总结要点+致谢",
+    "closing_effectiveness": 3.0,
+    "closing_analysis": "收尾较为平淡，仅概括了分享内容范围并致谢邀请方。虽然有'非常值得探索'的轻展望，但缺少核心观点回扣或金句升华。演讲实录的天然属性限制了收尾的深度和感染力。",
+    "style_features": [
+      "演讲实录的口语化风格",
+      "专业技术内容+实操建议结合",
+      "案例驱动型技术讲解",
+      "反面案例警示增强可信度",
+      "工具链接和资源附赠（官网、下载地址、安装路径）"
+    ],
+    "notable_techniques": [
+      "社区弯道超车叙事（ControlNet超越官方大模型）",
+      "痛点场景还原比喻（'抠图多难受，控制inpaint就有多难受'）",
+      "前后效果对比（多人场景旧版vs OpenPose优化版）",
+      "反面案例教学（关节位置过黑的识别问题）",
+      "实操建议清单式输出（拍照建议、姿势参考包、Blender插件）",
+      "工具组合拳概念（ControlNet做大方向+Segment Anything做细节）"
+    ],
+    "core_tension": "AI工具的强大能力与游戏美术'可控性'需求之间的矛盾",
+    "target_audience": "游戏行业技术美术从业者、TA主管、对AIGC应用于游戏开发感兴趣的开发者和决策者"
+  },
+  "quality_score": 3.5,
+  "tags": [],
+  "created_at": "2026-04-07T16:10:07.794397"
+}

@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "name": "rag-writer",
+      "script": "rag_writer/web_demo.py",
+      "interpreter": "python",
+      "cwd": ".",
+      "args": "",
+      "instances": 1,
+      "exec_mode": "fork",
+      "max_memory_restart": "2G",
+      "env": {
+        "HF_ENDPOINT": "https://hf-mirror.com"
+      },
+      "autorestart": true,
+      "watch": false,
+      "kill_timeout": 5000,
+      "kill_retry_time": 2000,
+      "wait_ready": true,
+      "listen_timeout": 30000,
+      "ignore_watch": ["milvus", "strategy_cases", "spider/data", "__pycache__", ".claude", "logs"],
+      "log_date_format": "YYYY-MM-DD HH:mm:ss",
+      "error_file": "logs/rag-writer-error.log",
+      "out_file": "logs/rag-writer-out.log",
+      "merge_logs": true
+    }
+  ]
+}

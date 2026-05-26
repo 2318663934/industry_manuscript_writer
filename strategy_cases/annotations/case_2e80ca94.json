@@ -1,0 +1,78 @@
+{
+  "case_id": "case_2e80ca94",
+  "title": "叠纸游戏Unite大会分析：《恋与深空》的影视级渲染管线打造",
+  "article_url": "http://www.gamelook.com.cn/2025/11/580940/",
+  "content_type": "行业分析",
+  "target_audience": "游戏开发者（尤其Unity/移动端）、技术美术、游戏行业从业者、关注二游技术力的玩家群体",
+  "annotation": {
+    "opening_approach": "数据震撼+新闻切入",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "文章开篇即用重量级商业数据（7000万玩家、8亿月流水、科隆展最佳移动游戏）建立权威性，随后自然过渡到技术分享主题。这种写法既吸引泛行业读者关注，又为后续硬核技术内容铺垫专业可信度，实现'商业成功验证技术价值'的叙事逻辑。",
+    "structural_pattern": "并列式+递进式",
+    "section_strategies": [
+      {
+        "section_title": "场景渲染优化",
+        "position": 1,
+        "structural_approach": "问题定义→方案提出→技术验证→benchmark对比",
+        "content_focus": "RendererGroupRenderer系统、GPU Driven渲染、InstanceData优化、单DrawCall性能优化",
+        "style_guidance": "保持技术深度，用具体数据支撑结论，强调实际性能提升而非理论优化",
+        "transition_to_next": "通过'单DrawCall性能优化'作为CPU侧优化总结，自然引入光照方案部分",
+        "notable_techniques": [
+          "性能数据量化：33ms→11.8ms的性能对比",
+          "反常识观点：DrawCall数量不是唯一衡量标准",
+          "Benchmark验证：使用测试数据支撑每个优化决策"
+        ]
+      },
+      {
+        "section_title": "光照方案",
+        "position": 2,
+        "structural_approach": "方案选择→问题分析→技术实现→特殊应用",
+        "content_focus": "前向渲染管线选择、Forward+改进、Light Pre-Pass、GI方案",
+        "style_guidance": "强调为何选择该方案而非罗列功能，展示技术决策的思考过程",
+        "transition_to_next": "通过阴影作为光照系统的自然延伸过渡",
+        "notable_techniques": [
+          "多方案对比：详述未选方案的问题（延迟管线、Forward+等）",
+          "技巧性存储：利用RGBA8通道复用存储UV信息",
+          "归一化技术：参考战神的Reflection Probe处理方法"
+        ]
+      },
+      {
+        "section_title": "阴影优化",
+        "position": 3,
+        "structural_approach": "功能设计→优化策略→效果保证",
+        "content_focus": "三级CSM、ScreenSpaceShadowMask、半影区域检测、逐像素bias",
+        "style_guidance": "突出细节优化，展示'保证效果的降成本'思路",
+        "transition_to_next": "文章截断，未完整呈现",
+        "notable_techniques": [
+          "Debug视图可视化：红色半影区间标识",
+          "多层级优化：固定bias→逐像素bias的对比",
+          "分辨率分级：1/4→全分辨率的自适应PCF"
+        ]
+      }
+    ],
+    "closing_approach": "文章截断（内容已截断），无法完整评估",
+    "closing_effectiveness": 3.0,
+    "closing_analysis": "由于文章内容被截断，无法看到完整收尾。但根据现有内容推测，若有完整版本，可能以总结优化成果或展望Vulkan版本改进方向收尾。",
+    "style_features": [
+      "技术硬核但不晦涩：用具体数值和问题场景解释复杂概念",
+      "决策导向：每个技术选择都有'为何这样做'的解释",
+      "数据驱动：用benchmark数据而非主观判断验证优化效果",
+      "案例引用：借鉴行业优秀实践（龙之教条、战神）",
+      "反直觉观点：挑战业界'DrawCall数量=性能'的常见误区"
+    ],
+    "notable_techniques": [
+      "开篇数据震撼：商业成功数据建立技术分享的可信度",
+      "方案对比叙事：详述未选方案的问题，凸显决策合理性",
+      "性能量化呈现：每个优化点都有具体数据支撑",
+      "反常识挑战：提出'DrawCall数量非唯一指标'的新视角",
+      "Benchmark验证法：用测试数据验证每个优化决策",
+      "技巧复用：利用通道存储空间存放额外信息（MotionVector的BA通道）",
+      "Debug可视化：将抽象优化具象化呈现"
+    ],
+    "core_tension": "在移动端硬件限制下，如何通过自研SRP管线和深度优化实现影视级渲染效果",
+    "target_audience": "游戏开发者（尤其Unity/移动端）、技术美术、游戏行业从业者、关注二游技术力的玩家群体"
+  },
+  "quality_score": 4.0,
+  "tags": [],
+  "created_at": "2026-04-07T15:55:27.082278"
+}

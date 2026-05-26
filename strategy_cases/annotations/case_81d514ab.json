@@ -1,0 +1,142 @@
+{
+  "case_id": "case_81d514ab",
+  "title": "Supercell掀桌子：“全邀请码发行”新游48国TOP10，首日复盘：真的不买量！",
+  "article_url": "http://www.gamelook.com.cn/2025/03/566730/",
+  "content_type": "行业分析",
+  "target_audience": "手游行业从业者（CP、发行、营销）、游戏投资观察者、Supercell产品关注者",
+  "annotation": {
+    "opening_approach": "新闻事件切入+背景补充",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "开篇直接引入3月18日Supercell新游上线的热点事件，补充了与去年《爆裂小队》发布间隔不到一年的背景信息，同时点明'全邀请码'这一与传统营销截然不同的发行方式，建立核心悬念。标题已埋下'真的不买量'的冲击点，开篇顺势展开，吸引读者探究这一反常识现象。",
+    "structural_pattern": "递进式（事件引入→成绩呈现→核心论点论证→模式解析→平台分析→深层思考→留白展望）",
+    "section_strategies": [
+      {
+        "section_title": "事件背景引入",
+        "position": 1,
+        "structural_approach": "事件+背景双线并行",
+        "content_focus": "Supercell《MO.CO》上线及发行方式创新",
+        "style_guidance": "简洁平实，交代关键信息点",
+        "transition_to_next": "自然过渡到免费榜成绩",
+        "notable_techniques": [
+          "时间节点锚定",
+          "对比铺垫（与《爆裂小队》间隔）"
+        ]
+      },
+      {
+        "section_title": "成绩数据展示",
+        "position": 2,
+        "structural_approach": "数据矩阵呈现",
+        "content_focus": "48国iOS免费榜TOP10的具体成绩",
+        "style_guidance": "数据密集但条理清晰，用具体数字说话",
+        "transition_to_next": "引出亚洲T1市场例外表现",
+        "notable_techniques": [
+          "地理矩阵列举",
+          "核心市场特别标注",
+          "成绩+待优化对比"
+        ]
+      },
+      {
+        "section_title": "畅销榜成绩及国服信息",
+        "position": 3,
+        "structural_approach": "成绩补充+信息延展",
+        "content_focus": "免费榜与畅销榜的反差，国服进展",
+        "style_guidance": "承上启下，为核心论点埋伏笔",
+        "transition_to_next": "引出核心论点——不买量却有好成绩",
+        "notable_techniques": [
+          "畅销榜数据留白（暗示付费转化待观察）",
+          "国服信息自然穿插"
+        ]
+      },
+      {
+        "section_title": "核心论点：成绩却意外地不错",
+        "position": 4,
+        "structural_approach": "对比反差强化论点",
+        "content_focus": "没有AppStore推荐、没有买量，却取得亮眼免费榜成绩",
+        "style_guidance": "语气肯定，用'惊人'等词汇强化反差感",
+        "transition_to_next": "引入第三方数据平台佐证",
+        "notable_techniques": [
+          "反常识对比",
+          "否定式强调（没有...没有...却...）",
+          "玩家社区反馈佐证"
+        ]
+      },
+      {
+        "section_title": "邀请码模式运作机制解析",
+        "position": 5,
+        "structural_approach": "机制拆解+细节展示",
+        "content_focus": "动态邀请码的时间规则、创作者分账机制",
+        "style_guidance": "细节丰富，还原操作场景",
+        "transition_to_next": "过渡到玩家分享机制",
+        "notable_techniques": [
+          "时间节点精细化（48小时/20分钟/24小时）",
+          "机制逻辑自洽性展示",
+          "创作者激励闭环"
+        ]
+      },
+      {
+        "section_title": "平台表现差异分析",
+        "position": 6,
+        "structural_approach": "横向对比+原因剖析",
+        "content_focus": "Youtube/Twitch/Discord/Reddit/TikTok各平台效果差异",
+        "style_guidance": "客观呈现，数据说话",
+        "transition_to_next": "引出深层问题——KOL流量可持续性",
+        "notable_techniques": [
+          "平台矩阵对比",
+          "数据颗粒度统一",
+          "平台特性与模式适配分析"
+        ]
+      },
+      {
+        "section_title": "深层问题：真正的考验还未到来",
+        "position": 7,
+        "structural_approach": "转折深化+问题抛出",
+        "content_focus": "KOL流量衰减风险、模式可持续性挑战",
+        "style_guidance": "冷静理性，承认不确定性",
+        "transition_to_next": "解释Supercell的策略意图",
+        "notable_techniques": [
+          "转折性陈述",
+          "平台适配性解释",
+          "Supercell战略意图推测"
+        ]
+      },
+      {
+        "section_title": "核心矛盾与未来展望",
+        "position": 8,
+        "structural_approach": "总结升华+留白思考",
+        "content_focus": "大DAU需求与邀请码模式的内在张力",
+        "style_guidance": "收束全文，开放性结尾",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "深层逻辑揭示",
+          "引用品牌基因（'创意和商业模型良心'）",
+          "开放式评价标准"
+        ]
+      }
+    ],
+    "closing_approach": "留白思考+开放式评价",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "收尾不急于下结论，而是抛出核心观察维度（坚持多长时间、积累多少用户），既呼应了开篇的悬念，又保持了行业观察的客观性。最后一句回归Supercell品牌特质，暗示其选择邀请码模式可能是深思熟虑的战略试水，而非单纯营销创新。这种留白让读者参与思考，延长文章影响力。",
+    "style_features": [
+      "新闻特稿式行业分析",
+      "数据驱动型论证",
+      "行业视角与玩家视角兼顾",
+      "冷静客观中带有编辑立场",
+      "细节丰富但不冗余"
+    ],
+    "notable_techniques": [
+      "标题即悬念（'掀桌子'/'真的不买量'冲击感）",
+      "否定式强调（没有...没有...却...）",
+      "第三方数据+玩家社区双佐证",
+      "机制拆解式写作（邀请码规则还原）",
+      "平台矩阵横向对比",
+      "转折性陈述（'但真正考验还未到来'）",
+      "品牌基因引用收束",
+      "开放式评价标准设定"
+    ],
+    "core_tension": "全邀请码发行模式能否突破传统买量逻辑、验证'酒香不怕巷子深'的手游营销新可能",
+    "target_audience": "手游行业从业者（CP、发行、营销）、游戏投资观察者、Supercell产品关注者"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T16:30:50.558368"
+}

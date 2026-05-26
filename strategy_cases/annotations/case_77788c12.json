@@ -1,0 +1,155 @@
+{
+  "case_id": "case_77788c12",
+  "title": "三角洲是真的想把搜打撤电竞做明白",
+  "article_url": "https://mp.weixin.qq.com/s/VB24ayhO583IGFpaZxSqmw",
+  "content_type": "行业分析",
+  "target_audience": "核心玩家（需要证明自己热爱的游戏有电竞潜力）、游戏行业从业者（关注电竞生态案例）、泛游戏用户（被现场故事和戏剧性叙事吸引）",
+  "annotation": {
+    "opening_approach": "场景描写+故事切入",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "以亲历者视角开篇，通过具体时间地点、空气污染细节、观众远征20公里的真实细节建立沉浸感。5000万日活数据适时插入，既建立权威性又为后文铺垫。'梦寐以求的极致猛攻比赛'的标题式金句开头极具吸引力。",
+    "structural_pattern": "递进式（现场氛围→问题溯源→规则解析→效果验证→生态布局→升华展望）",
+    "section_strategies": [
+      {
+        "section_title": "现场氛围烘托",
+        "position": 1,
+        "structural_approach": "由面到点，从场馆全景到观众身份再到比赛本身",
+        "content_focus": "建立现场氛围，展示赛事吸引力与观众热情",
+        "style_guidance": "用数据（5000万日活）和细节（盲摸大红、通关8秒）交叉印证",
+        "transition_to_next": "用'比赛正式开始时，整个场馆里也弥漫着快活的空气'自然过渡",
+        "notable_techniques": [
+          "第一人称亲历视角",
+          "精确数据锚定",
+          "观众身份切片（大学生远征/忠实粉丝）"
+        ]
+      },
+      {
+        "section_title": "现场观感与观众互动",
+        "position": 2,
+        "structural_approach": "互动环节穿插展示核心玩家特征",
+        "content_focus": "通过盲摸环节证明到场观众都是最核心的玩家",
+        "style_guidance": "用极短时间（不到10秒）和通三关不到8秒制造数据冲击",
+        "transition_to_next": "用'比赛正式开始'完成场景转换",
+        "notable_techniques": [
+          "侧面描写（互动环节证明玩家水平）",
+          "数字强化说服力"
+        ]
+      },
+      {
+        "section_title": "揭幕战整体观感",
+        "position": 3,
+        "structural_approach": "定性评价+具体场面描写",
+        "content_focus": "确立比赛达到正规职业赛事水准",
+        "style_guidance": "用'易大山一打三''SYG HG一打三'等具体名场面印证",
+        "transition_to_next": "用'在此之前'引出历史问题",
+        "notable_techniques": [
+          "名场面举证",
+          "观众反应侧面烘托"
+        ]
+      },
+      {
+        "section_title": "历史问题溯源",
+        "position": 4,
+        "structural_approach": "对比式问题呈现",
+        "content_focus": "解释为何之前的主播赛/娱乐赛不健康（互架杯现象）",
+        "style_guidance": "用'螳螂捕蝉黄雀在后'的比喻和'长达20分钟垃圾时间'的数据量化问题严重性",
+        "transition_to_next": "用'目前三角洲烽火职业联赛所采用的...规则'引出解决方案",
+        "notable_techniques": [
+          "问题-溯因分析",
+          "比喻修辞（螳螂/黄雀/渔翁）",
+          "数据量化问题"
+        ]
+      },
+      {
+        "section_title": "夺砖积分制规则详解",
+        "position": 5,
+        "structural_approach": "规则拆解+目的说明",
+        "content_focus": "解释新规则如何解决互架问题",
+        "style_guidance": "用'砖'的核心地位说明规则导向，关联超级马力欧派对星星比喻增加趣味",
+        "transition_to_next": "用'一系列规则体系的演变'扩展到更多设计参考",
+        "notable_techniques": [
+          "核心概念聚焦（砖）",
+          "游戏IP跨界类比",
+          "规则-目的对应说明"
+        ]
+      },
+      {
+        "section_title": "经济系统与战术设计",
+        "position": 6,
+        "structural_approach": "多维度规则叠加解析",
+        "content_focus": "展示有限经济系统如何迫使队伍激进打法",
+        "style_guidance": "用具体物品（五级套/AWM）和战术概念（ECO/跑刀/夺舍）建立专业感",
+        "transition_to_next": "用'然而'引出规则效果验证",
+        "notable_techniques": [
+          "电竞术语密度",
+          "生活化比喻（化身脱缰野狗）",
+          "战术概念嵌套"
+        ]
+      },
+      {
+        "section_title": "揭幕战效果验证",
+        "position": 7,
+        "structural_approach": "三支队伍的三种戏剧性叙事",
+        "content_focus": "用Q9爆冷/SYG逆袭/eStar失误三个案例证明规则有效性",
+        "style_guidance": "三个案例形成叙事节奏：意外→逆袭→戏剧性失误，覆盖所有戏剧张力类型",
+        "transition_to_next": "用'回望这场揭幕战'进行阶段性总结",
+        "notable_techniques": [
+          "叙事弧线设计（三幕式戏剧结构）",
+          "悬念制造（倒数第一逆袭）",
+          "代入式观赛视角"
+        ]
+      },
+      {
+        "section_title": "电竞生态布局",
+        "position": 8,
+        "structural_approach": "从赛事规则上升到生态战略",
+        "content_focus": "展示春季赛到世界杯的完整赛事闭环",
+        "style_guidance": "用具体数据（500万奖金/24支队伍/每周5天比赛）建立规模感",
+        "transition_to_next": "用'至此，三角洲的赛事生态形成了闭环'收束话题",
+        "notable_techniques": [
+          "规模数据矩阵",
+          "赛制闭环图示化",
+          "临时席位激励设计亮点"
+        ]
+      },
+      {
+        "section_title": "升华展望",
+        "position": 9,
+        "structural_approach": "主题升华+金句收束",
+        "content_focus": "用'赢出定义'点明赛事战略意义",
+        "style_guidance": "从'做明白'到'定义品类'到'定义长青游戏电竞版图'三层递进",
+        "transition_to_next": "无直接过渡，以问句收尾留白思考",
+        "notable_techniques": [
+          "升维收尾",
+          "反问留白",
+          "金句点睛（赢出定义）"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+留白思考",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "从'做明白'到'定义搜打撤品类该怎么做'到'定义长青游戏电竞版图'完成三层递进升华。结尾以'能否爆发出堪比游戏本身的活跃生命力'的设问留白，既回应标题又制造悬念。'几百号观众的掌声和笑声'回归感性，与开篇的现场描写形成呼应。",
+    "style_features": [
+      "专业术语与网络梗融合（ECO/跑刀/夺舍/大狙/劝架）",
+      "数据密度高（5000万日活/20公里/80万哈夫币/500万奖金）",
+      "第一人称亲历视角贯穿全文",
+      "游戏IP跨界类比（超级马力欧派对/大逃杀/传统团竞FPS）",
+      "幽默感贯穿（脱缰野狗/野生大红刀片服务器没人捡）"
+    ],
+    "notable_techniques": [
+      "场景沉浸式开篇（时间地点感官细节全要素）",
+      "三幕式戏剧结构案例叙事（意外→逆袭→失误）",
+      "问题-溯因-方案递进逻辑",
+      "专业术语密集轰炸建立行业权威",
+      "生活化比喻消解专业门槛（砖=星星/脱缰野狗）",
+      "数据锚定增强可信度（20分钟垃圾时间/8秒通关）",
+      "首尾呼应（现场氛围→现场掌声笑声）",
+      "升维收尾（规则→生态→行业定义）"
+    ],
+    "core_tension": "传统认知认为'搜打撤不适合做电竞'，但三角洲用规则迭代证明了该品类可以产生专业、有看头的电竞内容",
+    "target_audience": "核心玩家（需要证明自己热爱的游戏有电竞潜力）、游戏行业从业者（关注电竞生态案例）、泛游戏用户（被现场故事和戏剧性叙事吸引）"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T15:01:38.400977"
+}

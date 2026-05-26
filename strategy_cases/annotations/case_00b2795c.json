@@ -1,0 +1,100 @@
+{
+  "case_id": "case_00b2795c",
+  "title": "《2025年全球畅销手游运营活动洞察》-2025年收入有望突破820亿美元",
+  "article_url": "http://www.gamelook.com.cn/2025/12/584623/",
+  "content_type": "行业分析",
+  "target_audience": "手游行业从业者（发行商、CP、运营人员）、投资机构、游戏行业分析师",
+  "annotation": {
+    "opening_approach": "背景铺垫+趋势预判",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "开篇通过宏观背景（全球宏观经济调整、用户行为模式变化）建立议题重要性，然后直接抛出核心论点（精细化、高品质的运营活动设计），明确报告聚焦方向。但整体平实，缺少数据震撼或具体案例的冲击感，略偏学术报告风格。",
+    "structural_pattern": "总分总+并列递进式",
+    "section_strategies": [
+      {
+        "section_title": "市场现状与核心数据",
+        "position": 1,
+        "structural_approach": "数据密集型开篇，用具体数字建立权威性和可信度",
+        "content_focus": "820亿美元市场规模、135款超1亿美元产品、策略手游150亿美元",
+        "style_guidance": "用数字说话，保持简洁、数据驱动风格",
+        "transition_to_next": "用\"成功经验指向核心驱动力\"自然过渡到运营活动主题",
+        "notable_techniques": [
+          "数据矩阵对比",
+          "市场规模量化",
+          "赛道细分数据"
+        ]
+      },
+      {
+        "section_title": "头部产品案例印证",
+        "position": 2,
+        "structural_approach": "案例支撑型，用具体产品验证市场数据",
+        "content_focus": "《Last War: Survival》和《Whiteout Survival》的收入数据和增长态势",
+        "style_guidance": "保持数据精确性，强调\"高付费玩家\"和\"长生命周期价值\"卖点",
+        "transition_to_next": "用\"高密度、多层次协同\"引出运营活动体系框架",
+        "notable_techniques": [
+          "产品榜单背书",
+          "数字对比强化"
+        ]
+      },
+      {
+        "section_title": "运营活动体系理论框架",
+        "position": 3,
+        "structural_approach": "金字塔型层级结构，从常规→特色→大型活动递进",
+        "content_focus": "三类活动的定义、功能和协同机制",
+        "style_guidance": "清晰的功能定位，每类活动配合具体活动类型示例",
+        "transition_to_next": "用\"手游常见运营活动详解\"引出具体活动类型深度解析",
+        "notable_techniques": [
+          "活动体系金字塔",
+          "功能分类矩阵",
+          "玩家需求对应"
+        ]
+      },
+      {
+        "section_title": "运营活动类型详解",
+        "position": 4,
+        "structural_approach": "并列式深度拆解，逐一解析具体活动机制",
+        "content_focus": "滚动优惠、通行证、收集系统的机制原理和商业价值",
+        "style_guidance": "机制解析+商业价值说明，保持专业但易懂",
+        "transition_to_next": "用案例落地理论",
+        "notable_techniques": [
+          "机制原理解析",
+          "玩家心理驱动分析",
+          "商业价值量化"
+        ]
+      },
+      {
+        "section_title": "案例实证",
+        "position": 5,
+        "structural_approach": "案例验证型，用具体产品展示节日活动效果",
+        "content_focus": "《Whiteout Survival》万圣节活动的9个联动活动和日流水效果",
+        "style_guidance": "具体数据支撑，强调联动性和即时效果",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "具体案例深挖",
+          "活动数量量化",
+          "效果数据验证"
+        ]
+      }
+    ],
+    "closing_approach": "案例实证收尾",
+    "closing_effectiveness": 3.0,
+    "closing_analysis": "以《Whiteout Survival》万圣节活动案例作为收尾，用具体数据（9个联动活动、日流水飙升）验证前文理论框架，但缺少理论升华或未来展望，整体有头重脚轻之感，结尾略显单薄。",
+    "style_features": [
+      "专业数据报告风格",
+      "理论框架与案例实证结合",
+      "B端商业分析语言",
+      "数据驱动型论述"
+    ],
+    "notable_techniques": [
+      "开篇数据预告（标题和小标题双重数据锚点）",
+      "活动体系金字塔结构（常规→特色→大型）",
+      "机制原理解析（滚动优惠的蛇形路径设计）",
+      "玩家心理驱动分析（好奇心、目标感、集齐动机）",
+      "商业价值量化表达（稳定且可扩展的付费场景）"
+    ],
+    "core_tension": "市场波动性依然存在 vs 头部产品通过精细化运营实现逆势增长，核心矛盾指向运营活动设计作为穿越周期的关键驱动力",
+    "target_audience": "手游行业从业者（发行商、CP、运营人员）、投资机构、游戏行业分析师"
+  },
+  "quality_score": 3.5,
+  "tags": [],
+  "created_at": "2026-04-07T16:27:01.625243"
+}

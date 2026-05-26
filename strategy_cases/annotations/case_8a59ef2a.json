@@ -1,0 +1,101 @@
+{
+  "case_id": "case_8a59ef2a",
+  "title": "Stability AI巨亏拟卖身，Autodesk公布AIGC 3D建模工具Bernini",
+  "article_url": "http://www.gamelook.com.cn/2024/05/544280/",
+  "content_type": "行业分析",
+  "target_audience": "游戏开发者、AIGC从业者、科技投资人和行业观察者",
+  "annotation": {
+    "opening_approach": "数据震撼+新闻切入",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇直接引用外媒报道，通过Stability AI的财务数据（500万美元收入 vs 3000万美元亏损 vs 1亿美元债务）制造强烈的数字对比冲击，配合'卖身'、'巨亏'等关键词，立刻抓住读者对AIGC行业风险与机遇的关注。数据化的开头既有新闻时效性，又为后续对比Autodesk的正面发展埋下伏笔。",
+    "structural_pattern": "对比式+递进式",
+    "section_strategies": [
+      {
+        "section_title": "Stability AI困境报道",
+        "position": 1,
+        "structural_approach": "倒叙式新闻叙事+数据支撑",
+        "content_focus": "Stability AI资金危机、核心团队流失、估值泡沫与IP争议",
+        "style_guidance": "客观冷静的新闻报道口吻，用数据说话，克制情绪表达",
+        "transition_to_next": "以'AIGC领域不缺乏新工具可用'一句自然过渡，引出行业新动态",
+        "notable_techniques": [
+          "数据矩阵对比（收入/亏损/债务三组数据并列）",
+          "人物动态追踪（CEO跑路、核心团队离职）",
+          "IPO式回顾（40亿估值融资失败的历史）"
+        ]
+      },
+      {
+        "section_title": "行业新工具概览",
+        "position": 2,
+        "structural_approach": "列举式过渡段",
+        "content_focus": "快速扫描谷歌、OpenAI、Meta、英伟达等巨头的3D生成AI工具",
+        "style_guidance": "简洁紧凑的信息罗列，营造行业繁荣的紧迫感",
+        "transition_to_next": "引出Autodesk的具体案例作为重点展开",
+        "notable_techniques": [
+          "矩阵式列举（巨头+初创公司工具一览）",
+          "功能标签式描述（文生3D、文生视频等）"
+        ]
+      },
+      {
+        "section_title": "Project Bernini详解",
+        "position": 3,
+        "structural_approach": "技术解读+功能展示+商业价值三层递进",
+        "content_focus": "Autodesk的Bernini模型技术特点、输入方式、功能优势",
+        "style_guidance": "专业但可读的技术解释，强调'功能性3D结构'的差异化定位",
+        "transition_to_next": "通过水罐案例对比，引出业内质疑",
+        "notable_techniques": [
+          "类比对比（水罐生成效果vs竞品）",
+          "学术背书（香港中文大学合作论文）",
+          "行业报告引用（78%/79%数据）"
+        ]
+      },
+      {
+        "section_title": "质疑与争议",
+        "position": 4,
+        "structural_approach": "引入第三方观点+开放性思考",
+        "content_focus": "多边形优化问题、从业者岗位担忧",
+        "style_guidance": "保持客观中立，展示技术发展的两面性",
+        "transition_to_next": "以'没人知道是福音还是噩耗'引出哲理性收尾",
+        "notable_techniques": [
+          "观点对冲（技术乐观vs就业焦虑）",
+          "悬念留白"
+        ]
+      },
+      {
+        "section_title": "行业展望",
+        "position": 5,
+        "structural_approach": "升华式收尾",
+        "content_focus": "从工具意义升华到行业推动力",
+        "style_guidance": "理性与感性结合，既有商业洞见也有人文关怀",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "升维收尾（从个体到行业）",
+          "哲理金句（技术进步不以个人意志转移）",
+          "行动号召（值得所有同行关注）"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+行动呼吁",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "收尾将讨论从工具层面升华到行业变革视角，'Autodesk迈出的一小步，行业的一大步'既呼应开头AIGC热潮，又形成完整的叙事闭环。'技术进步不以个人意志转移'的哲理性陈述为文章增添深度，最后以'值得所有同行关注'的行动呼吁增强读者参与感。",
+    "style_features": [
+      "新闻特稿式客观叙事",
+      "行业分析师式深度解读",
+      "数据驱动的事实呈现",
+      "对比式论证贯穿全文"
+    ],
+    "notable_techniques": [
+      "开篇数据矩阵冲击（亏损/债务数据并列）",
+      "对比叙事结构（失败案例vs成功案例）",
+      "水罐案例的精准类比",
+      "学术论文背书增强可信度",
+      "升维收尾法（工具→行业→哲学）",
+      "开放性问题留白（福音or噩耗）",
+      "行业报告数据引用（78%/79%双数据）"
+    ],
+    "core_tension": "AIGC工具的效率革命与从业者岗位生存之间的根本矛盾，以及技术进步不可阻挡的历史规律",
+    "target_audience": "游戏开发者、AIGC从业者、科技投资人和行业观察者"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T16:02:43.961700"
+}

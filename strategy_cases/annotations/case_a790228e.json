@@ -1,0 +1,112 @@
+{
+  "case_id": "case_a790228e",
+  "title": "Valve官方分享：如何在Steam平台营销你的游戏？",
+  "article_url": "http://www.gamelook.com.cn/2024/06/547259/",
+  "content_type": "行业分析",
+  "target_audience": "独立游戏开发者、Steam平台游戏发行商、小型游戏工作室、对平台营销策略感兴趣的游戏从业者。",
+  "annotation": {
+    "opening_approach": "问题引发",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "开篇通过提出行业痛点（游戏太多难以脱颖而出）引发开发者共鸣，然后引入官方权威声音，既建立可信度又明确读者利益。问题直击目标受众的核心焦虑，有效吸引注意并建立阅读期待。",
+    "structural_pattern": "时间线式+递进式",
+    "section_strategies": [
+      {
+        "section_title": "问题导入与核心论点",
+        "position": 1,
+        "structural_approach": "从行业现状切入，逐步递进到核心观点，强调游戏本身是最有效的营销工具。通过Kaci Aitchison Boyle的官方背景强化论证力度。",
+        "content_focus": "确立文章核心论点：在Steam做营销的最好方法是在游戏发布前就开始，游戏本身就是最好的营销工具。",
+        "style_guidance": "以对话语气和实用建议为主，建立与读者的亲近感。通过实际问题引导，帮助开发者理解为何游戏本身就是最佳营销。",
+        "transition_to_next": "通过'接下来'引出对Steam平台机制的解释，为读者理解后续建议奠定基础。",
+        "notable_techniques": [
+          "权威引用",
+          "问题引导"
+        ]
+      },
+      {
+        "section_title": "Steam平台定位与营销哲学",
+        "position": 2,
+        "structural_approach": "采用自助餐比喻解释Steam的开放性，强调平台不主导流行，而是由玩家决定游戏命运。通过反例说明平台定位。",
+        "content_focus": "阐述Steam的核心价值观：服务于所有类型玩家，由用户选择驱动推荐机制。",
+        "style_guidance": "用生活化的比喻让抽象概念具体化，增强读者理解。通过对比突出平台独特性。",
+        "transition_to_next": "通过'这也是在Steam平台做游戏营销的时候，每个过程都需要问自己非常重要问题的原因'自然过渡。",
+        "notable_techniques": [
+          "自助餐比喻",
+          "反例强化",
+          "核心问题设置"
+        ]
+      },
+      {
+        "section_title": "三阶段营销框架（研发完成前）",
+        "position": 3,
+        "structural_approach": "以虚构案例'Shut Up, Biscuit'贯穿始终，详解商店页面的关键要素：宣传片、截屏、描述、标签等。",
+        "content_focus": "强调预热期的重要性，指导如何通过商店页面有效展示游戏，获取愿望清单。",
+        "style_guidance": "理论与实践相结合，通过具体案例展示各要素的具体应用，帮助开发者理解细节重要性。",
+        "transition_to_next": "用'你可能已经'等过渡词引入下一阶段的内容。",
+        "notable_techniques": [
+          "虚构案例贯穿",
+          "清单式呈现",
+          "视觉要素详解"
+        ]
+      },
+      {
+        "section_title": "准备发布阶段",
+        "position": 4,
+        "structural_approach": "聚焦反馈收集机制，包括封闭测试、Steam Playtest和Demo。强调这些既是测试工具，也是营销手段。",
+        "content_focus": "阐述如何通过玩家反馈优化游戏，以及如何借助Next Fest等活动获取关注。",
+        "style_guidance": "强调反馈的双重价值——既是改进依据，也是社区建立的机会。",
+        "transition_to_next": "通过'游戏发布及以后'自然承接，保持叙述的连贯性。",
+        "notable_techniques": [
+          "价值双关",
+          "活动节点把握"
+        ]
+      },
+      {
+        "section_title": "发布及后续运营",
+        "position": 5,
+        "structural_approach": "阐述发布时Steam的自动机制（愿望清单通知等），重点关注如何让游戏持续保持吸引力。",
+        "content_focus": "强调发布后的持续运营，通过折扣、更新、活动等方式维持玩家关注。",
+        "style_guidance": "强调运营的持续性，让开发者理解发布不是终点而是起点。",
+        "transition_to_next": "用'所以，这里做一些简单的总结'引出结论部分。",
+        "notable_techniques": [
+          "时机把握",
+          "持续运营理念"
+        ]
+      },
+      {
+        "section_title": "总结与行动指引",
+        "position": 6,
+        "structural_approach": "归纳核心原则：保持真实、尽早建立社区、聆听反馈并持续调整。",
+        "content_focus": "为开发者提供清晰的行动路线图，强调真诚和持续互动的价值。",
+        "style_guidance": "以简洁有力的语言收束全文，呼应开篇的核心论点。",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "原则归纳",
+          "首尾呼应"
+        ]
+      }
+    ],
+    "closing_approach": "总结要点+行动呼吁",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "以三个核心原则收尾，简洁有力且可操作，与开篇形成呼应，强化记忆点。行动呼吁自然融入，让读者既有收获感也有行动方向。",
+    "style_features": [
+      "官方权威性与个人亲和力结合",
+      "虚拟案例贯穿始终增加趣味性",
+      "口语化表达降低阅读门槛",
+      "生活化比喻阐述抽象概念",
+      "清单式呈现便于实操"
+    ],
+    "notable_techniques": [
+      "自助餐比喻",
+      "虚构案例'Shut Up, Biscuit'贯穿全篇",
+      "自我调侃增加亲和力",
+      "核心问题设置（我是谁？我为谁？",
+      "矩阵式要点归纳",
+      "悬念式标题设置"
+    ],
+    "core_tension": "游戏本身的品质与营销之间的关系，以及平台机制如何帮助优质游戏自然脱颖而出。",
+    "target_audience": "独立游戏开发者、Steam平台游戏发行商、小型游戏工作室、对平台营销策略感兴趣的游戏从业者。"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T16:36:44.019395"
+}

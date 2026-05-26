@@ -1,0 +1,94 @@
+{
+  "case_id": "case_9a43f20a",
+  "title": "也轮到游戏公司清理“数字泔水”了",
+  "article_url": "https://mp.weixin.qq.com/s/TpLXQerXh9ORQk6wwalNLQ",
+  "content_type": "行业分析",
+  "target_audience": "游戏玩家群体（尤其是Steam/PS/Switch用户）、游戏行业从业者、关注AI对内容产业影响的科技观察者",
+  "annotation": {
+    "opening_approach": "新闻切入+悬念设置",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇以'1000款游戏突然消失'这一反直觉的新闻事件切入，通过'没有公告、没有说明、甚至没人注意到'的三重否定制造悬念，迅速抓住读者好奇心。然后用三个具体的游戏名称（《Ultrabonk》《Little Legs》《Dunk Trickster2》）举例，最后一句'太烂了'既是悬念解答也是观点亮出，干脆利落，为后文展开奠定基础。",
+    "structural_pattern": "递进式（现象→机制→影响→反思）",
+    "section_strategies": [
+      {
+        "section_title": "现象引入：1000款游戏消失事件",
+        "position": 1,
+        "structural_approach": "事件描述+悬念制造",
+        "content_focus": "PS Store大规模下架事件，介绍主要涉事公司Nostra Games和CGI Lab",
+        "style_guidance": "新闻式客观陈述，口吻轻松带讽刺",
+        "transition_to_next": "通过'如何实现两年上架700个游戏'的设问自然过渡",
+        "notable_techniques": [
+          "反常识数据（1000款无人注意）",
+          "三否定修辞（没有公告、没有说明、没人注意）",
+          "悬念解答式收尾"
+        ]
+      },
+      {
+        "section_title": "机制揭秘：AI换皮与一游多发",
+        "position": 2,
+        "structural_approach": "问题-解答式",
+        "content_focus": "详细拆解Nostra Games如何利用AI生成和平台规则漏洞批量生产低质游戏",
+        "style_guidance": "调查式揭秘风格，逻辑严密",
+        "transition_to_next": "以'玩家也不傻，这些游戏真有人买吗'设问过渡到下一节",
+        "notable_techniques": [
+          "具体案例拆解（《双手医院模拟器》蹭名蹭图）",
+          "数字量化（700个游戏、6-7个版本）",
+          "平台规则漏洞揭示"
+        ]
+      },
+      {
+        "section_title": "需求分析：奖杯猎人与玩家生态",
+        "position": 3,
+        "structural_approach": "现象解释+横向扩展",
+        "content_focus": "分析购买低质游戏的真实用户群体——奖杯猎人，以及Steam平台类似现象",
+        "style_guidance": "代入式理解，语言幽默",
+        "transition_to_next": "以'商店被低质游戏占领并非新现象'过渡到更宏观讨论",
+        "notable_techniques": [
+          "角色代入式理解（换位思考）",
+          "趣味案例（《你妈》游戏）",
+          "第三方数据引用（PSN Profiles规则修改）"
+        ]
+      },
+      {
+        "section_title": "平台应对与深层思考",
+        "position": 4,
+        "structural_approach": "对比分析+升华反思",
+        "content_focus": "三大平台（PS、eShop、Steam）的不同应对策略，以及AI时代的'低质游戏'定义困境",
+        "style_guidance": "思辨性总结，开放式结尾",
+        "transition_to_next": "无直接过渡，通过段落内部逻辑递进",
+        "notable_techniques": [
+          "多平台横向对比",
+          "数据支撑（80%新游戏无人问津）",
+          "引用当事方声明增加客观性",
+          "升维思考（从具体事件到AI影响）"
+        ]
+      }
+    ],
+    "closing_approach": "留白思考+升华展望",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "收尾并未给出明确结论，而是将问题升华到'AI应用到游戏开发后衍生的新问题'层面。用'真正需要被下架的不是低质作品，而是借游戏形式寄生于商店机制的套利内容'这一精准定义收束，既回应前文又深化主题。最后以开放性问题'如何处理这种潜在矛盾'留白，给读者思考空间，同时体现文章不是单纯批判，而是理性探讨行业困境。",
+    "style_features": [
+      "游戏文化语境下的轻松幽默感",
+      "调查式揭秘的逻辑严密性",
+      "多视角呈现（平台/开发商/玩家）的客观立场",
+      "讽刺与理性分析并存的分寸感",
+      "从具体事件升维到行业议题的思考深度"
+    ],
+    "notable_techniques": [
+      "反常识数据冲击开篇（1000款消失无人注意）",
+      "三否定修辞强化悬念",
+      "悬念解答式行文节奏（设问-解答-深入）",
+      "案例具体化（蹭名蹭图的AI生成游戏）",
+      "角色代入式理解（换位思考奖杯猎人心态）",
+      "趣味边缘案例（《你妈》游戏）调节氛围",
+      "多平台横向对比矩阵",
+      "精准定义式收束（寄生于商店机制的套利内容）",
+      "升维思考（从低质游戏到AI时代平台治理）"
+    ],
+    "core_tension": "平台净化商店环境的正当性与缺乏明确标准之间的权力边界困境，以及AI时代'低质游戏'定义的主观性与开发者权益之间的矛盾",
+    "target_audience": "游戏玩家群体（尤其是Steam/PS/Switch用户）、游戏行业从业者、关注AI对内容产业影响的科技观察者"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T14:59:09.468010"
+}

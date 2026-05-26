@@ -1,0 +1,126 @@
+{
+  "case_id": "case_135ef0f0",
+  "title": "3A风光片《对马岛之魂》分享：在3A游戏中“种草的程序化技术”！",
+  "article_url": "http://www.gamelook.com.cn/2023/06/520095/",
+  "content_type": "行业分析",
+  "target_audience": "游戏开发者、技术美术、GDC关注者、对AAA游戏技术实现感兴趣的从业者和玩家",
+  "annotation": {
+    "opening_approach": "成就铺垫+话题引入",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "开篇先通过《对马岛之魂》获得的奖项和行业认可建立权威感和公信力，再通过'此外'自然过渡到技术分享主题。这种方式为技术内容提供了行业背书，让读者对分享内容产生信任和期待。属于技术文章常见的专业铺垫开篇。",
+    "structural_pattern": "递进式（从底层渲染技术到上层应用优化）",
+    "section_strategies": [
+      {
+        "section_title": "引言铺垫",
+        "position": 1,
+        "structural_approach": "成就罗列+自然过渡",
+        "content_focus": "游戏奖项、行业认可、自然风光印象深刻",
+        "style_guidance": "建立权威感，为技术分享做背书",
+        "transition_to_next": "用'此外'自然引出程序化草叶技术话题",
+        "notable_techniques": [
+          "行业成就背书",
+          "自然过渡衔接"
+        ]
+      },
+      {
+        "section_title": "计算着色器",
+        "position": 2,
+        "structural_approach": "问题-解决方案式（传统方法局限性→新方法优势）",
+        "content_focus": "贴图分解、剔除策略、草叶类型确定、草丛系统设计",
+        "style_guidance": "技术解释配合设计意图说明，增强可读性",
+        "transition_to_next": "用'数据管线'承接渲染流程说明",
+        "notable_techniques": [
+          "传统方法对比",
+          "草丛系统创意设计说明",
+          "具体数值呈现（100万片、8.3万渲染、2.5ms）"
+        ]
+      },
+      {
+        "section_title": "数据管线",
+        "position": 3,
+        "structural_approach": "流程图式描述+工程优化说明",
+        "content_focus": "双缓冲设计、贴图分批处理、内存优化",
+        "style_guidance": "突出工程化思维和性能优化意识",
+        "transition_to_next": "用'顶点着色器'承接具体渲染逻辑",
+        "notable_techniques": [
+          "双缓存设计",
+          "GPU持续工作优化"
+        ]
+      },
+      {
+        "section_title": "顶点着色器",
+        "position": 4,
+        "structural_approach": "技术细节展开+问题解决过程",
+        "content_focus": "贝塞尔曲线建模、LOD切换、法线处理、风力动画",
+        "style_guidance": "深度技术讲解，展示设计考量",
+        "transition_to_next": "用'像素着色器'承接材质处理",
+        "notable_techniques": [
+          "贝塞尔曲线应用",
+          "LOD平滑过渡技巧",
+          "视觉增强技巧（法线外倾、厚度增加）"
+        ]
+      },
+      {
+        "section_title": "像素着色器",
+        "position": 5,
+        "structural_approach": "技术说明+设计决策解释",
+        "content_focus": "材质数据、颜色系统、半透明和环境光遮蔽处理",
+        "style_guidance": "解释为何自研而非依赖SSAO",
+        "transition_to_next": "用'美术资源补充'扩展技术应用",
+        "notable_techniques": [
+          "自研AO而非SSAO的原因分析",
+          "草丛控制颜色变化系统"
+        ]
+      },
+      {
+        "section_title": "美术资源与实际应用",
+        "position": 6,
+        "structural_approach": "技术应用扩展+边界问题处理",
+        "content_focus": "程序化资源放置、远距离LOD、阴影系统、潜行机制",
+        "style_guidance": "展示完整系统闭环，强调实际游戏应用",
+        "transition_to_next": "用'未来展望'承接",
+        "notable_techniques": [
+          "技术-玩法结合（潜行系统）",
+          "Imposter阴影替代方案",
+          "系统局限性坦诚说明"
+        ]
+      },
+      {
+        "section_title": "未来展望",
+        "position": 7,
+        "structural_approach": "改进方向+坦诚不足",
+        "content_focus": "三大改进方向：地形混合、更多程序化资源、距离剔除优化",
+        "style_guidance": "谦虚务实，为后续讨论留空间",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "坦诚局限性",
+          "开放性思考"
+        ]
+      }
+    ],
+    "closing_approach": "总结要点+升华展望+谦虚收尾",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "结尾先用'这就是我们在预算之内渲染大片草地并达到我们艺术方向目标的方法'做核心成果总结，再以'尽管依然还有提升空间，但我们对实现的效果感到满意'做谦逊收尾。整体既肯定了技术成就，又保持了开放态度，是技术分享文章常见的收尾方式。",
+    "style_features": [
+      "技术专业性与可读性平衡",
+      "问题-解决方案式叙述结构",
+      "大量具体数值支撑（增强说服力）",
+      "设计意图与实现细节并重",
+      "坦诚局限性而非刻意完美化"
+    ],
+    "notable_techniques": [
+      "行业成就背书开篇",
+      "传统方法vs新方法对比",
+      "草丛系统创意设计说明（解释为何'高尔夫球场'效果不佳）",
+      "具体数值呈现强化说服力（100万片草叶、8.3万片渲染、2.5ms）",
+      "技术-玩法结合说明（潜行机制）",
+      "自研方案vs通用方案的原因分析（解释为何不用SSAO）",
+      "系统性思考展示（从渲染到游戏应用到未来优化）"
+    ],
+    "core_tension": "如何在有限的性能和内存预算下，实现既满足艺术方向又具备实用功能的程序化草地渲染系统",
+    "target_audience": "游戏开发者、技术美术、GDC关注者、对AAA游戏技术实现感兴趣的从业者和玩家"
+  },
+  "quality_score": 4.0,
+  "tags": [],
+  "created_at": "2026-04-07T16:08:17.667664"
+}

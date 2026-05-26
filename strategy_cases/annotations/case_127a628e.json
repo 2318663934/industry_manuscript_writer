@@ -1,0 +1,80 @@
+{
+  "case_id": "case_127a628e",
+  "title": "Epic裁员，裁到「宝」了",
+  "article_url": "https://mp.weixin.qq.com/s/LHmUBF_rMzI_Gj_ZngUESQ",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者、核心玩家群体、对科技行业裁员现象关注的泛读者",
+  "annotation": {
+    "opening_approach": "故事切入+新闻切入",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "开篇以'E宝'这一具体人物被裁切入，将抽象的裁员数字具象化为玩家熟悉的'老熟人'，通过'E宝'的人设描述（整活频繁、有活人感）快速建立情感连接。'Epic捡到宝了'的典故与'从此不复存在'形成强烈反差，制造情感冲击。这种从具体个人到行业现象的切入方式，比直接分析财报数据更有传播力和共情效果。",
+    "structural_pattern": "递进式",
+    "section_strategies": [
+      {
+        "section_title": "E宝被裁与公开信的疑点",
+        "position": 1,
+        "structural_approach": "具体事件→公开信解读→矛盾点挖掘",
+        "content_focus": "以'E宝'被裁这一具体事件引出Epic大规模裁员，通过公开信的逐一反驳制造认知张力",
+        "style_guidance": "叙事与分析交织，保持代入感的同时展现思辨性",
+        "transition_to_next": "从'E宝'个人遭遇过渡到更广泛的被裁员工故事，自然引出对裁员必要性的质疑",
+        "notable_techniques": [
+          "人物切入法",
+          "公开信反讽式解读",
+          "个体叙事映射群体命运",
+          "矛盾点层层剥离"
+        ]
+      },
+      {
+        "section_title": "市场环境的深层剖析",
+        "position": 2,
+        "structural_approach": "宏观数据→行业背景→地理套利趋势",
+        "content_focus": "揭示游戏行业表面繁荣与资本撤离的矛盾，解释裁员背后的结构性原因",
+        "style_guidance": "引用权威报告增强说服力，对比分析展现行业分化",
+        "transition_to_next": "从市场环境过渡到技术变量（AI），完成叙事维度的升级",
+        "notable_techniques": [
+          "权威数据引用",
+          "跨界对比（Embracer vs Epic）",
+          "地理套利现象揭示",
+          "从业者视角引证"
+        ]
+      },
+      {
+        "section_title": "AI与行业未来",
+        "position": 3,
+        "structural_approach": "从否认到暗示→案例印证→开放性反思",
+        "content_focus": "探讨AI对游戏行业的隐性影响，以'E宝'的消失象征行业的'高效化'转型",
+        "style_guidance": "克制表述中的隐喻力量，留白比说透更有余韵",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "反讽式引用（Tim Sweeney的否认）",
+          "具体案例佐证（Playtika）",
+          "意象化收尾（'活人感'的消失）",
+          "升维反思"
+        ]
+      }
+    ],
+    "closing_approach": "留白思考+意象升华",
+    "closing_effectiveness": 5.0,
+    "closing_analysis": "结尾以'E宝'——一个充满'活人感'的运营者——被裁，象征整个行业正在失去'人'的温度。最后一句'代价究竟是什么，这个问题大概率要等到回头时才看得清楚了'将文章从具体事件拔高到对行业趋势的哲学反思，既回应了开头，又留下了开放的思考空间。'高效精准'与'代价'的对立构成全文的情感张力终点。",
+    "style_features": [
+      "行业深度报道与人物叙事的融合",
+      "数据驱动与情感共鸣的双轨并行",
+      "克制中的隐喻与反讽",
+      "从微观到宏观的视角升维"
+    ],
+    "notable_techniques": [
+      "具体人物锚定抽象议题（E宝=行业裁员的人性化注脚）",
+      "公开信逐条反驳制造认知张力",
+      "矛盾数据对比（7亿UEFN vs 裁员千人均）",
+      "个体叙事→群体画像→行业趋势的三层递进",
+      "反讽式引用（Tim Sweeney'与AI无关'的此地无银）",
+      "意象化表达（'活人感'消失=行业异化）",
+      "开放式收束（'等到回头时'的时间隐喻）"
+    ],
+    "core_tension": "Epic宣称裁员出于财务压力，却一边豪掷7亿支持创作者、一边关闭接地气的运营账号——资本的效率逻辑与人的情感价值之间的深层矛盾",
+    "target_audience": "游戏行业从业者、核心玩家群体、对科技行业裁员现象关注的泛读者"
+  },
+  "quality_score": 5.0,
+  "tags": [],
+  "created_at": "2026-04-07T14:55:22.644651"
+}

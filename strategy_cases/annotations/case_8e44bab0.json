@@ -1,0 +1,84 @@
+{
+  "case_id": "case_8e44bab0",
+  "title": "把“空当接龙”改造成竞技手游，一位华人女性做出了全球排名前40的手游公司",
+  "article_url": "https://mp.weixin.qq.com/s/OMWTC5DIbyxBqEdHylsDHw",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者、创业者、对移动互联网商业逻辑感兴趣的中高端读者；具备一定商业认知基础，偏好故事性与深度分析兼具的行业叙事。",
+  "annotation": {
+    "opening_approach": "故事切入+对比反差",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "文章以Windows自带游戏'空当接龙'开篇，这是极具普适性的集体记忆，能迅速唤起读者共鸣。通过'一个人玩的单机游戏→全球前40的手游公司'的强烈反差，制造认知冲击。结尾的本地化翻译案例（Solitaire→接龙）作为过渡，暗示'简单规则的竞技化改造'这一核心商业逻辑，为全文奠定叙事基调。",
+    "structural_pattern": "时间线式+递进式",
+    "section_strategies": [
+      {
+        "section_title": "发现商机与初创艰辛",
+        "position": 1,
+        "structural_approach": "问题引发→行业背景→创始人自述→困境呈现",
+        "content_focus": "Vickie发现'休闲竞技'的潜在市场，公司成立并经历两次资金链断裂的至暗时刻",
+        "style_guidance": "以对话式引语引入创始人视角，增强真实感；对比早期竞争者（WorldWinner、Midasplayer）的失败，凸显AviaGames坚持的不易",
+        "transition_to_next": "以'疫情爆发+经济放水'作为外部转折契机，引入第二节",
+        "notable_techniques": [
+          "创始人第一人称引语",
+          "车库办公室意象",
+          "行业先行者对比",
+          "外部环境催化剂"
+        ]
+      },
+      {
+        "section_title": "业务验证与护城河构建",
+        "position": 2,
+        "structural_approach": "现象分析→模式解构→技术细节→合作案例",
+        "content_focus": "真金竞技模式的设计逻辑、合规性挑战、支付系统优化、用户评价印证",
+        "style_guidance": "深入浅出解释'Skill-Based'合规概念；通过PayPal合作案例强化可信度；用户评价作为第三方背书",
+        "transition_to_next": "以'前半段靠韧性，后半段靠实力'的承上启下句引出第三节",
+        "notable_techniques": [
+          "金融术语嫁接（Skin in the Game）",
+          "用户UGC评价植入",
+          "技术合规细节",
+          "支付体验量化（提现周期缩短）"
+        ]
+      },
+      {
+        "section_title": "企业文化与价值观",
+        "position": 3,
+        "structural_approach": "数据切入→现象解释→文化细节→环境描写",
+        "content_focus": "女性用户占比70%的意外发现，公司价值观体现在细节（猫、文化活动、办公环境）",
+        "style_guidance": "轻描淡写中传递温度，细节描写代替说教",
+        "transition_to_next": "无明显过渡，直接进入结语",
+        "notable_techniques": [
+          "意外数据反转",
+          "猫咪意象温情化",
+          "员工视角佐证",
+          "办公环境细节"
+        ]
+      }
+    ],
+    "closing_approach": "升华展望+行业警示",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "结尾回应当下行业乱象，区分'劣币'与正道，既是商业警示也是价值观重申。最后一句'验证了一条创业路径，走通了别人未曾实现的道路'将商业成功升华为方法论肯定，与开头'把空当接龙改造成竞技手游'形成叙事闭环。",
+    "style_features": [
+      "叙事性与分析性平衡",
+      "专业术语通俗化表达",
+      "创始人视角贯穿全篇",
+      "细节描写替代空泛总结",
+      "商业逻辑与人物故事双线并行",
+      "行业洞察与创业故事有机融合"
+    ],
+    "notable_techniques": [
+      "集体记忆唤起（Windows空当接龙）",
+      "反差对比制造张力（单机→全球前40）",
+      "本地化翻译案例作为伏笔",
+      "创始人直接引语增强可信度",
+      "金融概念跨界嫁接（Skin in the Game）",
+      "用户评价作为第三方佐证",
+      "意外数据反转（女性用户占比）",
+      "猫咪意象温情收束",
+      "劣币驱逐良币的行业隐喻"
+    ],
+    "core_tension": "一家'闷声发财'的公司如何在'休闲竞技'这片看似无人成功的蓝海中，通过坚持与差异化建立真正的护城河。",
+    "target_audience": "游戏行业从业者、创业者、对移动互联网商业逻辑感兴趣的中高端读者；具备一定商业认知基础，偏好故事性与深度分析兼具的行业叙事。"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T15:14:20.950201"
+}

@@ -1,0 +1,90 @@
+{
+  "case_id": "case_8391150b",
+  "title": "Unite大会叠纸揭秘:《恋与深空》华丽服饰、心动的角色表演如何实现？",
+  "article_url": "http://www.gamelook.com.cn/2025/10/580974/",
+  "content_type": "行业分析",
+  "target_audience": "游戏开发者（尤其是Unity/移动端开发者）、技术美术、对游戏技术感兴趣的从业者和投资人",
+  "annotation": {
+    "opening_approach": "数据震撼",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "文章开篇以极具冲击力的市场数据开场：7000万全球玩家、科隆最佳移动游戏、8亿月流水峰值、移动端收入最高的二游。这些数据不仅建立了产品的行业地位，更为后续的技术分享提供了权威背书——如此成功的产品其技术方案自然值得学习借鉴。数据选择精准，直击行业关注的核心指标（用户量、奖项、营收），形成强烈的说服力和可信度。",
+    "structural_pattern": "问题-方案式",
+    "section_strategies": [
+      {
+        "section_title": "布料模拟实现",
+        "position": 1,
+        "structural_approach": "先总述自研系统的必要性，再按技术实现逻辑递进：技术方案选择→骨骼方案优势→碰撞方案详解→Mesh Collider→层间碰撞处理",
+        "content_focus": "StrayCloth布料模拟系统的完整技术实现",
+        "style_guidance": "专业技术分享，强调'为什么这样做'而非仅'做了什么'",
+        "transition_to_next": "用'实时表演控制'作为承接，暗示技术实现需要配套的控制系统",
+        "notable_techniques": [
+          "技术方案对比（PBD vs XPBD）",
+          "多级分类讲解（从骨骼约束到碰撞方案到层间碰撞）",
+          "问题驱动叙述（'为什么使用骨骼而不是代理网格'）"
+        ]
+      },
+      {
+        "section_title": "实时表演控制",
+        "position": 2,
+        "structural_approach": "以Cutscene工具为载体，通过'一个动卡示例'引入，然后枚举式展开6种Track的功能",
+        "content_focus": "Cutscene Physics Track工具链的能力全景展示",
+        "style_guidance": "功能导向型叙述，突出工具对美术的赋能",
+        "transition_to_next": "暗示工具链需要底层技术（DOTS）支撑，引出第三章",
+        "notable_techniques": [
+          "具象化引入（'这边是一个动卡的Cutscene Physcs Track的例子'）",
+          "问题-解决方案配对（SmoothBlendPose解决抖动问题）",
+          "枚举式功能展示"
+        ]
+      },
+      {
+        "section_title": "基于Unity DOTS的开发",
+        "position": 3,
+        "structural_approach": "先肯定DOTS框架的优势，然后针对性提供两个性能优化方案",
+        "content_focus": "Cache Job和Neon Intrinsics两个具体优化实践",
+        "style_guidance": "实战导向型叙述，提供可直接复用的优化方案",
+        "transition_to_next": "DOTS是高性能碰撞检测的基础，引出第四章",
+        "notable_techniques": [
+          "性能数据支撑（约30%性能提升）",
+          "方案对比（mathematics vs 手写Neon）",
+          "原理+代码+效果的多层展示"
+        ]
+      },
+      {
+        "section_title": "碰撞检测模块",
+        "position": 4,
+        "structural_approach": "以'为什么要脱离Unity成熟物理模块'设问开篇，然后展示实现成果和具体流程",
+        "content_focus": "自研碰撞检测模块的必要性和实现细节",
+        "style_guidance": "答疑解惑型叙述，直接回应潜在质疑",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "设问开篇直击疑虑",
+          "流程可视化（查询流程、触发流程示意图）",
+          "强调线程安全和性能提升"
+        ]
+      }
+    ],
+    "closing_approach": "总结要点",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "结尾以简洁的要点总结收束，回顾四个核心模块的实现成果，与开篇的成功数据形成呼应——产品成功背后是扎实的技术支撑。收尾方式略显平淡，缺乏升华或开放性思考，但对于技术分享类文章而言，这种'总结收束'的处理方式符合读者预期，属于务实稳妥的选择。",
+    "style_features": [
+      "技术叙事以'问题-方案'为主线，不止步于技术描述，更注重'为什么要这样做'",
+      "章节内部采用递进式结构，从基础方案到高级优化层层深入",
+      "善用具体数字和案例增强说服力（2000+骨骼粒子、30%性能提升、16×16 CubeMap）",
+      "章节间通过逻辑关联自然过渡，形成技术体系的完整叙事",
+      "工具功能讲解采用'场景-问题-方案-效果'的闭环结构"
+    ],
+    "notable_techniques": [
+      "开篇数据矩阵（用户量+奖项+营收+排名四个维度数据组合冲击）",
+      "技术对比手法（PBD vs XPBD、骨骼方案 vs 代理网格、mathematics vs Neon）",
+      "设问引出手法（'为什么使用骨骼而不是代理网格'、'为什么要脱离Unity成熟物理模块'）",
+      "枚举+示例结合（6种Track逐一讲解配合动图示例）",
+      "性能数据锚定（'约30%性能提升'、'~15%提升'具体化技术价值）",
+      "引用视觉锚点（'具体效果可以参考最新日卡的表现'）"
+    ],
+    "core_tension": "一款商业成功的游戏产品，其技术实现方案是否具有行业借鉴价值？",
+    "target_audience": "游戏开发者（尤其是Unity/移动端开发者）、技术美术、对游戏技术感兴趣的从业者和投资人"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T15:56:23.990431"
+}

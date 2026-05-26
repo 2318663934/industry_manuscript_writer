@@ -1,0 +1,140 @@
+{
+  "case_id": "case_d737c81f",
+  "title": "分析：后《Block Blast》时代的方块消除游戏，是如何进化的？",
+  "article_url": "http://www.gamelook.com.cn/2026/02/586962/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者（发行商、开发者、投资者）、休闲游戏赛道关注者、混合休闲游戏领域研究者",
+  "annotation": {
+    "opening_approach": "历史溯源+数据震撼+问题引发",
+    "opening_effectiveness": 5.0,
+    "opening_analysis": "文章以'40年前的《俄罗斯方块》'建立历史纵深感，随后用'日活跃用户4000万'的数据冲击制造震撼，紧接着明确指出这是中国同行不熟悉的领域，最后以三个递进式问题收尾。这种开篇方式兼具历史厚重感、数据说服力和问题导向性，有效激发读者探索欲望。",
+    "structural_pattern": "递进式+时间线式混合结构（进化论叙事）",
+    "section_strategies": [
+      {
+        "section_title": "与《俄罗斯方块》相似，但又有所不同",
+        "position": 1,
+        "structural_approach": "引用论证+机制拆解",
+        "content_focus": "建立方块解谜与《俄罗斯方块》的血缘关系，拆解三条核心规则，论证其作为'用户获取超级优势'的底层逻辑",
+        "style_guidance": "学术化表达，引用官方资料增强可信度，用'超级优势'等营销术语提升专业感",
+        "transition_to_next": "用'这个起源故事很重要'承上启下，从起源过渡到扩展",
+        "notable_techniques": [
+          "溯源式开篇",
+          "三条规则提炼法",
+          "'用户获取超级优势'概念植入"
+        ]
+      },
+      {
+        "section_title": "从《俄罗斯方块》的根源扩展",
+        "position": 2,
+        "structural_approach": "过渡段落+总起下文",
+        "content_focus": "说明方块解谜如何在保留核心机制的同时叠加混合休闲解谜结构，为代际划分做铺垫",
+        "style_guidance": "简洁过渡，避免喧宾夺主",
+        "transition_to_next": "自然引出'第一代'的概念",
+        "notable_techniques": [
+          "承上启下的过渡段落"
+        ]
+      },
+      {
+        "section_title": "第一代：简单的限制，出色的关卡",
+        "position": 3,
+        "structural_approach": "递进式论证+案例分析",
+        "content_focus": "核心创新是'简化问题'：有限棋盘+三块放置机制+关卡结构，完成从'无尽杀时间'到'可通关内容'的蜕变",
+        "style_guidance": "用'有限尺寸的经典解谜桌面'等具体描述替代抽象概念",
+        "transition_to_next": "以'成了这一波潮流的代表'引出Block Blast案例",
+        "notable_techniques": [
+          "限制条件分析法",
+          "机制进化推演",
+          "功能定位转变论证"
+        ]
+      },
+      {
+        "section_title": "Block Blast案例分析",
+        "position": 4,
+        "structural_approach": "案例深挖+产品设计揭秘",
+        "content_focus": "Block Blast如何将简单性转化为'机器'：坚守核心+强化关卡质量+制造紧张感传递+纯广告变现的勇气",
+        "style_guidance": "从产品经理视角拆解设计决策，加入玩家体验视角增强代入感",
+        "transition_to_next": "用'大规模验证了第一代模式'过渡到第二代",
+        "notable_techniques": [
+          "产品拆解式分析",
+          "玩家体验视角补充",
+          "反主流决策强调"
+        ]
+      },
+      {
+        "section_title": "第二代：设计好的棋盘，设计好的压力",
+        "position": 5,
+        "structural_approach": "概念定义+机制对比+商业透视",
+        "content_focus": "提出'静态关卡'概念，对比一代的'游戏化'改造与二代的'框架改变'，点明商业化逻辑（清晰购买理由）",
+        "style_guidance": "两个原因可用数字标注，增强清晰度",
+        "transition_to_next": "以'最成功的混合休闲解谜爆款'引出Color Block Jam",
+        "notable_techniques": [
+          "概念命名（静态关卡）",
+          "代际对比矩阵",
+          "商业化底层逻辑揭示"
+        ]
+      },
+      {
+        "section_title": "Color Block Jam案例分析",
+        "position": 6,
+        "structural_approach": "案例验证+跟风现象观察",
+        "content_focus": "验证二代模式的商业成功，观察'换皮游戏热潮'现象",
+        "style_guidance": "保持客观观察者视角",
+        "transition_to_next": "用'第三代游戏就已经开始登场'推进叙事",
+        "notable_techniques": [
+          "爆款案例+生态观察"
+        ]
+      },
+      {
+        "section_title": "第三代：主题化皮肤，更深度的工具",
+        "position": 7,
+        "structural_approach": "双线并行+主题枚举+商业逻辑收束",
+        "content_focus": "两大差异化特征：独特主题（汽车/蛇/箭头）+更深度融合解谜工具，最终回归内购变现逻辑",
+        "style_guidance": "主题枚举可用分类呈现，结尾需回扣商业化主题",
+        "transition_to_next": "用'这只是我们目前能看到的证据'为展望留白",
+        "notable_techniques": [
+          "双线结构并行",
+          "主题趋势枚举",
+          "变现逻辑闭环"
+        ]
+      },
+      {
+        "section_title": "方块解谜接下来走向何方？",
+        "position": 8,
+        "structural_approach": "总结升华+分代评价+开放展望",
+        "content_focus": "总结持久性原因，评价各代现状（耗尽/稳定/兴奋），以设问收尾",
+        "style_guidance": "总结需简洁有力，展望需留白引发思考",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "代际现状评价",
+          "设问式收尾"
+        ]
+      }
+    ],
+    "closing_approach": "总结升华+设问收尾",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "收尾先以'超级简单却真正有趣的核心机制'和'适应性'总结成功的本质原因，既精准又有余韵。随后对三代产品分别给出'耗尽潜力'、'稳定下来'、'令人兴奋的领域'的定性评价，最后以'开发者愿意将创意推进到何种程度'的设问留白，既呼应全文的进化论叙事，又为行业留下思考空间。",
+    "style_features": [
+      "行业分析师视角：兼具产品设计与商业运营的双重洞察",
+      "进化论叙事结构：用'代际'划分产品演变，增强历史纵深感",
+      "案例分析法：Block Blast和Color Block Jam作为各代锚点，具象化论证",
+      "专业术语精准运用：'用户获取超级优势'、'静态关卡'、'内购经济模式'等",
+      "数据与叙事平衡：既有4000万DAU的震撼数据，也有机制拆解的理性分析",
+      "商业逻辑贯穿：从流量到收入的变现路径始终是暗线"
+    ],
+    "notable_techniques": [
+      "历史溯源开篇法：40年纵深建立厚重感",
+      "数据震撼法：4000万DAU、3000万月安装量",
+      "概念命名术：'静态关卡'等核心概念的提炼与定义",
+      "代际对比矩阵：每代产品的差异化特征清晰呈现",
+      "案例锚定法：各代产品选取代表作品（Block Blast、Color Block Jam）",
+      "商业透视法：从产品机制推导商业化逻辑",
+      "升维收尾法：从产品上升到对行业创意边界的思考",
+      "设问留白术：用开放性问题激发读者参与"
+    ],
+    "core_tension": "方块解谜如何在'传承经典机制的熟悉感'与'适应市场的持续创新'之间找到平衡，实现从流量到收入的跨越。",
+    "target_audience": "游戏行业从业者（发行商、开发者、投资者）、休闲游戏赛道关注者、混合休闲游戏领域研究者"
+  },
+  "quality_score": 4.5,
+  "tags": [],
+  "created_at": "2026-04-07T16:13:46.587683"
+}

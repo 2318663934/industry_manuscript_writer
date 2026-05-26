@@ -1,0 +1,129 @@
+{
+  "case_id": "case_e0bba104",
+  "title": "全平台游戏福音？抖音开卖PC端游戏广告，CPT计价、网易成首位客户",
+  "article_url": "http://www.gamelook.com.cn/2023/12/533542/",
+  "content_type": "行业分析",
+  "target_audience": "游戏行业从业者（商务/投放/市场方向）、游戏公司决策层、广告代理商从业者",
+  "annotation": {
+    "opening_approach": "新闻切入+数据预告",
+    "opening_effectiveness": 4.0,
+    "opening_analysis": "文章开篇即以'GameLook专稿'标注权威性，通过'字节跳动旗下巨量引擎发布月报'这一行业新闻事件切入，直接点出'抖音PC端广告'这一核心主题。开头即暗示后续将有重要数据披露（如'首单与网易达成合作'），制造信息悬念，吸引从业者继续阅读。切入干脆利落，直奔主题无废话，符合行业报道的时效性要求。",
+    "structural_pattern": "递进式+并列式混合",
+    "section_strategies": [
+      {
+        "section_title": "行业动态引入",
+        "position": 1,
+        "structural_approach": "背景铺设",
+        "content_focus": "巨量引擎12月游戏行业月报发布，抖音PC端广告资源首次公开",
+        "style_guidance": "客观陈述，保持行业媒体的第三方视角",
+        "transition_to_next": "用'其实在网易之前'转折，引出更早的商业化测试案例",
+        "notable_techniques": [
+          "权威背书",
+          "月报引用"
+        ]
+      },
+      {
+        "section_title": "测试期数据验证",
+        "position": 2,
+        "structural_approach": "案例验证+数据支撑",
+        "content_focus": "《激战2》PC端广告测试效果：日均PV 200万+，注册登录率50%（vs 移动端24%）",
+        "style_guidance": "突出对比优势，用数据说话",
+        "transition_to_next": "用'而网易游戏'递进，转向更大规模的商业化案例",
+        "notable_techniques": [
+          "前后对比",
+          "数据矩阵对比",
+          "百分比强化"
+        ]
+      },
+      {
+        "section_title": "商业化首单数据",
+        "position": 3,
+        "structural_approach": "多维度数据罗列",
+        "content_focus": "网易三款PC游戏广告效果：Banner总曝光869万+，点击率0.67%/0.75%，全面优于移动端",
+        "style_guidance": "构建数据矩阵，每项数据都带有对比参照",
+        "transition_to_next": "用'虽然...但...'转折，承认手游效果待考，同时展望PC端对手游的潜在价值",
+        "notable_techniques": [
+          "数据叠加",
+          "对比锚定",
+          "超越声明"
+        ]
+      },
+      {
+        "section_title": "市场趋势展望",
+        "position": 4,
+        "structural_approach": "逻辑推演+外部趋势佐证",
+        "content_focus": "手游跨平台趋势、谷歌推进安卓应用PC化，预判抖音PC端将成为手游投放重要阵地",
+        "style_guidance": "适度推测但保持严谨，以'大概率'等措辞留有余地",
+        "transition_to_next": "用'根据其10月31日过审的招商手册'引入用户画像数据",
+        "notable_techniques": [
+          "趋势外推",
+          "行业对标",
+          "留有余地"
+        ]
+      },
+      {
+        "section_title": "用户画像分析",
+        "position": 5,
+        "structural_approach": "多维度数据解析",
+        "content_focus": "抖音PC端DAU超千万，用户以年轻、高线、高知男性为主：年龄/性别/城市/时段四维画像",
+        "style_guidance": "信息密集但条理清晰，适合从业者做投放决策参考",
+        "transition_to_next": "用'广告位上'自然过渡到具体资源位介绍",
+        "notable_techniques": [
+          "四维画像",
+          "场景关联",
+          "数据可视化思维"
+        ]
+      },
+      {
+        "section_title": "广告资源与定价",
+        "position": 6,
+        "structural_approach": "信息百科式罗列",
+        "content_focus": "六大广告位类型（开屏/信息流/Banner等）及三档资源包定价（50万/150万/300万）",
+        "style_guidance": "信息详实，可作为从业者参考手册，附链接增强实用性",
+        "transition_to_next": "用'值得注意的是'补充CPT计价的稀缺性信息",
+        "notable_techniques": [
+          "产品化呈现",
+          "阶梯定价",
+          "稀缺性强调"
+        ]
+      },
+      {
+        "section_title": "行业影响预判",
+        "position": 7,
+        "structural_approach": "竞品分析+前瞻预测",
+        "content_focus": "抖音PC端将对游戏媒体网站形成冲击，但双方各有优势，竞争一触即发",
+        "style_guidance": "保持客观中立，不刻意夸大威胁论",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "竞品定位",
+          "优势对比",
+          "张力留白"
+        ]
+      }
+    ],
+    "closing_approach": "总结要点+行业展望",
+    "closing_effectiveness": 4.0,
+    "closing_analysis": "结尾以'GameLook预计'这一机构化表述收尾，将文章定性为专业分析而非单纯资讯。用'竞争态势，一触即发'八字制造悬念，既是对全文的收束，也是对行业未来的开放性展望。收尾简洁有力，留给读者思考空间，同时强化了机构品牌的预测权威性。",
+    "style_features": [
+      "数据驱动型写作：全文充斥具体数字（200万+、50%、869万等），增强可信度",
+      "对比矩阵贯穿全文：PC端vs移动端、测试期vs正式期、抖音vs游戏媒体",
+      "行业媒体专业腔调：第三方视角、机构背书、数据引用规范",
+      "实用导向明显：附定价链接、提供决策参考信息、服务从业者需求",
+      "克制的主观表达：虽有预测但措辞谨慎（'大概率'、'或许'），符合行业报道专业性"
+    ],
+    "notable_techniques": [
+      "月报权威引用开篇",
+      "数据对比强化（百分比+倍数双维度）",
+      "'值得注意的是'关键信息强调",
+      "用户画像四维解构法",
+      "阶梯式信息呈现（50万→150万→300万）",
+      "稀缺性营造（每月限量库存）",
+      "竞品对照收尾张力"
+    ],
+    "core_tension": "抖音PC端广告的商业化验证成功，但这一新流量入口是否将颠覆游戏营销格局仍存悬念",
+    "target_audience": "游戏行业从业者（商务/投放/市场方向）、游戏公司决策层、广告代理商从业者"
+  },
+  "quality_score": 4.0,
+  "tags": [],
+  "created_at": "2026-04-07T16:42:29.713347"
+}

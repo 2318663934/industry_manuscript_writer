@@ -1,0 +1,97 @@
+{
+  "case_id": "case_4aff26b2",
+  "title": "《2024年全球手游广告投放趋势洞察》-Scopely《MONOPOLY GO!》在美国市场总支出为1亿美元，广告ROI高达惊人的22",
+  "article_url": "http://www.gamelook.com.cn/2024/06/547752/",
+  "content_type": "行业分析",
+  "target_audience": "手游发行商、广告投放从业者、游戏行业投资者、行业分析师及对移动游戏市场感兴趣的媒体人士",
+  "annotation": {
+    "opening_approach": "概念定义+主题定位",
+    "opening_effectiveness": 3.0,
+    "opening_analysis": "开篇以广告投放作为行业背景切入，较为常规。通过补充SOV（广告曝光率）定义来建立专业语境，体现行业报告的专业性基调，但缺乏故事性或数据冲击带来的即时吸引力，属于稳重型开篇。",
+    "structural_pattern": "并列式（市场分块）+ 案例专题",
+    "section_strategies": [
+      {
+        "section_title": "轻度游戏平台偏好分析",
+        "position": 1,
+        "structural_approach": "市场对比结构",
+        "content_focus": "美国、日本、韩国三个市场的轻度游戏与中重度游戏广告平台偏好差异",
+        "style_guidance": "使用精确的百分比数据（如AppLovin平台解谜游戏SOV达40%）和平台名称矩阵对比，突出数据权威性",
+        "transition_to_next": "自然过渡到美国市场具体广告支出金额",
+        "notable_techniques": [
+          "平台矩阵对比",
+          "分市场数据并置"
+        ]
+      },
+      {
+        "section_title": "美国市场广告支出概览",
+        "position": 2,
+        "structural_approach": "宏观数据+品类占比",
+        "content_focus": "2024H1美国手游广告支出超6.5亿美元，策略和RPG占比及对应ROI",
+        "style_guidance": "使用大数字开场（6.5亿美元），配合细分类目占比和ROI数据，形成数据层层递进的叙事节奏",
+        "transition_to_next": "以MONOPOLY GO!作为美国市场的典型案例深入剖析",
+        "notable_techniques": [
+          "宏观数字锚定",
+          "ROI效率对比"
+        ]
+      },
+      {
+        "section_title": "MONOPOLY GO!案例深度剖析",
+        "position": 3,
+        "structural_approach": "产品成功故事线",
+        "content_focus": "Scopely凭借大富翁IP+大量广告投放实现ROI 22的商业奇迹",
+        "style_guidance": "按时间线叙述产品增长轨迹（2023年4月上线→10月月收入破2亿美元→2024年6月累计数据），重点突出ROI 22这一惊人数据",
+        "transition_to_next": "从美国市场转向韩国市场案例",
+        "notable_techniques": [
+          "时间线叙事",
+          "里程碑数据标注",
+          "ROI数据高亮"
+        ]
+      },
+      {
+        "section_title": "我独自升级：Arise案例",
+        "position": 4,
+        "structural_approach": "IP驱动型成功案例",
+        "content_focus": "Netmarble借助高人气小说/网漫IP在全球市场的广告表现",
+        "style_guidance": "强调IP的全球影响力（143亿次点击），突出本地化广告素材策略",
+        "transition_to_next": "转向日本市场案例",
+        "notable_techniques": [
+          "IP价值量化",
+          "本地化策略强调"
+        ]
+      },
+      {
+        "section_title": "学园偶像大师案例",
+        "position": 5,
+        "structural_approach": "发行商市场影响案例",
+        "content_focus": "万代南梦宫凭借偶像IP和高效投放实现下载量和收入双增长",
+        "style_guidance": "使用发行商层面的宏观影响数据（下载量+收入环比增长395%、85%），体现案例的产业级意义",
+        "transition_to_next": "无",
+        "notable_techniques": [
+          "发行商影响量化",
+          "双榜冠军背书"
+        ]
+      }
+    ],
+    "closing_approach": "来源声明+免责条款",
+    "closing_effectiveness": 2.0,
+    "closing_analysis": "文章以'本文来自'标注来源和'本文观点不代表GameLook立场'的免责条款收尾，属于行业媒体的标准操作。这种收尾方式较为被动，缺乏总结升华或引导互动，无法形成阅读闭环和记忆锚点。",
+    "style_features": [
+      "数据密集型叙事：全文大量使用精确数字（百分比、美元金额、下载量），强化专业报告属性",
+      "案例驱动逻辑：通过MONOPOLY GO!、Solo Leveling、Gakuen Idolmaster三个分市场标杆案例支撑论点",
+      "ROI导向评估：核心评判维度始终围绕广告ROI展开，体现商业分析视角",
+      "平台矩阵意识：强调不同广告平台（AppLovin、YouTube、Meta系等）的差异化价值"
+    ],
+    "notable_techniques": [
+      "SOV定义前置：为非专业读者建立理解框架",
+      "ROI数据高亮：MONOPOLY GO!的ROI 22作为全文核心数据锚点",
+      "里程碑时间线：追踪产品从上线到登顶的关键节点",
+      "市场数据矩阵：按美国/日本/韩国分市场构建横向对比",
+      "发行商影响视角：Gakuen Idolmaster案例提升至产业影响层面"
+    ],
+    "core_tension": "移动游戏广告投放如何在海量支出与高效ROI之间实现平衡——MONOPOLY GO!用1亿支出换来22倍ROI证明这一矛盾可以被突破",
+    "target_audience": "手游发行商、广告投放从业者、游戏行业投资者、行业分析师及对移动游戏市场感兴趣的媒体人士"
+  },
+  "quality_score": 2.5,
+  "tags": [],
+  "created_at": "2026-04-07T16:35:20.854899"
+}
