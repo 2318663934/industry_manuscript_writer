@@ -33,3 +33,8 @@ logs/
 
 # PM2
 .pm2/
+
+# 运行时状态 (用户反馈日志 + preview 缓存)
+state/feedback_log.jsonl
+state/feedback_preview_cache.json
+state/feedback_preview_cache.json.tmp

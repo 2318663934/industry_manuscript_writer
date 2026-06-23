@@ -37,6 +37,19 @@ class EmbeddingConfig(BaseModel):
     batch_size: int = 32
 
 
+class WikiConfig(BaseModel):
+    """LLM-Wiki 配置 (替代 E:/产品信息知识库 的产品库)"""
+    # 本机 Wiki API Server
+    api_url: str = "http://127.0.0.1:8088"
+    api_key: str = ""                        # Bearer token (留空 = 关闭鉴权)
+    # 知识库模式:
+    #   "rag":    纯 Milvus 产品库 (原行为, 不调本机)
+    #   "wiki":   纯 LLM-Wiki (强制走本机, 失败返回空)
+    #   "hybrid": Wiki 优先, 失败降级 RAG (推荐)
+    knowledge_mode: str = "hybrid"
+    timeout_sec: int = 60
+
+
 class PromptConfig(BaseModel):
     """提示词配置"""
     max_knowledge_chars: int = 8000  # 知识上下文最大字符数
@@ -56,6 +69,7 @@ class Settings(BaseSettings):
     milvus: MilvusConfig = MilvusConfig()
     llm: LLMConfig = LLMConfig()
     embedding: EmbeddingConfig = EmbeddingConfig()
+    wiki: WikiConfig = WikiConfig()
     prompt: PromptConfig = PromptConfig()
 
     class Config:

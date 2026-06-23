@@ -29,6 +29,7 @@ sys.path.insert(0, str(_project_root))
 
 from flask import Flask, send_from_directory, request, jsonify, session
 from rag_writer import create_writer
+from rag_writer.config import settings
 
 app = Flask(__name__)
 app.secret_key = 'rag-writer-secret-key'
@@ -286,6 +287,97 @@ HTML_TEMPLATE = """
             margin-top: 12px;
             flex-wrap: wrap;
         }
+
+        /* === 用户反馈入库 === */
+        .feedback-pin-btn {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-left: 8px;
+        }
+        .feedback-pin-btn:hover {
+            background: #ffeaa7;
+        }
+        .feedback-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-right: 6px;
+        }
+        .feedback-badge.fact { background: #d4edda; color: #155724; }
+        .feedback-badge.style { background: #cce5ff; color: #004085; }
+        .feedback-badge.topic { background: #fff3cd; color: #856404; }
+        .feedback-badge.none { background: #f8d7da; color: #721c24; }
+        .feedback-preview {
+            background: #f8f9fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 10px 14px;
+            margin: 10px 0;
+            font-size: 13px;
+        }
+        .feedback-preview strong { color: #1a7f37; }
+        .feedback-modal-bg {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+        }
+        .feedback-modal-bg.active { display: flex; }
+        .feedback-modal {
+            background: #fff;
+            border-radius: 8px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            padding: 24px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        }
+        .feedback-modal h3 { margin: 0 0 12px; color: #1a7f37; }
+        .feedback-modal .modal-row {
+            margin: 8px 0;
+            font-size: 13px;
+        }
+        .feedback-modal .modal-row label {
+            font-weight: 600;
+            color: #57606a;
+        }
+        .feedback-modal .modal-row pre {
+            background: #f6f8fa;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            max-height: 200px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+        .feedback-modal .modal-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 16px;
+            justify-content: flex-end;
+        }
+        .feedback-modal textarea {
+            width: 100%;
+            min-height: 80px;
+            border: 1px solid #d0d7de;
+            border-radius: 4px;
+            padding: 8px;
+            font-size: 12px;
+            font-family: monospace;
+        }
+        .feedback-modal .btn-cancel { background: #f6f8fa; color: #57606a; border: 1px solid #d0d7de; padding: 6px 14px; border-radius: 6px; cursor: pointer; }
+        .feedback-modal .btn-confirm { background: #1a7f37; color: #fff; border: 1px solid #1a7f37; padding: 6px 14px; border-radius: 6px; cursor: pointer; }
 
         /* 隐藏/显示 */
         .step-content { display: none; }
@@ -1025,8 +1117,177 @@ HTML_TEMPLATE = """
         document.addEventListener('DOMContentLoaded', function() {
             checkStatus();
             renderSupplementaryList();
+            initFeedbackButtons();
         });
+
+        // ============= 用户反馈入库 (协同入库) =============
+        // 当前激活的 preview (用户确认后传给 /api/feedback/confirm)
+        let _activePreview = null;
+
+        function initFeedbackButtons() {
+            // 给两个反馈 textarea 各加一个"📌 标记为反馈"按钮
+            const pairs = [
+                { textarea: 'blueprintFeedbackInput', stage: 'blueprint' },
+                { textarea: 'feedbackInput', stage: 'outline' },
+            ];
+            pairs.forEach(({ textarea, stage }) => {
+                const ta = document.getElementById(textarea);
+                if (!ta) return;
+                // 找最近 .form-group 的 label, 按钮塞进 label 后
+                const label = ta.parentNode.querySelector('label');
+                if (!label) return;
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'feedback-pin-btn';
+                btn.textContent = '📌 标记为反馈 (入库 wiki)';
+                btn.onclick = () => markAsFeedback(textarea, stage);
+                label.appendChild(btn);
+            });
+        }
+
+        async function markAsFeedback(textareaId, stage) {
+            const ta = document.getElementById(textareaId);
+            const message = (ta?.value || '').trim();
+            if (!message) {
+                alert('请先输入反馈内容');
+                return;
+            }
+            // 找最近反馈区, 在 textarea 下方插入"分析中..."
+            const container = ta.closest('.feedback-section') || ta.parentNode;
+            let preview = container.querySelector('.feedback-preview');
+            if (!preview) {
+                preview = document.createElement('div');
+                preview.className = 'feedback-preview';
+                ta.parentNode.insertBefore(preview, ta.nextSibling);
+            }
+            preview.innerHTML = '🔄 正在分析反馈 (调 LLM)...';
+
+            try {
+                const resp = await fetch('/api/feedback/capture', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        user_message: message,
+                        context_history: window.wizardState?.blueprintHistory || [],
+                        product: 'wangzhe',  // TODO: 从表单取
+                        topic: window.wizardState?.taskData?.topic || '',
+                    }),
+                });
+                const data = await resp.json();
+                if (data.error) throw new Error(data.error);
+                const p = data.preview;
+                _activePreview = p;
+                if (p.feedback_type === 'none') {
+                    preview.innerHTML = `<span class="feedback-badge none">无价值</span> ${p.reason} (conf=${p.confidence.toFixed(2)})`;
+                    return;
+                }
+                // 显示可入库摘要 + "查看详情/确认入库" 按钮
+                const typeLabel = data.feedback_types[p.feedback_type] || p.feedback_type;
+                const targetLabel = p.target === 'wiki' ? '走 ingest → wiki' : '写 log';
+                const factsStr = JSON.stringify(p.candidate_facts || {}, null, 2);
+                preview.innerHTML = `
+                    <div>
+                        <span class="feedback-badge ${p.target === 'wiki' ? 'fact' : (p.feedback_type === 'style_preference' ? 'style' : 'topic')}">
+                            ${typeLabel}
+                        </span>
+                        <span style="color:#6e7781; font-size:12px;">
+                            conf=${p.confidence.toFixed(2)} · 目标: ${targetLabel}
+                        </span>
+                    </div>
+                    <div style="margin-top:6px; color:#57606a;">${p.reason}</div>
+                    <div style="margin-top:6px;">
+                        <button class="feedback-pin-btn" onclick="openFeedbackModal()">📋 查看候选事实 / 确认入库</button>
+                        <button class="feedback-pin-btn" onclick="dismissFeedback(this)">✕ 忽略</button>
+                    </div>
+                `;
+            } catch (e) {
+                preview.innerHTML = `<span class="feedback-badge none">错误</span> ${e.message}`;
+            }
+        }
+
+        function openFeedbackModal() {
+            if (!_activePreview || _activePreview.feedback_type === 'none') {
+                alert('没有可入库的反馈');
+                return;
+            }
+            const modal = document.getElementById('feedbackModal');
+            document.getElementById('modalType').textContent = _activePreview.feedback_type;
+            document.getElementById('modalConf').textContent = _activePreview.confidence.toFixed(2);
+            document.getElementById('modalTarget').textContent = _activePreview.target;
+            document.getElementById('modalReason').textContent = _activePreview.reason;
+            document.getElementById('modalFacts').value = JSON.stringify(
+                _activePreview.candidate_facts || {}, null, 2
+            );
+            modal.classList.add('active');
+        }
+
+        function closeFeedbackModal() {
+            document.getElementById('feedbackModal').classList.remove('active');
+        }
+
+        async function confirmFeedback() {
+            if (!_activePreview) return;
+            let editedFacts = {};
+            try {
+                editedFacts = JSON.parse(document.getElementById('modalFacts').value || '{}');
+            } catch (e) {
+                alert('候选事实 JSON 格式错误: ' + e.message);
+                return;
+            }
+            const btn = document.querySelector('#feedbackModal .btn-confirm');
+            btn.disabled = true;
+            btn.textContent = '入库中...';
+            try {
+                const resp = await fetch('/api/feedback/confirm', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        preview_id: _activePreview.preview_id,
+                        edited_payload: { candidate_facts: editedFacts },
+                    }),
+                });
+                const data = await resp.json();
+                if (data.error) throw new Error(data.error);
+                let msg = `✅ 入库成功!\n动作: ${data.action}\n详情: ${data.detail}`;
+                if (data.path) msg += `\n路径: ${data.path}`;
+                alert(msg);
+                closeFeedbackModal();
+                // 清空 preview
+                document.querySelectorAll('.feedback-preview').forEach(p => p.innerHTML = '');
+                _activePreview = null;
+            } catch (e) {
+                alert('入库失败: ' + e.message);
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '✅ 确认入库';
+            }
+        }
+
+        function dismissFeedback(btn) {
+            const preview = btn.closest('.feedback-preview');
+            if (preview) preview.innerHTML = '';
+            _activePreview = null;
+        }
     </script>
+
+    <!-- 用户反馈入库 Modal -->
+    <div id="feedbackModal" class="feedback-modal-bg" onclick="if(event.target===this) closeFeedbackModal()">
+        <div class="feedback-modal">
+            <h3>📌 确认反馈入库</h3>
+            <div class="modal-row"><label>类型:</label> <span id="modalType"></span></div>
+            <div class="modal-row"><label>置信度:</label> <span id="modalConf"></span></div>
+            <div class="modal-row"><label>入库目标:</label> <span id="modalTarget"></span></div>
+            <div class="modal-row"><label>原因:</label> <div id="modalReason"></div></div>
+            <div class="modal-row">
+                <label>候选事实 (可编辑 JSON):</label>
+                <textarea id="modalFacts"></textarea>
+            </div>
+            <div class="modal-actions">
+                <button class="btn-cancel" onclick="closeFeedbackModal()">取消</button>
+                <button class="btn-confirm" onclick="confirmFeedback()">✅ 确认入库</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 """
@@ -1057,20 +1318,24 @@ def api_brainstorm():
     try:
         writer_instance = get_writer()
 
-        # 1. 检索产品知识库
+        # 1. 检索产品知识库 (混合模式: Wiki 优先, RAG 兜底)
         product_context = ""
         available_products = []
+        knowledge_mode = getattr(settings.wiki, "knowledge_mode", "hybrid")
+
+        def _format_results(kb_results, fallback_used=""):
+            """把检索结果格式化为 product_context 字符串"""
+            product_parts = []
+            for r in kb_results:
+                product_parts.append(
+                    f"[{r['product_display']}] {r['title']} | {r['date']}\n{r['content_text'][:300]}..."
+                )
+            ctx = "\n\n".join(product_parts)
+            if fallback_used:
+                ctx = f"（Wiki 检索失败, 已降级到 Milvus RAG 兜底: {fallback_used}）\n\n" + ctx
+            return ctx
+
         try:
-            knowledge_base_path = Path(r"e:\产品信息知识库")
-            crawler_path = str(knowledge_base_path / "crawler")
-            if crawler_path not in sys.path:
-                sys.path.insert(0, crawler_path)
-            from product_retriever import ProductKnowledgeBase
-
-            kb = ProductKnowledgeBase()
-            available_products = kb.list_collections()
-            available_products = [p for p in available_products if p.get("status") == "ready"]
-
             # 构建搜索查询
             search_parts = [topic]
             if background:
@@ -1079,18 +1344,65 @@ def api_brainstorm():
                 search_parts.append(requirements)
             search_query = " ".join(search_parts)
 
-            if product_filter:
-                kb_results = kb.search(search_query, product=product_filter, top_k=8)
-            else:
-                kb_results = kb.search(search_query, product=None, top_k=10)
+            kb_results = []
+            knowledge_mode_fallback = False
 
-            # 格式化产品上下文
-            product_parts = []
-            for r in kb_results:
-                product_parts.append(
-                    f"[{r['product_display']}] {r['title']} | {r['date']}\n{r['content_text'][:300]}..."
-                )
-            product_context = "\n\n".join(product_parts)
+            if knowledge_mode in ("wiki", "hybrid"):
+                # === Wiki 模式: 调本机 LLM-Wiki ===
+                try:
+                    from wiki_product_backend import WikiProductBackend
+                    wiki_backend = WikiProductBackend(
+                        verbose=False,
+                        timeout_sec=settings.wiki.timeout_sec,
+                    )
+                    available_products = wiki_backend.list_collections()
+                    if product_filter:
+                        kb_results = wiki_backend.search(
+                            search_query, product=product_filter, top_k=8
+                        )
+                    else:
+                        kb_results = wiki_backend.search(
+                            search_query, product=None, top_k=10
+                        )
+                    print(f"[Wiki] 命中 {len(kb_results)} 条 (backend={wiki_backend.backend})")
+
+                    # hybrid 模式: Wiki 空则降级 RAG
+                    if knowledge_mode == "hybrid" and not kb_results:
+                        print("[Wiki] 无结果, 降级到 Milvus RAG")
+                        knowledge_mode_fallback = True
+                    else:
+                        product_context = _format_results(kb_results)
+                except Exception as wiki_err:
+                    if knowledge_mode == "wiki":
+                        # 纯 Wiki 模式不允许降级
+                        raise wiki_err
+                    print(f"[Wiki] 检索失败 ({wiki_err}), 降级到 Milvus RAG")
+                    knowledge_mode_fallback = True
+                    kb_results = []
+
+            if (not kb_results) and knowledge_mode in ("rag", "hybrid"):
+                # === RAG 模式: 原 Milvus 产品库 ===
+                knowledge_base_path = Path(r"e:\产品信息知识库")
+                crawler_path = str(knowledge_base_path / "crawler")
+                if crawler_path not in sys.path:
+                    sys.path.insert(0, crawler_path)
+                from product_retriever import ProductKnowledgeBase
+
+                kb = ProductKnowledgeBase()
+                available_products = kb.list_collections()
+                available_products = [
+                    p for p in available_products if p.get("status") == "ready"
+                ]
+
+                if product_filter:
+                    kb_results = kb.search(search_query, product=product_filter, top_k=8)
+                else:
+                    kb_results = kb.search(search_query, product=None, top_k=10)
+
+                fallback_msg = "Wiki 无结果" if knowledge_mode_fallback else ""
+                product_context = _format_results(kb_results, fallback_used=fallback_msg)
+                print(f"[RAG] 命中 {len(kb_results)} 条")
+
         except Exception as e:
             print(f"产品知识库检索失败，继续无产品上下文的头脑风暴: {e}")
             product_context = "（产品知识库暂时不可用，请基于话题进行头脑风暴）"
@@ -1153,6 +1465,25 @@ def api_brainstorm():
         # 5. 解析角度
         angles = _parse_brainstorm_angles(response.content)
 
+        # 6. === 用户反馈采集 (协同入库) ===
+        #    自动检测 user_feedback 是否含"可入库"价值, 有则附带 preview 给前端展示
+        feedback_preview = None
+        if user_feedback and len(user_feedback.strip()) >= 4:
+            try:
+                from rag_writer.feedback_capture import get_capture
+                fc = get_capture(llm_client=writer_instance.llm_client)
+                feedback_preview = fc.capture_preview(
+                    user_message=user_feedback,
+                    context_history=brainstorm_history,
+                    product=product_filter or "wangzhe",
+                    topic=topic,
+                )
+                # 只在识别到"可入库"反馈时才返回
+                if feedback_preview.get("feedback_type") == "none":
+                    feedback_preview = None
+            except Exception as e:
+                print(f"[brainstorm] feedback capture failed: {e}")
+
         return jsonify({
             "angles": angles,
             "product_context": product_context,
@@ -1160,11 +1491,93 @@ def api_brainstorm():
                 {"collection": p.get("collection", ""), "display_name": p.get("display_name", ""), "article_count": p.get("article_count", 0)}
                 for p in available_products
             ],
+            "feedback_preview": feedback_preview,  # 非 None 时前端展示入库按钮
         })
 
     except Exception as e:
         import traceback
         return jsonify({"error": str(e) + "\n" + traceback.format_exc()}), 500
+
+
+# ============= 用户反馈采集 (协同入库) =============
+
+@app.route("/api/feedback/capture", methods=["POST"])
+def api_feedback_capture():
+    """
+    LLM 实时识别用户消息是否含"可入库"反馈 (事实纠正/补充/偏好)
+    返回 preview dict, 供前端展示候选入库内容, 等用户确认
+    """
+    data = request.get_json() or {}
+    user_message = (data.get("user_message") or "").strip()
+    context_history = data.get("context_history") or []
+    product = data.get("product") or "wangzhe"
+    topic = data.get("topic") or ""
+
+    if not user_message:
+        return jsonify({"error": "user_message 不能为空"}), 400
+
+    try:
+        from rag_writer.feedback_capture import get_capture
+        writer_instance = get_writer()
+        fc = get_capture(llm_client=writer_instance.llm_client)
+        preview = fc.capture_preview(
+            user_message=user_message,
+            context_history=context_history,
+            product=product,
+            topic=topic,
+        )
+        return jsonify({
+            "preview": preview,
+            "feedback_types": {
+                "fact_correction": "事实纠正 (走 ingest)",
+                "fact_supplement": "事实补充 (走 ingest)",
+                "fact_contradiction_flag": "事实纠错 (高优, 走 ingest)",
+                "style_preference": "风格偏好 (写 log)",
+                "topic_pivot": "选题调整 (写 log)",
+                "quality_rating": "质量评分 (写 log)",
+                "none": "无可入库反馈",
+            },
+        })
+    except Exception as e:
+        import traceback
+        return jsonify({"error": str(e) + "\n" + traceback.format_exc()}), 500
+
+
+@app.route("/api/feedback/confirm", methods=["POST"])
+def api_feedback_confirm():
+    """
+    用户确认入库: 走 ingest 管道 (事实类) 或写 log (偏好类)
+    Body: {"preview_id": "fb_xxx", "edited_payload": {...} (可选)}
+    """
+    data = request.get_json() or {}
+    preview_id = (data.get("preview_id") or "").strip()
+    edited_payload = data.get("edited_payload") or {}
+
+    if not preview_id:
+        return jsonify({"error": "preview_id 不能为空"}), 400
+
+    try:
+        from rag_writer.feedback_capture import get_capture
+        fc = get_capture()
+        result = fc.confirm_and_write(preview_id, edited_payload)
+        return jsonify(result)
+    except Exception as e:
+        import traceback
+        return jsonify({"error": str(e) + "\n" + traceback.format_exc()}), 500
+
+
+@app.route("/api/feedback/list", methods=["GET"])
+def api_feedback_list():
+    """列出最近的 feedback 预览 + log (调试用)"""
+    try:
+        from rag_writer.feedback_capture import get_capture
+        fc = get_capture()
+        return jsonify({
+            "previews": fc.list_previews(limit=20),
+            "log": fc.list_log(limit=20),
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 @app.route("/api/status")
