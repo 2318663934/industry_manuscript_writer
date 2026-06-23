@@ -314,6 +314,89 @@
             border-bottom: 2px solid #e9ecef;
             margin-bottom: 12px;
         }
+
+        /* === 用户反馈入库 (协同入库) === */
+        .feedback-pin-btn {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-left: 8px;
+        }
+        .feedback-pin-btn:hover { background: #ffeaa7; }
+        .feedback-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-right: 6px;
+        }
+        .feedback-badge.fact { background: #d4edda; color: #155724; }
+        .feedback-badge.style { background: #cce5ff; color: #004085; }
+        .feedback-badge.topic { background: #fff3cd; color: #856404; }
+        .feedback-badge.none { background: #f8d7da; color: #721c24; }
+        .feedback-preview {
+            background: #f8f9fa;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 10px 14px;
+            margin: 10px 0;
+            font-size: 13px;
+        }
+        .feedback-preview strong { color: #1a7f37; }
+        .feedback-modal-bg {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+        }
+        .feedback-modal-bg.active { display: flex; }
+        .feedback-modal {
+            background: #fff;
+            border-radius: 8px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            padding: 24px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        }
+        .feedback-modal h3 { margin: 0 0 12px; color: #1a7f37; }
+        .feedback-modal .modal-row { margin: 8px 0; font-size: 13px; }
+        .feedback-modal .modal-row label { font-weight: 600; color: #57606a; }
+        .feedback-modal .modal-row pre {
+            background: #f6f8fa;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            max-height: 200px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+        .feedback-modal .modal-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 16px;
+            justify-content: flex-end;
+        }
+        .feedback-modal textarea {
+            width: 100%;
+            min-height: 80px;
+            border: 1px solid #d0d7de;
+            border-radius: 4px;
+            padding: 8px;
+            font-size: 12px;
+            font-family: monospace;
+        }
+        .feedback-modal .btn-cancel { background: #f6f8fa; color: #57606a; border: 1px solid #d0d7de; padding: 6px 14px; border-radius: 6px; cursor: pointer; }
+        .feedback-modal .btn-confirm { background: #1a7f37; color: #fff; border: 1px solid #1a7f37; padding: 6px 14px; border-radius: 6px; cursor: pointer; }
     </style>
 </head>
 <body>
@@ -1499,7 +1582,164 @@
         document.addEventListener('DOMContentLoaded', function() {
             checkStatus();
             renderSupplementaryList();
+            initFeedbackButtons();
         });
+
+        // ============= 用户反馈入库 (协同入库) =============
+        let _activePreview = null;
+
+        function initFeedbackButtons() {
+            // 给两个反馈 textarea 各加一个"📌 标记为反馈"按钮
+            const pairs = [
+                { textarea: 'blueprintFeedbackInput', stage: 'blueprint' },
+                { textarea: 'feedbackInput', stage: 'outline' },
+            ];
+            pairs.forEach(({ textarea, stage }) => {
+                const ta = document.getElementById(textarea);
+                if (!ta) return;
+                const label = ta.parentNode.querySelector('label');
+                if (!label) return;
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'feedback-pin-btn';
+                btn.textContent = '📌 标记为反馈 (入库 wiki)';
+                btn.onclick = () => markAsFeedback(textarea, stage);
+                label.appendChild(btn);
+            });
+        }
+
+        async function markAsFeedback(textareaId, stage) {
+            const ta = document.getElementById(textareaId);
+            const message = (ta?.value || '').trim();
+            if (!message) { alert('请先输入反馈内容'); return; }
+            const container = ta.closest('.feedback-section') || ta.parentNode;
+            let preview = container.querySelector('.feedback-preview');
+            if (!preview) {
+                preview = document.createElement('div');
+                preview.className = 'feedback-preview';
+                ta.parentNode.insertBefore(preview, ta.nextSibling);
+            }
+            preview.innerHTML = '🔄 正在分析反馈 (调 LLM)...';
+            try {
+                const resp = await fetch('/api/feedback/capture', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        user_message: message,
+                        context_history: (window.wizardState && window.wizardState.blueprintHistory) || [],
+                        product: 'wangzhe',
+                        topic: (window.wizardState && window.wizardState.taskData && window.wizardState.taskData.topic) || '',
+                    }),
+                });
+                const data = await resp.json();
+                if (data.error) throw new Error(data.error);
+                const p = data.preview;
+                _activePreview = p;
+                if (p.feedback_type === 'none') {
+                    preview.innerHTML = `<span class="feedback-badge none">无价值</span> ${p.reason} (conf=${p.confidence.toFixed(2)})`;
+                    return;
+                }
+                const typeLabel = (data.feedback_types && data.feedback_types[p.feedback_type]) || p.feedback_type;
+                const targetLabel = p.target === 'wiki' ? '走 ingest → wiki' : '写 log';
+                preview.innerHTML = `
+                    <div>
+                        <span class="feedback-badge ${p.target === 'wiki' ? 'fact' : (p.feedback_type === 'style_preference' ? 'style' : 'topic')}">
+                            ${typeLabel}
+                        </span>
+                        <span style="color:#6e7781; font-size:12px;">
+                            conf=${p.confidence.toFixed(2)} · 目标: ${targetLabel}
+                        </span>
+                    </div>
+                    <div style="margin-top:6px; color:#57606a;">${p.reason}</div>
+                    <div style="margin-top:6px;">
+                        <button class="feedback-pin-btn" onclick="openFeedbackModal()">📋 查看候选事实 / 确认入库</button>
+                        <button class="feedback-pin-btn" onclick="dismissFeedback(this)">✕ 忽略</button>
+                    </div>
+                `;
+            } catch (e) {
+                preview.innerHTML = `<span class="feedback-badge none">错误</span> ${e.message}`;
+            }
+        }
+
+        function openFeedbackModal() {
+            if (!_activePreview || _activePreview.feedback_type === 'none') {
+                alert('没有可入库的反馈');
+                return;
+            }
+            const modal = document.getElementById('feedbackModal');
+            document.getElementById('modalType').textContent = _activePreview.feedback_type;
+            document.getElementById('modalConf').textContent = _activePreview.confidence.toFixed(2);
+            document.getElementById('modalTarget').textContent = _activePreview.target;
+            document.getElementById('modalReason').textContent = _activePreview.reason;
+            document.getElementById('modalFacts').value = JSON.stringify(
+                _activePreview.candidate_facts || {}, null, 2
+            );
+            modal.classList.add('active');
+        }
+
+        function closeFeedbackModal() {
+            document.getElementById('feedbackModal').classList.remove('active');
+        }
+
+        async function confirmFeedback() {
+            if (!_activePreview) return;
+            let editedFacts = {};
+            try {
+                editedFacts = JSON.parse(document.getElementById('modalFacts').value || '{}');
+            } catch (e) {
+                alert('候选事实 JSON 格式错误: ' + e.message);
+                return;
+            }
+            const btn = document.querySelector('#feedbackModal .btn-confirm');
+            btn.disabled = true; btn.textContent = '入库中...';
+            try {
+                const resp = await fetch('/api/feedback/confirm', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        preview_id: _activePreview.preview_id,
+                        edited_payload: { candidate_facts: editedFacts },
+                    }),
+                });
+                const data = await resp.json();
+                if (data.error) throw new Error(data.error);
+                let msg = `✅ 入库成功!\n动作: ${data.action}\n详情: ${data.detail}`;
+                if (data.path) msg += `\n路径: ${data.path}`;
+                alert(msg);
+                closeFeedbackModal();
+                document.querySelectorAll('.feedback-preview').forEach(p => p.innerHTML = '');
+                _activePreview = null;
+            } catch (e) {
+                alert('入库失败: ' + e.message);
+            } finally {
+                btn.disabled = false; btn.textContent = '✅ 确认入库';
+            }
+        }
+
+        function dismissFeedback(btn) {
+            const preview = btn.closest('.feedback-preview');
+            if (preview) preview.innerHTML = '';
+            _activePreview = null;
+        }
     </script>
+
+    <!-- 用户反馈入库 Modal -->
+    <div id="feedbackModal" class="feedback-modal-bg" onclick="if(event.target===this) closeFeedbackModal()">
+        <div class="feedback-modal">
+            <h3>📌 确认反馈入库</h3>
+            <div class="modal-row"><label>类型:</label> <span id="modalType"></span></div>
+            <div class="modal-row"><label>置信度:</label> <span id="modalConf"></span></div>
+            <div class="modal-row"><label>入库目标:</label> <span id="modalTarget"></span></div>
+            <div class="modal-row"><label>原因:</label> <div id="modalReason"></div></div>
+            <div class="modal-row">
+                <label>候选事实 (可编辑 JSON):</label>
+                <textarea id="modalFacts"></textarea>
+            </div>
+            <div class="modal-actions">
+                <button class="btn-cancel" onclick="closeFeedbackModal()">取消</button>
+                <button class="btn-confirm" onclick="confirmFeedback()">✅ 确认入库</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
